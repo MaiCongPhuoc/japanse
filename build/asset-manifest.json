@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/japanse/static/css/main.635a56f0.css",
+    "main.js": "/japanse/static/js/main.71464177.js",
+    "static/js/453.f8d7249d.chunk.js": "/japanse/static/js/453.f8d7249d.chunk.js",
+    "index.html": "/japanse/index.html",
+    "main.635a56f0.css.map": "/japanse/static/css/main.635a56f0.css.map",
+    "main.71464177.js.map": "/japanse/static/js/main.71464177.js.map",
+    "453.f8d7249d.chunk.js.map": "/japanse/static/js/453.f8d7249d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.635a56f0.css",
+    "static/js/main.71464177.js"
+  ]
+}

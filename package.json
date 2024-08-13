@@ -2,7 +2,7 @@
   "name": "app-japanse",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://maicongphuoc.github.io/learn-japanse/",
+  "homepage": "https://maicongphuoc.github.io/japanse/",
   "dependencies": {
     "@material-tailwind/react": "^2.1.9",
     "@reduxjs/toolkit": "^2.2.6",
