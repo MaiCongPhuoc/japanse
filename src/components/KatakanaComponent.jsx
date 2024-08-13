@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { decrement, increment } from "../redux/action/action";
 import Button from "./Button";
 
-const HiraganaComponent = ({ data = [] }) => {
+const KatakanaComponent = ({ data = [] }) => {
   const inputRef = useRef(null);
   const counter = useSelector((state) => state.counter.value);
   const dispatch = useDispatch();
@@ -65,59 +65,68 @@ const HiraganaComponent = ({ data = [] }) => {
   return (
     <>
       <div className="text-center">
-        <span className="text-xl text-center mr-3">Bảng chứ cái Katakana </span>
+        <span className="md:text-4xl text-xl text-center mr-3">
+          Bảng chữ cái Hiragana
+        </span>
         <Button
-          className="border mt-3 bg-violet-600 hover:bg-violet-400 active:bg-violet-200 text-white font-bold"
+          className="md:text-4xl md:py-3 md:px-5 border mt-3 bg-violet-600 hover:bg-violet-400 active:bg-violet-200 text-white font-bold"
           click={() => handleReset()}
         >
           Reset
         </Button>
       </div>
       <div className="grid grid-cols-2 gap-10 mt-5">
-        <span className="text-green-600 text-xl text-center">
+        <span className="md:text-4xl text-green-600 text-xl text-center">
           Kết quả đúng: {question.questionTrue}
         </span>
-        <span className="text-red-700 text-xl text-center">
+        <span className="md:text-4xl text-red-700 text-xl text-center">
           Kết quả sai: {question.questionFalse}
         </span>
       </div>
       <div className="border border-gray-300 my-4"></div>
       <div className="grid grid-cols-2 h-28">
-        <span className="flex justify-center items-center text-center text-3xl">
+        <span className="md:text-4xl flex justify-center items-center text-center text-3xl">
           Chữ cái:
         </span>
-        <span className="flex justify-center items-center text-center text-5xl text-blue-500 font-bold">
+        <span className="md:text-7xl flex justify-center items-center text-center text-5xl text-blue-500 font-bold">
           {checkData.japanse}
         </span>
       </div>
       <div className="border border-gray-300 my-4"></div>
-      <div className="text-center mb-4">
-        <span className="text-xl">Nhập vào đây chữ cái của Katakana</span>
+      <div className="text-center my-10">
+        <span className="md:text-4xl md:font-bold text-xl">
+          Nhập vào đây chữ cái của Hiragana
+        </span>
       </div>
-      <div className="flex flex-col justify-center items-center mb-5">
+      <div className="flex flex-col justify-center items-center mb-10">
         <input
-          className="border-2 border-gray-200 rounded-none h-10 pl-2"
+          className="md:h-20 md:text-5xl md:w-36 mb-10 border-2 border-gray-400 rounded-none h-10 pl-2"
           ref={inputRef}
           type="text"
           value={value}
           onChange={(e) => handleValue(e.target.value)}
         />
         <Button
-          className="border bg-green-500 hover:bg-green-200 active:bg-green-400 mt-3 px-7 py-2 text-white font-bold"
+          className="md:text-4xl md:px-5 md:py-3 md:mt-5 border bg-green-500 hover:bg-green-200 active:bg-green-400 mt-3 px-7 py-2 text-white font-bold"
           click={() => getRandomNumber(0, 70)}
         >
           kiểm tra
         </Button>
       </div>
+      <div className="border border-gray-300 my-4"></div>
       <div
-        className={`grid grid-cols-2 gap-5 text-lg text-red-500 ${question.colorText}`}
+        className={`grid grid-cols-2 gap-5 text-lg text-red-500 my-10 ${question.colorText}`}
       >
-        <span className="text-center">Từ: {previewData.japanse}</span>
-        <span className="text-center">Đọc là: "{previewData.vietnamse}"</span>
+        <span className="md:text-5xl text-center">
+          Từ: <span className="font-bold">{previewData.japanse}</span>
+        </span>
+        <span className="md:text-5xl text-center">
+          Đọc là: <span className="font-bold">"{previewData.vietnamse}"</span>
+        </span>
       </div>
-      <div>Hình ảnh: {previewData.image}</div>
+      <div className="md:text-4xl">Hình ảnh: {previewData.image}</div>
     </>
   );
 };
 
-export default HiraganaComponent;
+export default KatakanaComponent;

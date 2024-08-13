@@ -16,11 +16,11 @@ const Alphabet = () => {
   const getActiveClass = (index, className) =>
     ToggleState === index ? className : "";
   return (
-    <div className="flex-col border border-gray-300 w-9/12 mx-auto">
+    <div className="md:mt-10 md:w-11/12 animate-opacity-open flex-col border border-gray-300 w-9/12 mx-auto">
       <div className="mt-3">
-        <ul className="flex justify-around items-center cursor-pointer h-10">
+        <ul className="flex justify-around items-center cursor-pointer md:h-20 h-10">
           <li
-            className={`flex items-center justify-center w-full h-full hover:bg-gray-300 ${getActiveClass(
+            className={`md:text-3xl flex items-center justify-center w-full h-full hover:bg-gray-300 ${getActiveClass(
               1,
               "border-b-4 border-blue-500 text-red-500 font-bold"
             )}`}
@@ -29,7 +29,7 @@ const Alphabet = () => {
             Hiragana
           </li>
           <li
-            className={`flex items-center justify-center w-full h-full hover:bg-gray-300 ${getActiveClass(
+            className={`md:text-3xl flex items-center justify-center w-full h-full hover:bg-gray-300 ${getActiveClass(
               2,
               "border-b-4 border-blue-500 text-red-500 font-bold"
             )}`}
@@ -38,7 +38,7 @@ const Alphabet = () => {
             Katakana
           </li>
           <li
-            className={`flex items-center justify-center w-full h-full hover:bg-gray-300 ${getActiveClass(
+            className={`md:text-3xl flex items-center justify-center w-full h-full hover:bg-gray-300 ${getActiveClass(
               3,
               "border-b-4 border-blue-500 text-red-500 font-bold"
             )}`}

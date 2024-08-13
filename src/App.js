@@ -8,7 +8,7 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <h1 className="text-center text-3xl font-bold text-red-600">
+        <h1 className="md:text-5xl text-center text-3xl font-bold text-red-600">
           Ôn thi tiếng nhật N4
         </h1>
         <Routes>
