@@ -24,6 +24,16 @@ const Home = () => {
           className="border border-black mt-2"
         />
       </div>
+      <div className="mt-10">
+        <p className="md:text-3xl text-xl text-center mt-2">
+          Bảng chữ cái Kanji
+        </p>
+        <img
+          src={`${process.env.PUBLIC_URL}/images/kanji.png`}
+          alt="ảnh bảng chữ cái hiragana"
+          className="border border-black mt-2"
+        />
+      </div>
     </>
   );
 };
