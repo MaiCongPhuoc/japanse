@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { decrement, increment } from "../redux/action/action";
 import Sound from "../assets/svg/Sound.jsx";
 
-const HiraganaComponent = ({ data = [] }) => {
+const KanjiComponent = ({ data = [] }) => {
   const inputRef = useRef(null);
   const audioRef = useRef(null);
   const counter = useSelector((state) => state.counter.value);
@@ -20,20 +20,21 @@ const HiraganaComponent = ({ data = [] }) => {
   });
 
   useEffect(() => {
-    getRandomNumber(0, 106);
+    getRandomNumber(0, 3);
   }, []);
 
   const getRandomNumber = (min, max) => {
     min = Math.ceil(min);
     max = Math.floor(max);
     const ramdom = Math.floor(Math.random() * (max - min + 1)) + min;
+    console.log("ramdom:", ramdom);
     const resault = data[ramdom];
+    console.log("resault:", resault);
     setCheckData(resault);
     return resault;
   };
 
   const handleSubmit = () => {
-    console.log("here");
     setPreviewData(checkData);
     if (value === checkData.vietnamse) {
       setValue("");
@@ -45,7 +46,7 @@ const HiraganaComponent = ({ data = [] }) => {
         };
       });
       inputRef.current.focus();
-      getRandomNumber(0, 70);
+      getRandomNumber(0, 3);
     } else {
       setValue("");
       setQuestion((prev) => {
@@ -55,7 +56,7 @@ const HiraganaComponent = ({ data = [] }) => {
           colorText: "text-red-700",
         };
       });
-      getRandomNumber(0, 70);
+      getRandomNumber(0, 3);
     }
   };
 
@@ -86,17 +87,17 @@ const HiraganaComponent = ({ data = [] }) => {
     <>
       <div className="text-center">
         <span className="md:text-4xl text-xl text-center mr-3">
-          Bảng chữ cái Hiragana
+          Bảng chữ cái Kanji
         </span>
-        <Button
+        <button
           type="button"
           className="md:text-4xl md:py-3 md:h-16 border mt-3 bg-violet-600 hover:bg-violet-400 active:bg-violet-200 text-white font-bold"
-          click={() => handleReset()}
+          onClick={() => handleReset()}
         >
           Reset
-        </Button>
+        </button>
       </div>
-      <div className="flex flex-row justify-around my-10">
+      <div className="flex flex-row justify-around my-5">
         <span className="md:text-4xl text-green-600 text-xl text-center">
           Kết quả đúng: {question.questionTrue}
         </span>
@@ -117,7 +118,7 @@ const HiraganaComponent = ({ data = [] }) => {
       <div className="border border-gray-300 my-4"></div>
       <div className="text-center my-10">
         <span className="md:text-4xl md:font-bold text-xl">
-          Nhập vào đây chữ cái của Hiragana
+          Nhập vào đây chữ cái của Kanji
         </span>
       </div>
       <div className="flex flex-col justify-center items-center mb-10">
@@ -137,7 +138,6 @@ const HiraganaComponent = ({ data = [] }) => {
           </Form.Item>
           <Form.Item>
             <Button
-              // type="submit"
               htmlType="submit"
               className="md:text-4xl md:px-5 md:h-14 md:mt-4 border bg-green-500 hover:bg-green-200 active:bg-green-400 mt-3 px-7 py-2 text-white font-bold"
             >
@@ -147,14 +147,18 @@ const HiraganaComponent = ({ data = [] }) => {
         </Form>
       </div>
       <div className="border border-gray-300 my-4"></div>
-      <div
-        className={`grid grid-cols-2 gap-5 text-lg my-10 ${question.colorText}`}
-      >
+      <div className={`flex justify-around my-10 ${question.colorText}`}>
         <span className="md:text-5xl text-center">
-          Từ: <span className="font-bold">{previewData.japanse}</span>
+          <span>Từ: </span>
+          <span className="font-bold">{previewData.japanse}</span>
         </span>
         <span className="md:text-5xl text-center">
-          Phiên âm: <span className="font-bold">{previewData.vietnamse}</span>
+          <span>Phiên âm: </span>
+          <span className="font-bold">{previewData.transcription}</span>
+        </span>
+        <span className="md:text-5xl text-center">
+          <span>Nghĩa: </span>
+          <span className="font-bold">{previewData.vietnamse}</span>
         </span>
       </div>
       <div className="border border-gray-300 my-4"></div>
@@ -165,10 +169,10 @@ const HiraganaComponent = ({ data = [] }) => {
             src={
               previewData.image
                 ? `${process.env.PUBLIC_URL}/images/${previewData.image}`
-                : `${process.env.PUBLIC_URL}/images/a-h.png`
+                : `${process.env.PUBLIC_URL}/images/hoi.png`
             }
             alt={`ảnh của chữ cái ${previewData.japanse}`}
-            width={400}
+            width={200}
             className="border border-black mt-2"
           />
         </div>
@@ -185,22 +189,39 @@ const HiraganaComponent = ({ data = [] }) => {
             <Sound className={`w-20 h-20 ${buttonColor}`} />
           </button>
           <audio
-            // controls
             ref={audioRef}
             onEnded={handleAudioEnd}
             type="audio/mp3"
             src={
               previewData.audio
                 ? `${process.env.PUBLIC_URL}/audio/${previewData.audio}`
-                : // ? `${process.env.PUBLIC_URL}/audio/${previewData.audio}`
-                  `${process.env.PUBLIC_URL}/audio/a.mp3`
+                : `${process.env.PUBLIC_URL}/audio/hoi.mp3`
             }
             className="mt-2"
           ></audio>
+        </div>
+      </div>
+      <div className="border border-gray-300 my-4"></div>
+      <div className="md:text-4xl flex flex-col justify-around mb-5">
+        <div className="flex flex-col text-center gap-3">
+          <span className="font-bold">Ý nghĩa:</span>
+          <img
+            src={
+              previewData.image
+                ? `${process.env.PUBLIC_URL}/images/${previewData.meaning}`
+                : `${process.env.PUBLIC_URL}/images/hoi-m.png`
+            }
+            alt={`ảnh của chữ cái ${previewData.japanse}`}
+            className="border border-black mt-2 w-full"
+          />
+        </div>
+        <div className="flex flex-col text-center gap-3 mt-5">
+          <span className="font-bold">Giải nghĩa:</span>
+          <span className="mt-2">{previewData.explanation}</span>
         </div>
       </div>
     </>
   );
 };
 
-export default HiraganaComponent;
+export default KanjiComponent;
