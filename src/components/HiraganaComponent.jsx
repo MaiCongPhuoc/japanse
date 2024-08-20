@@ -44,7 +44,7 @@ const HiraganaComponent = ({ data = [] }) => {
         };
       });
       inputRef.current.focus();
-      getRandomNumber(0, 70);
+      getRandomNumber(0, 106);
     } else {
       setValue("");
       setQuestion((prev) => {
@@ -54,7 +54,7 @@ const HiraganaComponent = ({ data = [] }) => {
           colorText: "text-red-700",
         };
       });
-      getRandomNumber(0, 70);
+      getRandomNumber(0, 106);
     }
   };
 

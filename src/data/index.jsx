@@ -1541,6 +1541,35 @@ const Kanji = [
     audio: "tu.mp3",
     explanation: "Bởi, từ. Mình, chính mình. Tự nhiên, không phải miễn cưỡng.",
   },
+  {
+    japanse: "社",
+    vietnamse: "Xã",
+    transcription: "sha＼",
+    image: "xa.png",
+    meaning: "xa-m.png",
+    audio: "xa.mp3",
+    explanation:
+      "Đền thờ thổ địa. Xã tắc cũng chỉ nơi thờ cúng thần đất và thần lúa, do đó còn có nghĩa là đất nước. Nhanh, mau. Xế, xế bóng. Xã hội, ngày xưa cứ mỗi khu 25 nhà là một xã, để cùng mưu tính các việc công ích gọi là xã hội [社會]. Ngày xã, ngày mậu sau ngày lập xuân năm ngày gọi là ngày xuân xã [春社], ngày mậu sau ngày lập thu năm ngày gọi là ngày thu xã [秋社].",
+  },
+  {
+    japanse: "分",
+    vietnamse: "Phận",
+    transcription: "bu＼n'",
+    image: "phan.png",
+    meaning: "phan-m.png",
+    audio: "phan.mp3",
+    explanation:
+      "Chia. Tách ghẽ. Chia rẽ. Phân [分]. Phút. Về môn số học, cái số trừ không hết gọi là phân số [分數]. Đồng xu. Một âm là phận. Chia phần.",
+  },
+  {
+    japanse: "発",
+    vietnamse: "Phát",
+    transcription: "ha＼tsu",
+    image: "phat.png",
+    meaning: "pha-m.png",
+    audio: "phat.mp3",
+    explanation: "xuất phát, phát kiến,",
+  },
   // {
   //   japanse: "",
   //   vietnamse: "",
