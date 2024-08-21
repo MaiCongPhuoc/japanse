@@ -34,7 +34,7 @@ const HiraganaComponent = ({ data = [] }) => {
 
   const handleSubmit = () => {
     setPreviewData(checkData);
-    if (value === checkData.vietnamse) {
+    if (value.trim() === checkData.vietnamse) {
       setValue("");
       setQuestion((prev) => {
         return {

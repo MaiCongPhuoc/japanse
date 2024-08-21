@@ -20,7 +20,7 @@ const KanjiComponent = ({ data = [] }) => {
   });
 
   useEffect(() => {
-    getRandomNumber(0, 3);
+    getRandomNumber(0, 12);
   }, []);
 
   const getRandomNumber = (min, max) => {
@@ -46,7 +46,7 @@ const KanjiComponent = ({ data = [] }) => {
         };
       });
       inputRef.current.focus();
-      getRandomNumber(0, 3);
+      getRandomNumber(0, 12);
     } else {
       setValue("");
       setQuestion((prev) => {
@@ -56,7 +56,7 @@ const KanjiComponent = ({ data = [] }) => {
           colorText: "text-red-700",
         };
       });
-      getRandomNumber(0, 3);
+      getRandomNumber(0, 12);
     }
   };
 
