@@ -20,7 +20,7 @@ const KanjiComponent = ({ data = [] }) => {
   });
 
   useEffect(() => {
-    getRandomNumber(0, 12);
+    getRandomNumber(0, 18);
   }, []);
 
   const getRandomNumber = (min, max) => {
@@ -46,7 +46,7 @@ const KanjiComponent = ({ data = [] }) => {
         };
       });
       inputRef.current.focus();
-      getRandomNumber(0, 12);
+      getRandomNumber(0, 18);
     } else {
       setValue("");
       setQuestion((prev) => {
@@ -56,7 +56,7 @@ const KanjiComponent = ({ data = [] }) => {
           colorText: "text-red-700",
         };
       });
-      getRandomNumber(0, 12);
+      getRandomNumber(0, 18);
     }
   };
 
@@ -168,8 +168,8 @@ const KanjiComponent = ({ data = [] }) => {
           <img
             src={
               previewData.image
-                ? `${process.env.PUBLIC_URL}/images/${previewData.image}`
-                : `${process.env.PUBLIC_URL}/images/hoi.png`
+                ? `${process.env.PUBLIC_URL}/images/kanji/${previewData.image}`
+                : `${process.env.PUBLIC_URL}/images/kanji/hoi.png`
             }
             alt={`ảnh của chữ cái ${previewData.japanse}`}
             width={200}
@@ -194,8 +194,8 @@ const KanjiComponent = ({ data = [] }) => {
             type="audio/mp3"
             src={
               previewData.audio
-                ? `${process.env.PUBLIC_URL}/audio/${previewData.audio}`
-                : `${process.env.PUBLIC_URL}/audio/hoi.mp3`
+                ? `${process.env.PUBLIC_URL}/audio/kanji/${previewData.audio}`
+                : `${process.env.PUBLIC_URL}/audio/kanji/hoi.mp3`
             }
             className="mt-2"
           ></audio>
@@ -208,8 +208,8 @@ const KanjiComponent = ({ data = [] }) => {
           <img
             src={
               previewData.image
-                ? `${process.env.PUBLIC_URL}/images/${previewData.meaning}`
-                : `${process.env.PUBLIC_URL}/images/hoi-m.png`
+                ? `${process.env.PUBLIC_URL}/images/kanji/${previewData.meaning}`
+                : `${process.env.PUBLIC_URL}/images/kanji/hoi-m.png`
             }
             alt={`ảnh của chữ cái ${previewData.japanse}`}
             className="border border-black mt-2 w-full"

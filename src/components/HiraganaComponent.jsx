@@ -162,8 +162,8 @@ const HiraganaComponent = ({ data = [] }) => {
           <img
             src={
               previewData.image
-                ? `${process.env.PUBLIC_URL}/images/${previewData.image}`
-                : `${process.env.PUBLIC_URL}/images/a-h.png`
+                ? `${process.env.PUBLIC_URL}/images/hiragana/${previewData.image}`
+                : `${process.env.PUBLIC_URL}/images/hiragana/a-h.png`
             }
             alt={`ảnh của chữ cái ${previewData.japanse}`}
             width={400}

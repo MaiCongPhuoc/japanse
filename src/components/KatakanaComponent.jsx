@@ -162,8 +162,8 @@ const KatakanaComponent = ({ data = [] }) => {
           <img
             src={
               previewData.image
-                ? `${process.env.PUBLIC_URL}/images/${previewData.image}`
-                : `${process.env.PUBLIC_URL}/images/a-k.png`
+                ? `${process.env.PUBLIC_URL}/images/katakan/${previewData.image}`
+                : `${process.env.PUBLIC_URL}/images/katakan/a-k.png`
             }
             alt={`ảnh của chữ cái ${previewData.japanse}`}
             width={400}

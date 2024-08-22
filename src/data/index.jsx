@@ -2012,7 +2012,7 @@ const Kanji = [
   },
   {
     japanse: "開",
-    vietnamse: "Khai",
+    vietnamse: "khai",
     transcription: "",
     image: "khai.png",
     meaning: "khai-m.png",
@@ -2039,6 +2039,152 @@ const Kanji = [
         jp: "開き戸",
         vn: "Cửa có bản lề",
         SinoVietnamese: "KHAI HỘ",
+      },
+    ],
+  },
+  {
+    japanse: "手",
+    vietnamse: "thủ",
+    transcription: "te＼",
+    image: "thu.png",
+    meaning: "thu-m.png",
+    audio: "thu.mp3",
+    explanation:
+      "Tay. Làm. Tài, làm nghề gì giỏi về nghề ấy gọi là thủ. Tự tay làm ra. Cầm.",
+    example: [
+      {
+        jp: "仕手",
+        vn: "Vai chính",
+        SinoVietnamese: "SĨ THỦ",
+      },
+      {
+        jp: "伝手",
+        vn: "Người giới thiệu",
+        SinoVietnamese: "TRUYỀN THỦ",
+      },
+      {
+        jp: "小手",
+        vn: "Cẳng tay",
+        SinoVietnamese: "TIỂU THỦ",
+      },
+      {
+        jp: "後手",
+        vn: "Mất sáng kiến (bên trong đi) phía sau bảo vệ người (bộ) chơi trắng (shogi)",
+        SinoVietnamese: "HẬU THỦ",
+      },
+      {
+        jp: "手向ける",
+        vn: "Dâng hoa",
+        SinoVietnamese: "THỦ HƯỚNG",
+      },
+      {
+        jp: "手綱さばき",
+        vn: "Người giỏi quản lý sắp xếp công việc",
+        SinoVietnamese: "",
+      },
+    ],
+  },
+  {
+    japanse: "力",
+    vietnamse: "lực",
+    transcription: "ch(i)／kara＼",
+    image: "luc.png",
+    meaning: "lucc-m.png",
+    audio: "lucc.mp3",
+    explanation:
+      "Sức, khoa học nghiên cứu về sức tự động của các vật và sức bị động của các vật khác là lực học [力學]. Phàm nơi nào tinh thần tới được đều gọi là lực. Cái tài sức làm việc của người. Cái của vật làm nên được cũng gọi là lực. Chăm chỉ. Cốt, chăm. Làm đầy tớ người ta cũng gọi là lực.",
+    example: [
+      {
+        jp: "力こぶ",
+        vn: "Bắp tay to",
+        SinoVietnamese: "LỰC",
+      },
+      {
+        jp: "力の場",
+        vn: "Thường học",
+        SinoVietnamese: "LỰC TRÀNG",
+      },
+      {
+        jp: "力付く",
+        vn: "Bởi lực lượng",
+        SinoVietnamese: "LỰC PHÓ",
+      },
+      {
+        jp: "力帯",
+        vn: "Dây đai nâng bụng",
+        SinoVietnamese: "LỰC ĐỚI",
+      },
+      {
+        jp: "余力",
+        vn: "Tằn tiện năng lượng",
+        SinoVietnamese: "DƯ LỰC",
+      },
+      {
+        jp: "偉力",
+        vn: "Sức mạnh to lớn",
+        SinoVietnamese: "VĨ LỰC",
+      },
+      {
+        jp: "威力",
+        vn: "Bề thế",
+        SinoVietnamese: "UY LỰC",
+      },
+      {
+        jp: "力士",
+        vn: "Lực sĩ",
+        SinoVietnamese: "LỰC SĨ",
+      },
+    ],
+  },
+  {
+    japanse: "問",
+    vietnamse: "vấn",
+    transcription: "toi",
+    image: "van.png",
+    meaning: "van-m.png",
+    audio: "van.pm3",
+    explanation:
+      "Hỏi, cái gì không biết đi hỏi người khác gọi là vấn. Tra hỏi, tra hỏi kẻ có tội tục gọi là vấn. Hỏi thăm. Làm quà. Tin tức. Lễ ăn hỏi gọi là lễ vấn danh [問名]. Mệnh lệnh. Nghe, cùng nghĩa như chữ văn [聞].",
+    example: [
+      {
+        jp: "問う",
+        vn: "Cật vấn",
+        SinoVietnamese: "VẤN",
+      },
+      {
+        jp: "裏問う",
+        vn: "Xác nhận một người có tình cảm ở trong cùng",
+        SinoVietnamese: "LÍ VẤN",
+      },
+      {
+        jp: "信を問う",
+        vn: "Để làm một sự kêu gọi cho sự tin cậy (của)",
+        SinoVietnamese: "TÍN VẤN",
+      },
+      {
+        jp: "自問自答",
+        vn: "Tự hỏi và tự trả lời",
+        SinoVietnamese: "TỰ VẤN TỰ ĐÁP",
+      },
+      {
+        jp: "全問",
+        vn: "Tất cả các câu hỏi (trong sát hạch)",
+        SinoVietnamese: "TOÀN VẤN",
+      },
+      {
+        jp: "下問",
+        vn: "Sự điều tra cấp dưới",
+        SinoVietnamese: "HẠ VẤN",
+      },
+      {
+        jp: "不問",
+        vn: "Không đặt câu hỏi",
+        SinoVietnamese: "BẤT VẤN",
+      },
+      {
+        jp: "愚問",
+        vn: "Câu hỏi ngu ngốc",
+        SinoVietnamese: "NGU VẤN",
       },
     ],
   },

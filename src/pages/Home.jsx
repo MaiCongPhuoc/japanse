@@ -9,7 +9,7 @@ const Home = () => {
           Bảng chữ cái Hiragana
         </p>
         <img
-          src={`${process.env.PUBLIC_URL}/images/hiragana.png`}
+          src={`${process.env.PUBLIC_URL}/images/hiragana/hiragana.png`}
           alt="ảnh bảng chữ cái hiragana"
           className="border border-black mt-2"
         />
@@ -19,7 +19,7 @@ const Home = () => {
           Bảng chữ cái Katakana
         </p>
         <img
-          src={`${process.env.PUBLIC_URL}/images/katakana.png`}
+          src={`${process.env.PUBLIC_URL}/images/katakan/katakana.png`}
           alt="ảnh bảng chữ cái hiragana"
           className="border border-black mt-2"
         />
@@ -29,7 +29,7 @@ const Home = () => {
           Bảng chữ cái Kanji
         </p>
         <img
-          src={`${process.env.PUBLIC_URL}/images/kanji.png`}
+          src={`${process.env.PUBLIC_URL}/images/kanji/kanji.png`}
           alt="ảnh bảng chữ cái hiragana"
           className="border border-black mt-2"
         />
