@@ -6,6 +6,7 @@ import Sound from "../assets/svg/Sound.jsx";
 
 const HiraganaComponent = ({ data = [] }) => {
   const inputRef = useRef(null);
+  const dataRef = useRef(data.length);
   const audioRef = useRef(null);
   const counter = useSelector((state) => state.counter.value);
   const dispatch = useDispatch();
@@ -20,7 +21,7 @@ const HiraganaComponent = ({ data = [] }) => {
   });
 
   useEffect(() => {
-    getRandomNumber(0, 106);
+    getRandomNumber(0, dataRef.current - 1);
   }, []);
 
   const getRandomNumber = (min, max) => {
@@ -44,7 +45,7 @@ const HiraganaComponent = ({ data = [] }) => {
         };
       });
       inputRef.current.focus();
-      getRandomNumber(0, 106);
+      getRandomNumber(0, dataRef.current - 1);
     } else {
       setValue("");
       setQuestion((prev) => {
@@ -54,7 +55,7 @@ const HiraganaComponent = ({ data = [] }) => {
           colorText: "text-red-700",
         };
       });
-      getRandomNumber(0, 106);
+      getRandomNumber(0, dataRef.current - 1);
     }
   };
 

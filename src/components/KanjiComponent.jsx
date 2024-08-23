@@ -6,6 +6,7 @@ import Sound from "../assets/svg/Sound.jsx";
 
 const KanjiComponent = ({ data = [] }) => {
   const inputRef = useRef(null);
+  const dataRef = useRef(data.length);
   const audioRef = useRef(null);
   const counter = useSelector((state) => state.counter.value);
   const dispatch = useDispatch();
@@ -20,23 +21,23 @@ const KanjiComponent = ({ data = [] }) => {
   });
 
   useEffect(() => {
-    getRandomNumber(0, 18);
+    getRandomNumber(0, dataRef.current - 1);
   }, []);
 
   const getRandomNumber = (min, max) => {
     min = Math.ceil(min);
     max = Math.floor(max);
     const ramdom = Math.floor(Math.random() * (max - min + 1)) + min;
-    console.log("ramdom:", ramdom);
     const resault = data[ramdom];
-    console.log("resault:", resault);
     setCheckData(resault);
     return resault;
   };
 
   const handleSubmit = () => {
     setPreviewData(checkData);
-    if (value === checkData.vietnamse) {
+    const vietnamses = checkData.vietnamse.split(", ");
+    console.log("vietnamses:", vietnamses);
+    if (vietnamses.includes(value.trim())) {
       setValue("");
       setQuestion((prev) => {
         return {
@@ -46,7 +47,7 @@ const KanjiComponent = ({ data = [] }) => {
         };
       });
       inputRef.current.focus();
-      getRandomNumber(0, 18);
+      getRandomNumber(0, dataRef.current - 1);
     } else {
       setValue("");
       setQuestion((prev) => {
@@ -56,7 +57,7 @@ const KanjiComponent = ({ data = [] }) => {
           colorText: "text-red-700",
         };
       });
-      getRandomNumber(0, 18);
+      getRandomNumber(0, dataRef.current - 1);
     }
   };
 
@@ -107,7 +108,7 @@ const KanjiComponent = ({ data = [] }) => {
         </span>
       </div>
       <div className="border border-gray-300 my-4"></div>
-      <div className="grid grid-cols-2 h-28">
+      <div className="grid grid-cols-2 h-20">
         <span className="md:text-4xl flex justify-center items-center text-center text-3xl">
           Chữ cái:
         </span>
@@ -116,12 +117,12 @@ const KanjiComponent = ({ data = [] }) => {
         </span>
       </div>
       <div className="border border-gray-300 my-4"></div>
-      <div className="text-center my-10">
+      <div className="text-center my-6">
         <span className="md:text-4xl md:font-bold text-xl">
           Nhập vào đây chữ cái của Kanji
         </span>
       </div>
-      <div className="flex flex-col justify-center items-center mb-10">
+      <div className="flex flex-col justify-center items-center mb-5">
         <Form
           layout="inline"
           onFinish={() => handleSubmit()}
@@ -133,7 +134,7 @@ const KanjiComponent = ({ data = [] }) => {
               type="text"
               value={value}
               onChange={(e) => handleValue(e.target.value)}
-              className="md:h-20 md:text-5xl md:w-36 mb-8 border-2 border-gray-400 rounded-none h-10 pl-2"
+              className="md:h-20 md:text-5xl md:w-36 mb-3 border-2 border-gray-400 rounded-none h-10 pl-2"
             />
           </Form.Item>
           <Form.Item>
@@ -147,17 +148,19 @@ const KanjiComponent = ({ data = [] }) => {
         </Form>
       </div>
       <div className="border border-gray-300 my-4"></div>
-      <div className={`flex justify-around my-10 ${question.colorText}`}>
+      <div
+        className={`flex flex-wrap justify-around my-10 ${question.colorText}`}
+      >
         <span className="md:text-5xl text-center">
-          <span>Từ: </span>
+          <span className="md:text-4xl">Từ: </span>
           <span className="font-bold">{previewData.japanse}</span>
         </span>
         <span className="md:text-5xl text-center">
-          <span>Phiên âm: </span>
+          <span className="md:text-4xl">Phiên âm: </span>
           <span className="font-bold">{previewData.transcription}</span>
         </span>
         <span className="md:text-5xl text-center">
-          <span>Nghĩa: </span>
+          <span className="md:text-4xl">Nghĩa: </span>
           <span className="font-bold">{previewData.vietnamse}</span>
         </span>
       </div>
@@ -215,9 +218,38 @@ const KanjiComponent = ({ data = [] }) => {
             className="border border-black mt-2 w-full"
           />
         </div>
-        <div className="flex flex-col text-center gap-3 mt-5">
+        <div className="flex flex-col text-center gap-3 mt-2">
           <span className="font-bold">Giải nghĩa:</span>
           <span className="mt-2">{previewData.explanation}</span>
+        </div>
+      </div>
+      <div className="border border-gray-300 my-4"></div>
+      <div className="md:text-4xl flex flex-col justify-around mb-5">
+        <div className="flex flex-col text-center gap-3">
+          <span className="font-bold">Ví dụ:</span>
+          <table className="border-collapse mt-4">
+            <thead>
+              <tr>
+                <th className="border border-gray-500 py-4">japan</th>
+                <th className="border border-gray-500 py-4">Việt nam</th>
+                <th className="border border-gray-500 py-4">từ hán việt</th>
+              </tr>
+            </thead>
+            <tbody>
+              {previewData.example &&
+                previewData.example.map((item, index) => {
+                  return (
+                    <tr key={`item.jp-${index}`}>
+                      <td className="border border-gray-500 py-2">{item.jp}</td>
+                      <td className="border border-gray-500 py-2">{item.vn}</td>
+                      <td className="border border-gray-500 py-2">
+                        {item.SinoVietnamese}
+                      </td>
+                    </tr>
+                  );
+                })}
+            </tbody>
+          </table>
         </div>
       </div>
     </>
