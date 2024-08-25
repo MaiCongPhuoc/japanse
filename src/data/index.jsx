@@ -2142,7 +2142,7 @@ const Kanji = [
     transcription: "toi",
     image: "van.png",
     meaning: "van-m.png",
-    audio: "van.pm3",
+    audio: "van.mp3",
     explanation:
       "Hỏi, cái gì không biết đi hỏi người khác gọi là vấn. Tra hỏi, tra hỏi kẻ có tội tục gọi là vấn. Hỏi thăm. Làm quà. Tin tức. Lễ ăn hỏi gọi là lễ vấn danh [問名]. Mệnh lệnh. Nghe, cùng nghĩa như chữ văn [聞].",
     example: [
@@ -2921,7 +2921,7 @@ const Kanji = [
     transcription: "ko＼–",
     image: "cong.png",
     meaning: "cong-m.png",
-    audio: "cong.pm3",
+    audio: "cong.mp3",
     explanation:
       "Công, không tư túi gì, gọi là công. Chung, sự gì do mọi người cùng đồng ý gọi là công. Cùng chung. Của chung. Việc quan. Quan công. Tước công, tước to nhất trong năm tước công hầu bá tử nam [公侯伯子男]. Bố chồng. Ông, tiếng người này gọi người kia. Con đực.",
     example: [
@@ -3118,6 +3118,460 @@ const Kanji = [
       },
     ],
   },
+  {
+    japanse: "家",
+    vietnamse: "gia, cô",
+    transcription: "i／e＼",
+    image: "gia-2.png",
+    meaning: "gia-m-2.png",
+    audio: "gia.mp3",
+    explanation:
+      "Ở. Chỗ ở, nhà. Vợ gọi chồng là gia [家], cũng như chồng gọi vợ là thất [室]. Ở trong một cửa gọi là một nhà. Có cái học vấn giỏi riêng về một môn gọi là gia. Tự xưng người tôn trưởng của nhà mình cũng gọi là gia. Giống gì nuôi ở trong nhà cũng gọi là gia. Một âm là cô, cũng như chữ cô [姑].",
+    example: [
+      {
+        jp: "家出",
+        vn: "Bỏ nhà",
+        SinoVietnamese: "GIA XUẤT",
+      },
+      {
+        jp: "家家",
+        vn: "Mỗi cái nhà hoặc gia đình",
+        SinoVietnamese: "GIA GIA",
+      },
+      {
+        jp: "家蚊",
+        vn: "Con muỗi (thường sống trong nhà) và các loài muỗi thuộc họ muỗi vằn (muỗi cu lếch)",
+        SinoVietnamese: "GIA VĂN",
+      },
+      {
+        jp: "家路",
+        vn: "Con đường về nhà",
+        SinoVietnamese: "GIA LỘ",
+      },
+      {
+        jp: "上家",
+        vn: "Túp lều kho (shelter)",
+        SinoVietnamese: "THƯỢNG GIA",
+      },
+      {
+        jp: "借家",
+        vn: "Nhà cho thuê",
+        SinoVietnamese: "TÁ GIA",
+      },
+      {
+        jp: "大家",
+        vn: "Chủ nhà",
+        SinoVietnamese: "ĐẠI GIA",
+      },
+    ],
+  },
+  {
+    japanse: "世",
+    vietnamse: "thế",
+    transcription: "yo＼",
+    image: "the-2.png",
+    meaning: "the-m-2.png",
+    audio: "the-2.mp3",
+    explanation:
+      "Đời, ba mươi năm là một đời, hết đời cha đến đời con cũng gọi là một đời. Họ nhà vua thay đổi cũng gọi là nhất thế [一世] cho nên sách thường gọi tóm lại cuộc đời là thế. Lại có nghĩa nói về sự giao tiếp của xã hội. Nối đời. Chỗ quen cũ.",
+    example: [
+      {
+        jp: "世々",
+        vn: "Di truyền",
+        SinoVietnamese: "THẾ",
+      },
+      {
+        jp: "世世",
+        vn: "Di truyền",
+        SinoVietnamese: "THẾ THẾ",
+      },
+      {
+        jp: "千世",
+        vn: "Nghìn năm",
+        SinoVietnamese: "THIÊN THẾ",
+      },
+      {
+        jp: "御世",
+        vn: "Đế quốc thống trị",
+        SinoVietnamese: "NGỰ THẾ",
+      },
+      {
+        jp: "世紀",
+        vn: "Thế kỷ",
+        SinoVietnamese: "THẾ KỈ",
+      },
+      {
+        jp: "希世",
+        vn: "Hiếm có",
+        SinoVietnamese: "HI THẾ",
+      },
+    ],
+  },
+  {
+    japanse: "多",
+    vietnamse: "đa",
+    transcription: "ta＼",
+    image: "da-2.png",
+    meaning: "da-m-2.png",
+    audio: "da-2.mp3",
+    explanation: "Nhiều. Khen tốt. Hơn.",
+    example: [
+      {
+        jp: "多い",
+        vn: "Bộn",
+        SinoVietnamese: "ĐA",
+      },
+      {
+        jp: "人が多い",
+        vn: "Đông",
+        SinoVietnamese: "NHÂN ĐA",
+      },
+      {
+        jp: "口が多い",
+        vn: "Có một gia đình",
+        SinoVietnamese: "KHẨU ĐA",
+      },
+      {
+        jp: "多事",
+        vn: "Nhiều việc",
+        SinoVietnamese: "ĐA SỰ",
+      },
+      {
+        jp: "多多",
+        vn: "Rất nhiều",
+        SinoVietnamese: "ĐA ĐA",
+      },
+      {
+        jp: "多寡",
+        vn: "Lượng",
+        SinoVietnamese: "ĐA QUẢ",
+      },
+    ],
+  },
+  {
+    japanse: "正",
+    vietnamse: "chánh, chính",
+    transcription: "se＼i",
+    image: "chanh.png",
+    meaning: "chanh-m.png",
+    audio: "chanh.mp3",
+    explanation:
+      "Phải, là chánh đáng. Ngay, ở giữa. Ngay thẳng. Thuần chánh. Bực lớn nhất. Chức chánh, bực chánh, chức chủ về một việc. Đúng giữa. Tiếng giúp lời, nghĩa là, tức là. Vật để làm cớ. Đủ. Chất chính. Ngay ngắn. Mong hẹn. Phần chính. Một âm là chính. Cái đích tập bắn.",
+    example: [
+      {
+        jp: "正しい",
+        vn: "Chính",
+        SinoVietnamese: "CHÁNH",
+      },
+      {
+        jp: "凡そ正しい",
+        vn: "Ngay trên (về) toàn bộ",
+        SinoVietnamese: "",
+      },
+      {
+        jp: "問い正す",
+        vn: "Tới câu hỏi",
+        SinoVietnamese: "VẤN CHÁNH",
+      },
+      {
+        jp: "正に",
+        vn: "Đúng đắn",
+        SinoVietnamese: "CHÁNH",
+      },
+      {
+        jp: "正子",
+        vn: "Nửa đêm",
+        SinoVietnamese: "CHÁNH TỬ",
+      },
+      {
+        jp: "正木",
+        vn: "Làm thành hình con suốt cái cây",
+        SinoVietnamese: "CHÁNH MỘC",
+      },
+    ],
+  },
+  {
+    japanse: "安",
+    vietnamse: "an, yên",
+    transcription: "yasu",
+    image: "an.png",
+    meaning: "an-m.png",
+    audio: "an.mp3",
+    explanation:
+      "Yên. Định, không miễn cưỡng gì gọi là an. Làm yên. Tiếng giúp lời. Để yên.",
+    example: [
+      {
+        jp: "安い",
+        vn: "Điềm tĩnh",
+        SinoVietnamese: "AN",
+      },
+      {
+        jp: "値安",
+        vn: "Sự rẻ tiền",
+        SinoVietnamese: "TRỊ AN",
+      },
+      {
+        jp: "安々",
+        vn: "Yên bình",
+        SinoVietnamese: "AN",
+      },
+      {
+        jp: "安値",
+        vn: "Giá rẻ",
+        SinoVietnamese: "AN TRỊ",
+      },
+      {
+        jp: "不安",
+        vn: "Không yên tâm",
+        SinoVietnamese: "BẤT AN",
+      },
+      {
+        jp: "保安",
+        vn: "Sự trị an",
+        SinoVietnamese: "BẢO AN",
+      },
+    ],
+  },
+  {
+    japanse: "院",
+    vietnamse: "viện",
+    transcription: "i＼n'",
+    image: "vien-2.png",
+    meaning: "vien-m-2.png",
+    audio: "vien-2.mp3",
+    explanation: "Tường bao chung quanh. Chái nhà, nơi chỗ. Tòa quan.",
+    example: [
+      {
+        jp: "下院",
+        vn: "Hạ viện",
+        SinoVietnamese: "HẠ VIỆN",
+      },
+      {
+        jp: "二院",
+        vn: "Lưỡng viện",
+        SinoVietnamese: "NHỊ VIỆN",
+      },
+      {
+        jp: "医院",
+        vn: "Y viện",
+        SinoVietnamese: "Y VIỆN",
+      },
+      {
+        jp: "寺院",
+        vn: "Chùa chiền",
+        SinoVietnamese: "TỰ VIỆN",
+      },
+      {
+        jp: "議院",
+        vn: "Đại hội hoặc nghị viện",
+        SinoVietnamese: "NGHỊ VIỆN",
+      },
+    ],
+  },
+  {
+    japanse: "心",
+    vietnamse: "tâm",
+    transcription: "ko／ko＼ro",
+    image: "tam.png",
+    meaning: "tam-m.png",
+    audio: "tam.mp3",
+    explanation:
+      "Tim, đời xưa cho tim là vật để nghĩ ngợi, cho nên cái gì thuộc về tư tưởng đều gọi là tâm. Giữa, phàm nói về phần giữa đều gọi là tâm. Sao Tâm [心], một ngôi sao trong nhị thập bát tú. Cái gai.",
+    example: [
+      {
+        jp: "心得",
+        vn: "Sự am hiểu",
+        SinoVietnamese: "TÂM ĐẮC",
+      },
+      {
+        jp: "心根",
+        vn: "Cảm giác (ở tận đáy lòng)",
+        SinoVietnamese: "TÂM CĂN",
+      },
+      {
+        jp: "不心得",
+        vn: "Hành động vô ý",
+        SinoVietnamese: "BẤT TÂM ĐẮC",
+      },
+      {
+        jp: "手心",
+        vn: "Sự thông cảm",
+        SinoVietnamese: "THỦ TÂM",
+      },
+      {
+        jp: "気心",
+        vn: "Khí chất",
+        SinoVietnamese: "KHÍ TÂM",
+      },
+      {
+        jp: "真心",
+        vn: "Sự thật thà",
+        SinoVietnamese: "CHÂN TÂM",
+      },
+    ],
+  },
+  {
+    japanse: "界",
+    vietnamse: "giới",
+    transcription: "",
+    image: "gioi.png",
+    meaning: "gioi-m.png",
+    audio: "gioi.mp3",
+    explanation:
+      "Cõi, mốc. Cảnh cõi, đối với một địa vị khác mà nói. Thế giới [世界] cõi đời, nhà Phật nói người cùng ở trong khoảng trời đất chỉ có cái đời mình là khác, còn thì không phân rẽ đấy đây gì cả, gọi là thế giới. Cảnh ngộ, nhà Phật chia những phần còn phải chịu trong vòng luân hồi làm ba cõi : (1) Cõi dục, (2) Cõi sắc, (3) Cõi không có sắc. Giới hạn. Ngăn cách. Làm ly gián.",
+    example: [
+      {
+        jp: "下界",
+        vn: "hạ giới",
+        SinoVietnamese: "HẠ GIỚI",
+      },
+      {
+        jp: "世界",
+        vn: "Hoàn cầu",
+        SinoVietnamese: "THẾ GIỚI",
+      },
+      {
+        jp: "他界",
+        vn: "Sự qua đời",
+        SinoVietnamese: "THA GIỚI",
+      },
+      {
+        jp: "医界",
+        vn: "Thế giới y học",
+        SinoVietnamese: "Y GIỚI",
+      },
+      {
+        jp: "地界",
+        vn: "Ranh giới",
+        SinoVietnamese: "ĐỊA GIỚI",
+      },
+    ],
+  },
+  {
+    japanse: "教",
+    vietnamse: "giáo, giao",
+    transcription: "",
+    image: "giao.png",
+    meaning: "giao-m.png",
+    audio: "",
+    explanation: "Cũng như chữ giáo [敎].",
+    example: [
+      {
+        jp: "教える",
+        vn: "Chỉ dẫn",
+        SinoVietnamese: "GIÁO",
+      },
+      {
+        jp: "こっそり教える",
+        vn: "Mách",
+        SinoVietnamese: "",
+      },
+      {
+        jp: "英語を教える",
+        vn: "Để dạy tiếng anh",
+        SinoVietnamese: "",
+      },
+      {
+        jp: "司教",
+        vn: "Đức cha",
+        SinoVietnamese: "TI GIÁO",
+      },
+      {
+        jp: "家教",
+        vn: "Gia sư",
+        SinoVietnamese: "GIA GIÁO",
+      },
+      {
+        jp: "布教する",
+        vn: "Truyền giáo",
+        SinoVietnamese: "BỐ GIÁO",
+      },
+    ],
+  },
+  {
+    japanse: "文",
+    vietnamse: "văn, vấn",
+    transcription: "bu＼n'",
+    image: "van.png",
+    meaning: "van-m.png",
+    audio: "van.mp3",
+    explanation:
+      "Văn vẻ. Văn từ, họp nhiều chữ lại thành bài gọi là văn. Văn tự, bắt chước hình tượng các loài mà đặt ra chữ gọi là văn [文], gộp cả hình với tiếng gọi là tự [字]. Văn, cái dấu vết do đạo đức lễ nhạc giáo hóa mà có vẻ đẹp đẽ rõ rệt gọi là văn. Văn hoa, chỉ cốt bề ngoài cho đẹp, không chuộng đến sự thực gọi là văn. Quan văn, các quan làm việc về văn tự gọi là quan văn. Người nào có vẻ hòa nhã lễ độ gọi là văn nhã [文雅] hay văn tĩnh [文靜], v. Phép luật. Đồng tiền. Một âm là vấn.",
+    example: [
+      {
+        jp: "文博",
+        vn: "Tiến sỹ văn chương",
+        SinoVietnamese: "VĂN BÁC",
+      },
+      {
+        jp: "明文",
+        vn: "Văn chương rõ ràng",
+        SinoVietnamese: "MINH VĂN",
+      },
+      {
+        jp: "不文",
+        vn: "Không viết ra",
+        SinoVietnamese: "BẤT VĂN",
+      },
+      {
+        jp: "和文",
+        vn: "Tiếng Nhật",
+        SinoVietnamese: "HÒA VĂN",
+      },
+      {
+        jp: "文事",
+        vn: "Những vấn đề văn học",
+        SinoVietnamese: "VĂN SỰ",
+      },
+      {
+        jp: "文字",
+        vn: "Chữ cái",
+        SinoVietnamese: "VĂN TỰ",
+      },
+    ],
+  },
+  {
+    japanse: "元",
+    vietnamse: "nguyên",
+    transcription: "moto",
+    image: "nguyen.png",
+    meaning: "nguyen-m.png",
+    audio: "nguyen.mp3",
+    explanation:
+      "Mới. Phàm đầu số gì cũng gọi là nguyên. To lớn. Cái đầu. Nguyên nguyên [元元] trăm họ, dân đen gọi là lê nguyên [黎元]. Nhà tu đạo cho trời, đất, nước là tam nguyên [三元] tức là ba cái có trước vậy. Phép lịch cũ định ngày rằm tháng giêng là thượng nguyên [上元], rằm tháng bảy là trung nguyên [中元], rằm tháng mười gọi là hạ nguyên [下元], gọi là ba ngày nguyên. Nhà Nguyên [ [元], giống ở Mông Cổ [蒙古] vào lấy nước Tàu, nối đời làm vua hồi năm 1275.",
+    example: [
+      {
+        jp: "元い",
+        vn: "Trở về vị trí ban đầu của bạn!",
+        SinoVietnamese: "NGUYÊN",
+      },
+      {
+        jp: "元値",
+        vn: "Cấp vốn",
+        SinoVietnamese: "NGUYÊN THỦ",
+      },
+      {
+        jp: "元は",
+        vn: "Trước đấy",
+        SinoVietnamese: "NGUYÊN",
+      },
+      {
+        jp: "元値",
+        vn: "NGUYÊN TRỊ",
+        SinoVietnamese: "NGUYÊN",
+      },
+      {
+        jp: "元始",
+        vn: "Gốc",
+        SinoVietnamese: "NGUYÊN THỦY",
+      },
+      {
+        jp: "元気",
+        vn: "Khoẻ",
+        SinoVietnamese: "NGUYÊN KHÍ",
+      },
+    ],
+  },
   // {
   //   japanse: "",
   //   vietnamse: "",
@@ -3127,6 +3581,26 @@ const Kanji = [
   //   audio: "",
   //   explanation: "",
   //   example: [
+  //     {
+  //       jp: "",
+  //       vn: "",
+  //       SinoVietnamese: "",
+  //     },
+  //     {
+  //       jp: "",
+  //       vn: "",
+  //       SinoVietnamese: "",
+  //     },
+  //     {
+  //       jp: "",
+  //       vn: "",
+  //       SinoVietnamese: "",
+  //     },
+  //     {
+  //       jp: "",
+  //       vn: "",
+  //       SinoVietnamese: "",
+  //     },
   //     {
   //       jp: "",
   //       vn: "",
