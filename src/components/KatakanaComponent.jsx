@@ -13,7 +13,7 @@ const KatakanaComponent = ({ data = [] }) => {
   const [checkData, setCheckData] = useState({});
   const [previewData, setPreviewData] = useState({});
   const [value, setValue] = useState("");
-  const [buttonColor, setButtonColor] = useState("text-blue-500");
+  const [buttonColor, setButtonColor] = useState("text-blue-300");
   const [question, setQuestion] = useState({
     questionTrue: 0,
     questionFalse: 0,

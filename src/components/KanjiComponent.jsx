@@ -13,7 +13,7 @@ const KanjiComponent = ({ data = [] }) => {
   const [checkData, setCheckData] = useState({});
   const [previewData, setPreviewData] = useState({});
   const [value, setValue] = useState("");
-  const [buttonColor, setButtonColor] = useState("text-blue-500");
+  const [buttonColor, setButtonColor] = useState("text-blue-300");
   const [question, setQuestion] = useState({
     questionTrue: 0,
     questionFalse: 0,
@@ -36,7 +36,6 @@ const KanjiComponent = ({ data = [] }) => {
   const handleSubmit = () => {
     setPreviewData(checkData);
     const vietnamses = checkData.vietnamse.split(", ");
-    console.log("vietnamses:", vietnamses);
     if (vietnamses.includes(value.trim())) {
       setValue("");
       setQuestion((prev) => {
@@ -165,7 +164,7 @@ const KanjiComponent = ({ data = [] }) => {
         </span>
       </div>
       <div className="border border-gray-300 my-4"></div>
-      <div className="md:text-4xl flex flex-row justify-around mb-5">
+      <div className="md:text-4xl flex flex-row justify-around">
         <div className="flex flex-col gap-3">
           <span>Cách viết:</span>
           <img
@@ -175,19 +174,22 @@ const KanjiComponent = ({ data = [] }) => {
                 : `${process.env.PUBLIC_URL}/images/kanji/hoi.png`
             }
             alt={`ảnh của chữ cái ${previewData.japanse}`}
-            width={200}
+            width={400}
             className="border border-black mt-2"
           />
         </div>
-        <div className="flex flex-col gap-20">
+        <div className="flex flex-col gap-32">
           <span>Đọc là:</span>
           <button
             className={`rounded-full border-[7px] ${
               buttonColor === "text-blue-700"
                 ? "border-blue-700"
                 : "border-blue-300"
-            }  w-32 h-32 flex justify-center items-center active:bg-gray-300`}
+            } ${
+              previewData.audio ? "" : "border-gray-300 bg-gray-200"
+            } w-40 h-40 flex justify-center items-center active:bg-gray-300`}
             onClick={handleButtonClick}
+            disabled={previewData.audio ? false : true}
           >
             <Sound className={`w-20 h-20 ${buttonColor}`} />
           </button>
@@ -204,7 +206,7 @@ const KanjiComponent = ({ data = [] }) => {
           ></audio>
         </div>
       </div>
-      <div className="border border-gray-300 my-4"></div>
+      <div className="border border-gray-300 my-1"></div>
       <div className="md:text-4xl flex flex-col justify-around mb-5">
         <div className="flex flex-col text-center gap-3">
           <span className="font-bold">Ý nghĩa:</span>
@@ -231,8 +233,8 @@ const KanjiComponent = ({ data = [] }) => {
             <thead>
               <tr>
                 <th className="border border-gray-500 py-4">japan</th>
-                <th className="border border-gray-500 py-4">Việt nam</th>
                 <th className="border border-gray-500 py-4">từ hán việt</th>
+                <th className="border border-gray-500 py-4">Việt nam</th>
               </tr>
             </thead>
             <tbody>
@@ -241,10 +243,10 @@ const KanjiComponent = ({ data = [] }) => {
                   return (
                     <tr key={`item.jp-${index}`}>
                       <td className="border border-gray-500 py-2">{item.jp}</td>
-                      <td className="border border-gray-500 py-2">{item.vn}</td>
                       <td className="border border-gray-500 py-2">
                         {item.SinoVietnamese}
                       </td>
+                      <td className="border border-gray-500 py-2">{item.vn}</td>
                     </tr>
                   );
                 })}
