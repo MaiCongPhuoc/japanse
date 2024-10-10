@@ -5,13 +5,14 @@ import { decrement, increment } from "../redux/action/action";
 import Sound from "../assets/svg/Sound.jsx";
 
 const HiraganaComponent = ({ data = [] }) => {
+  const { Hiragana, Katakana } = data;
   const inputRef = useRef(null);
-  const dataRef = useRef(data.length);
+  const lenghtDataRef = useRef(Hiragana.length);
   const audioRef = useRef(null);
   const counter = useSelector((state) => state.counter.value);
   const dispatch = useDispatch();
-  const [checkData, setCheckData] = useState({});
-  const [previewData, setPreviewData] = useState({});
+  const [checkData, setCheckData] = useState({ Hiragana, Katakana });
+  const [previewData, setPreviewData] = useState({ Hiragana, Katakana });
   const [value, setValue] = useState("");
   const [buttonColor, setButtonColor] = useState("text-blue-300");
   const [question, setQuestion] = useState({
@@ -21,21 +22,25 @@ const HiraganaComponent = ({ data = [] }) => {
   });
 
   useEffect(() => {
-    getRandomNumber(0, dataRef.current - 1);
+    getRandomNumber(0, lenghtDataRef.current - 1);
   }, []);
 
   const getRandomNumber = (min, max) => {
     min = Math.ceil(min);
     max = Math.floor(max);
     const ramdom = Math.floor(Math.random() * (max - min + 1)) + min;
-    const resault = data[ramdom];
-    setCheckData(resault);
-    return resault;
+    const resaultHiragana = Hiragana[ramdom];
+    const resaultKatakana = Katakana[ramdom];
+    setCheckData({ Hiragana: resaultHiragana, Katakana: resaultKatakana });
+    return { resaultHiragana, resaultKatakana };
   };
 
   const handleSubmit = () => {
-    setPreviewData(checkData);
-    if (value.trim() === checkData.vietnamse) {
+    setPreviewData({
+      Hiragana: checkData.Hiragana,
+      Katakana: checkData.Katakana,
+    });
+    if (value.trim() === checkData.Hiragana.vietnamse) {
       setValue("");
       setQuestion((prev) => {
         return {
@@ -45,7 +50,7 @@ const HiraganaComponent = ({ data = [] }) => {
         };
       });
       inputRef.current.focus();
-      getRandomNumber(0, dataRef.current - 1);
+      getRandomNumber(0, lenghtDataRef.current - 1);
     } else {
       setValue("");
       setQuestion((prev) => {
@@ -55,7 +60,7 @@ const HiraganaComponent = ({ data = [] }) => {
           colorText: "text-red-700",
         };
       });
-      getRandomNumber(0, dataRef.current - 1);
+      getRandomNumber(0, lenghtDataRef.current - 1);
     }
   };
 
@@ -82,21 +87,22 @@ const HiraganaComponent = ({ data = [] }) => {
   const handleAudioEnd = () => {
     setButtonColor("text-blue-300");
   };
+
   return (
     <>
       <div className="text-center">
         <span className="md:text-4xl text-xl text-center mr-3">
-          Bảng chữ cái Hiragana
+          Bảng chữ cái Hiragana & Katakana
         </span>
         <button
           type="button"
-          className="md:text-4xl md:py-3 md:h-16 border mt-3 bg-violet-600 hover:bg-violet-400 active:bg-violet-200 text-white font-bold"
+          className="md:text-4xl md:px-3 md:py-2 md:h-16 border mt-3 bg-violet-600 hover:bg-violet-400 active:bg-violet-200 text-white font-bold"
           onClick={() => handleReset()}
         >
           Reset
         </button>
       </div>
-      <div className="flex flex-row justify-around my-10">
+      <div className="flex flex-row justify-around my-6">
         <span className="md:text-4xl text-green-600 text-xl text-center">
           Kết quả đúng: {question.questionTrue}
         </span>
@@ -106,21 +112,24 @@ const HiraganaComponent = ({ data = [] }) => {
         </span>
       </div>
       <div className="border border-gray-300 my-4"></div>
-      <div className="grid grid-cols-2 h-28">
+      <div className="grid grid-cols-3 my-6">
+        <span className="md:text-7xl flex justify-center items-center text-center text-5xl text-blue-500 font-bold">
+          {checkData.Katakana.japanse}
+        </span>
         <span className="md:text-4xl flex justify-center items-center text-center text-3xl">
           Chữ cái:
         </span>
         <span className="md:text-7xl flex justify-center items-center text-center text-5xl text-blue-500 font-bold">
-          {checkData.japanse}
+          {checkData.Hiragana.japanse}
         </span>
       </div>
       <div className="border border-gray-300 my-4"></div>
-      <div className="text-center my-10">
+      <div className="text-center my-4">
         <span className="md:text-4xl md:font-bold text-xl">
-          Nhập vào đây chữ cái của Hiragana
+          Nhập phát âm của chữ cái:
         </span>
       </div>
-      <div className="flex flex-col justify-center items-center mb-10">
+      <div className="flex flex-col justify-center items-center mb-6">
         <Form
           layout="inline"
           onFinish={() => handleSubmit()}
@@ -132,13 +141,13 @@ const HiraganaComponent = ({ data = [] }) => {
               type="text"
               value={value}
               onChange={(e) => handleValue(e.target.value)}
-              className="md:h-20 md:text-5xl md:w-36 mb-8 border-2 border-gray-400 rounded-none h-10 pl-2"
+              className="md:h-24 md:text-5xl md:w-48 mb-4 border-2 border-gray-400 rounded-none h-10 pl-2 text-center"
             />
           </Form.Item>
           <Form.Item>
             <Button
               htmlType="submit"
-              className="md:text-4xl md:px-5 md:h-14 md:mt-4 border bg-green-500 hover:bg-green-200 active:bg-green-400 mt-3 px-7 py-2 text-white font-bold"
+              className="md:text-4xl md:px-8 md:h-16 md:mt-2 border bg-green-500 hover:bg-green-200 active:bg-green-400 mt-3 px-7 py-2 text-white text-center font-bold"
             >
               kiểm tra
             </Button>
@@ -147,53 +156,68 @@ const HiraganaComponent = ({ data = [] }) => {
       </div>
       <div className="border border-gray-300 my-4"></div>
       <div
-        className={`grid grid-cols-2 gap-5 text-lg my-10 ${question.colorText}`}
+        className={`grid grid-cols-2 gap-5 text-lg my-6 ${question.colorText}`}
       >
         <span className="md:text-5xl text-center">
-          Từ: <span className="font-bold">{previewData.japanse}</span>
+          Từ: <span className="font-bold">{previewData.Katakana.japanse}</span>
+          {" / "}
+          <span className="font-bold">{previewData.Hiragana.japanse}</span>
         </span>
         <span className="md:text-5xl text-center">
-          Phiên âm: <span className="font-bold">{previewData.vietnamse}</span>
+          Phiên âm:{" "}
+          <span className="font-bold">{previewData.Hiragana.vietnamse}</span>
         </span>
       </div>
       <div className="border border-gray-300 my-4"></div>
       <div className="md:text-4xl flex flex-row justify-around mb-5">
         <div className="flex flex-col gap-3">
-          <span>Cách viết:</span>
+          <span className="text-center">Cách viết:</span>
           <img
             src={
-              previewData.image
-                ? `${process.env.PUBLIC_URL}/images/hiragana/${previewData.image}`
+              previewData.Katakana.image
+                ? `${process.env.PUBLIC_URL}/images/katakana/${previewData.Katakana.image}`
+                : `${process.env.PUBLIC_URL}/images/katakana/a-k.png`
+            }
+            alt={`ảnh của chữ cái ${previewData.Katakana.japanse}`}
+            width={450}
+            className="border border-black mt-1"
+          />
+          <img
+            src={
+              previewData.Hiragana.image
+                ? `${process.env.PUBLIC_URL}/images/hiragana/${previewData.Hiragana.image}`
                 : `${process.env.PUBLIC_URL}/images/hiragana/a-h.png`
             }
-            alt={`ảnh của chữ cái ${previewData.japanse}`}
-            width={400}
-            className="border border-black mt-2"
+            alt={`ảnh của chữ cái ${previewData.Hiragana.japanse}`}
+            width={450}
+            className="border border-black mt-1"
           />
         </div>
-        <div className="flex flex-col gap-20">
+        <div className="flex flex-col">
           <span>Đọc là:</span>
-          <button
-            className={`rounded-full border-[7px] ${
-              buttonColor === "text-blue-700"
-                ? "border-blue-700"
-                : "border-blue-300"
-            }  w-32 h-32 flex justify-center items-center active:bg-gray-300`}
-            onClick={handleButtonClick}
-          >
-            <Sound className={`w-20 h-20 ${buttonColor}`} />
-          </button>
-          <audio
-            ref={audioRef}
-            onEnded={handleAudioEnd}
-            type="audio/mp3"
-            src={
-              previewData.audio
-                ? `${process.env.PUBLIC_URL}/audio/${previewData.audio}`
-                : `${process.env.PUBLIC_URL}/audio/a.mp3`
-            }
-            className="mt-2"
-          ></audio>
+          <div className="flex justify-center items-center h-full">
+            <button
+              className={`rounded-full border-[7px] ${
+                buttonColor === "text-blue-700"
+                  ? "border-blue-700"
+                  : "border-blue-300"
+              }  w-32 h-32 flex justify-center items-center active:bg-gray-300`}
+              onClick={handleButtonClick}
+            >
+              <Sound className={`w-20 h-20 ${buttonColor}`} />
+            </button>
+            <audio
+              ref={audioRef}
+              onEnded={handleAudioEnd}
+              type="audio/mp3"
+              src={
+                previewData.Hiragana.audio
+                  ? `${process.env.PUBLIC_URL}/audio/${previewData.Hiragana.audio}`
+                  : `${process.env.PUBLIC_URL}/audio/a.mp3`
+              }
+              className="mt-2"
+            ></audio>
+          </div>
         </div>
       </div>
     </>

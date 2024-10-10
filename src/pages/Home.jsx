@@ -19,7 +19,7 @@ const Home = () => {
           Bảng chữ cái Katakana
         </p>
         <img
-          src={`${process.env.PUBLIC_URL}/images/katakan/katakana.png`}
+          src={`${process.env.PUBLIC_URL}/images/katakana/katakana.png`}
           alt="ảnh bảng chữ cái hiragana"
           className="border border-black mt-2"
         />

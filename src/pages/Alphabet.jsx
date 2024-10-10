@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import HiraganaComponent from "../components/HiraganaComponent";
-import KatakanaComponent from "../components/KatakanaComponent";
+// import KatakanaComponent from "../components/KatakanaComponent";
 import { Hiragana, Katakana, Kanji } from "../data";
 import KanjiComponent from "../components/KanjiComponent";
 
@@ -28,9 +28,9 @@ const Alphabet = () => {
             )}`}
             onClick={() => toggleTab(1)}
           >
-            Hiragana
+            Hiragana & Katakana
           </li>
-          <li
+          {/* <li
             className={`md:text-3xl flex items-center justify-center w-full h-full hover:bg-gray-300 ${getActiveClass(
               2,
               "border-b-4 border-blue-500 text-red-500 font-bold"
@@ -38,7 +38,7 @@ const Alphabet = () => {
             onClick={() => toggleTab(2)}
           >
             Katakana
-          </li>
+          </li> */}
           <li
             className={`md:text-3xl flex items-center justify-center w-full h-full hover:bg-gray-300 ${getActiveClass(
               3,
@@ -55,15 +55,20 @@ const Alphabet = () => {
               ToggleState === 1 ? "" : "hidden"
             } justify-center items-center`}
           >
-            <HiraganaComponent data={HiraganaRef.current} />
+            <HiraganaComponent
+              data={{
+                Hiragana: HiraganaRef.current,
+                Katakana: KatakanaRef.current,
+              }}
+            />
           </div>
-          <div
+          {/* <div
             className={` ${getActiveClass(2, "flex-col")} ${
               ToggleState === 2 ? "" : "hidden"
             } justify-center items-center`}
           >
             <KatakanaComponent data={KatakanaRef.current} />
-          </div>
+          </div> */}
           <div
             className={` ${getActiveClass(3, "flex-col")} ${
               ToggleState === 3 ? "" : "hidden"
