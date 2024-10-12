@@ -1334,7 +1334,7 @@ const Katakana = [
   },
   {
     id: 84,
-    japanse: "ジャ",
+    japanse: "チャ",
     vietnamse: "cha",
     image: "cha-k.png",
     audio: "cha.mp3",
@@ -1355,7 +1355,7 @@ const Katakana = [
   },
   {
     id: 87,
-    japanse: "チョ",
+    japanse: "ヂャ",
     vietnamse: "ja",
     image: "ja-k-2.png",
     audio: "ja.mp3",

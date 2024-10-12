@@ -1,15 +1,11 @@
 import { useState, useEffect, useRef } from "react";
 import { Form, Input, Button } from "antd";
-import { useSelector, useDispatch } from "react-redux";
-import { decrement, increment } from "../redux/action/action";
 import Sound from "../assets/svg/Sound.jsx";
 
 const KatakanaComponent = ({ data = [] }) => {
   const inputRef = useRef(null);
   const dataRef = useRef(data.length);
   const audioRef = useRef(null);
-  const counter = useSelector((state) => state.counter.value);
-  const dispatch = useDispatch();
   const [checkData, setCheckData] = useState({});
   const [previewData, setPreviewData] = useState({});
   const [value, setValue] = useState("");

@@ -1,17 +1,23 @@
 import { useState, useEffect, useRef } from "react";
 import { Form, Input, Button } from "antd";
-import { useSelector, useDispatch } from "react-redux";
-import { decrement, increment } from "../redux/action/action";
 import Sound from "../assets/svg/Sound.jsx";
 
-const KanjiComponent = ({ data = [] }) => {
+// use library redux
+import { useSelector, useDispatch } from "react-redux";
+import { setCheckData, setPreviewData } from "../store/action/KanjiStore.jsx";
+
+const KanjiComponent = () => {
+  // use library redux and create state
+  const dispatch = useDispatch();
+  const data = useSelector((state) => state.kanji.data.Kanji);
+  const checkData = useSelector((state) => state.kanji.checkData);
+  const previewData = useSelector((state) => state.kanji.previewData);
+
   const inputRef = useRef(null);
   const dataRef = useRef(data.length);
   const audioRef = useRef(null);
-  const counter = useSelector((state) => state.counter.value);
-  const dispatch = useDispatch();
-  const [checkData, setCheckData] = useState({});
-  const [previewData, setPreviewData] = useState({});
+  // const [checkData, setCheckData] = useState({});
+  // const [previewData, setPreviewData] = useState({});
   const [value, setValue] = useState("");
   const [buttonColor, setButtonColor] = useState("text-blue-300");
   const [question, setQuestion] = useState({
@@ -29,12 +35,12 @@ const KanjiComponent = ({ data = [] }) => {
     max = Math.floor(max);
     const ramdom = Math.floor(Math.random() * (max - min + 1)) + min;
     const resault = data[ramdom];
-    setCheckData(resault);
+    dispatch(setCheckData(resault));
     return resault;
   };
 
   const handleSubmit = () => {
-    setPreviewData(checkData);
+    dispatch(setPreviewData(checkData));
     const vietnamses = checkData.vietnamse.split(", ");
     if (vietnamses.includes(value.trim())) {
       setValue("");
@@ -189,7 +195,7 @@ const KanjiComponent = ({ data = [] }) => {
               previewData.audio ? "" : "border-gray-300 bg-gray-200"
             } w-40 h-40 flex justify-center items-center active:bg-gray-300`}
             onClick={handleButtonClick}
-            disabled={previewData.audio ? false : true}
+            disabled={!previewData.audio}
           >
             <Sound className={`w-20 h-20 ${buttonColor}`} />
           </button>
@@ -203,7 +209,18 @@ const KanjiComponent = ({ data = [] }) => {
                 : `${process.env.PUBLIC_URL}/audio/kanji/hoi.mp3`
             }
             className="mt-2"
-          ></audio>
+          >
+            <track
+              kind="captions"
+              srcLang="en"
+              src={`${process.env.PUBLIC_URL}/captions/${
+                previewData.audio
+                  ? previewData.audio.replace(".mp3", ".vtt")
+                  : "hoi.vtt"
+              }`}
+              label="English captions"
+            />
+          </audio>
         </div>
       </div>
       <div className="border border-gray-300 my-1"></div>
@@ -238,18 +255,17 @@ const KanjiComponent = ({ data = [] }) => {
               </tr>
             </thead>
             <tbody>
-              {previewData.example &&
-                previewData.example.map((item, index) => {
-                  return (
-                    <tr key={`item.jp-${index}`}>
-                      <td className="border border-gray-500 py-2">{item.jp}</td>
-                      <td className="border border-gray-500 py-2">
-                        {item.SinoVietnamese}
-                      </td>
-                      <td className="border border-gray-500 py-2">{item.vn}</td>
-                    </tr>
-                  );
-                })}
+              {previewData.example?.map((item) => {
+                return (
+                  <tr key={item.jp}>
+                    <td className="border border-gray-500 py-2">{item.jp}</td>
+                    <td className="border border-gray-500 py-2">
+                      {item.SinoVietnamese}
+                    </td>
+                    <td className="border border-gray-500 py-2">{item.vn}</td>
+                  </tr>
+                );
+              })}
             </tbody>
           </table>
         </div>

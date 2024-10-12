@@ -1,18 +1,24 @@
 import { useState, useEffect, useRef } from "react";
 import { Form, Input, Button } from "antd";
-import { useSelector, useDispatch } from "react-redux";
-import { decrement, increment } from "../redux/action/action";
 import Sound from "../assets/svg/Sound.jsx";
 
-const HiraganaComponent = ({ data = [] }) => {
-  const { Hiragana, Katakana } = data;
-  const inputRef = useRef(null);
-  const lenghtDataRef = useRef(Hiragana.length);
-  const audioRef = useRef(null);
-  const counter = useSelector((state) => state.counter.value);
+// use library redux
+import { useSelector, useDispatch } from "react-redux";
+import {
+  setCheckData,
+  setPreviewData,
+} from "../store/action/AlphabetStore.jsx";
+
+const HiraganaComponent = () => {
+  // use library redux and create state
   const dispatch = useDispatch();
-  const [checkData, setCheckData] = useState({ Hiragana, Katakana });
-  const [previewData, setPreviewData] = useState({ Hiragana, Katakana });
+  const data = useSelector((state) => state.hiragana.data);
+  const checkData = useSelector((state) => state.hiragana.checkData);
+  const previewData = useSelector((state) => state.hiragana.previewData);
+
+  const inputRef = useRef(null);
+  const lenghtDataRef = useRef(data.Hiragana.length);
+  const audioRef = useRef(null);
   const [value, setValue] = useState("");
   const [buttonColor, setButtonColor] = useState("text-blue-300");
   const [question, setQuestion] = useState({
@@ -20,6 +26,10 @@ const HiraganaComponent = ({ data = [] }) => {
     questionFalse: 0,
     colorText: "text-black",
   });
+
+  console.log("checkData", checkData);
+  console.log("previewData", previewData);
+  console.log("lenghtDataRef", lenghtDataRef);
 
   useEffect(() => {
     getRandomNumber(0, lenghtDataRef.current - 1);
@@ -29,18 +39,22 @@ const HiraganaComponent = ({ data = [] }) => {
     min = Math.ceil(min);
     max = Math.floor(max);
     const ramdom = Math.floor(Math.random() * (max - min + 1)) + min;
-    const resaultHiragana = Hiragana[ramdom];
-    const resaultKatakana = Katakana[ramdom];
-    setCheckData({ Hiragana: resaultHiragana, Katakana: resaultKatakana });
+    const resaultHiragana = data.Hiragana[ramdom];
+    const resaultKatakana = data.Katakana[ramdom];
+    dispatch(
+      setCheckData({ Hiragana: resaultHiragana, Katakana: resaultKatakana })
+    );
     return { resaultHiragana, resaultKatakana };
   };
 
   const handleSubmit = () => {
-    setPreviewData({
-      Hiragana: checkData.Hiragana,
-      Katakana: checkData.Katakana,
-    });
-    if (value.trim() === checkData.Hiragana.vietnamse) {
+    dispatch(
+      setPreviewData({
+        Hiragana: checkData.Hiragana,
+        Katakana: checkData.Katakana,
+      })
+    );
+    if (value.trim() === data.Hiragana.vietnamse) {
       setValue("");
       setQuestion((prev) => {
         return {
@@ -216,7 +230,18 @@ const HiraganaComponent = ({ data = [] }) => {
                   : `${process.env.PUBLIC_URL}/audio/a.mp3`
               }
               className="mt-2"
-            ></audio>
+            >
+              <track
+                kind="captions"
+                srcLang="vi"
+                src={`${process.env.PUBLIC_URL}/captions/${
+                  previewData.Hiragana.audio
+                    ? previewData.Hiragana.audio.replace(".mp3", ".vtt")
+                    : "a.vtt"
+                }`}
+                label="English captions"
+              />
+            </audio>
           </div>
         </div>
       </div>
