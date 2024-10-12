@@ -27,10 +27,6 @@ const HiraganaComponent = () => {
     colorText: "text-black",
   });
 
-  console.log("checkData", checkData);
-  console.log("previewData", previewData);
-  console.log("lenghtDataRef", lenghtDataRef);
-
   useEffect(() => {
     getRandomNumber(0, lenghtDataRef.current - 1);
   }, []);

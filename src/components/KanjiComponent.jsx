@@ -16,8 +16,6 @@ const KanjiComponent = () => {
   const inputRef = useRef(null);
   const dataRef = useRef(data.length);
   const audioRef = useRef(null);
-  // const [checkData, setCheckData] = useState({});
-  // const [previewData, setPreviewData] = useState({});
   const [value, setValue] = useState("");
   const [buttonColor, setButtonColor] = useState("text-blue-300");
   const [question, setQuestion] = useState({
