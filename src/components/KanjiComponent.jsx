@@ -256,7 +256,9 @@ const KanjiComponent = () => {
               {previewData.example?.map((item) => {
                 return (
                   <tr key={item.jp}>
-                    <td className="border border-gray-500 py-2">{item.jp}</td>
+                    <td className="border border-gray-500 py-2 text-5xl">
+                      {item.jp}
+                    </td>
                     <td className="border border-gray-500 py-2">
                       {item.SinoVietnamese}
                     </td>

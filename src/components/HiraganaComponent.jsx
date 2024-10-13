@@ -50,7 +50,7 @@ const HiraganaComponent = () => {
         Katakana: checkData.Katakana,
       })
     );
-    if (value.trim() === data.Hiragana.vietnamse) {
+    if (value.trim() === checkData.Hiragana.vietnamse) {
       setValue("");
       setQuestion((prev) => {
         return {
