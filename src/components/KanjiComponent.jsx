@@ -12,9 +12,12 @@ const KanjiComponent = () => {
   const data = useSelector((state) => state.kanji.data.Kanji);
   const checkData = useSelector((state) => state.kanji.checkData);
   const previewData = useSelector((state) => state.kanji.previewData);
+  const type = useSelector((state) => state.typeOfDegree);
+  const dataType = data.filter((dat) => dat.type.includes(type.typeOfDegree));
+  console.log("dataType: ", dataType)
 
   const inputRef = useRef(null);
-  const dataRef = useRef(data.length);
+  const dataRef = useRef(dataType.length);
   const audioRef = useRef(null);
   const [value, setValue] = useState("");
   const [buttonColor, setButtonColor] = useState("text-blue-300");
@@ -32,7 +35,7 @@ const KanjiComponent = () => {
     min = Math.ceil(min);
     max = Math.floor(max);
     const ramdom = Math.floor(Math.random() * (max - min + 1)) + min;
-    const resault = data[ramdom];
+    const resault = dataType[ramdom];
     dispatch(setCheckData(resault));
     return resault;
   };

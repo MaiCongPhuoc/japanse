@@ -1,7 +1,6 @@
 import { useSelector } from "react-redux";
 
 const Home = () => {
-  
   const type = useSelector((state) => state.typeOfDegree);
   return (
     <>

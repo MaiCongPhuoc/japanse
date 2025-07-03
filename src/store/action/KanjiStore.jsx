@@ -1,6 +1,6 @@
 // src/store/kanjiSlice.js
 import { createSlice } from "@reduxjs/toolkit";
-import { Kanji } from "../../data";
+import Kanji from "../../data/kanji.ts";
 
 const initialState = {
   data: { Kanji },
