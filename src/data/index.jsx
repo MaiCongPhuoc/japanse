@@ -1504,6 +1504,407 @@ const Katakana = [
 
 const Kanji = [
   {
+    japanse: "日",
+    vietnamse: "nhật",
+    transcription: "hi＼",
+    image: "nhat-2.png",
+    meaning: "nhat-2-m.png",
+    audio: "nhat-2.mp3",
+    explanation: "Mặt trời. Ngày, một ngày một đêm gọi là nhất nhật [一日]. Ban ngày. Nước Nhật, nước Nhật Bản [日本] thường gọi tắt là nước Nhật.",
+    example: [
+      {
+        jp: "日々",
+        vn: "Ngày ngày",
+        SinoVietnamese: "NHẬT",
+      },
+      {
+        jp: "日日",
+        vn: "Mỗi ngày",
+        SinoVietnamese: "NHẬT NHẬT",
+      },
+      {
+        jp: "良日",
+        vn: "Ngày tốt",
+        SinoVietnamese: "LƯƠNG NHẬT",
+      },
+      {
+        jp: "市日",
+        vn: "Tiếp thị ngày",
+        SinoVietnamese: "THỊ NHẬT",
+      },
+      {
+        jp: "中日",
+        vn: "Ngày giữa",
+        SinoVietnamese: "TRUNG NHẬT",
+      },
+      {
+        jp: "入日",
+        vn: "Mặt trời lặn",
+        SinoVietnamese: "NHẬP NHẬT",
+      },
+    ],
+  },
+  {
+    japanse: "一",
+    vietnamse: "nhất",
+    transcription: "ichi",
+    image: "nhat.png",
+    meaning: "nhat-m.png",
+    audio: "nhat.mp3",
+    explanation:
+      "Một, là số đứng đầu các số đếm. Phàm vật gì chỉ có một đều gọi là Nhất cả.",
+    example: [
+      {
+        jp: "一に",
+        vn: "Chỉ có",
+        SinoVietnamese: "NHẤT",
+      },
+      {
+        jp: "一つ目",
+        vn: "Quái vật một mắt",
+        SinoVietnamese: "NHẤT MỤC",
+      },
+      {
+        jp: "一事",
+        vn: "Một thứ",
+        SinoVietnamese: "NHẤT SỰ",
+      },
+      {
+        jp: "一二",
+        vn: "",
+        SinoVietnamese: "NHẤT NHỊ",
+      },
+      {
+        jp: "",
+        vn: "Một hoặc hai",
+        SinoVietnamese: "",
+      },
+      {
+        jp: "一位",
+        vn: "Hàng cao nhất",
+        SinoVietnamese: "NHẤT VỊ",
+      },
+      {
+        jp: "不一",
+        vn: "Rất chân thành là của bạn",
+        SinoVietnamese: "BẤT NHẤT",
+      },
+    ],
+  },
+  {
+    japanse: "国",
+    vietnamse: "quốc",
+    transcription: "ku／ni‾",
+    image: "quoc.png",
+    meaning: "quoc-m.png",
+    audio: "quoc.mp3",
+    explanation: "Giản thể của chữ 國",
+    example: [
+      {
+        jp: "お国",
+        vn: "Đất nước bạn",
+        SinoVietnamese: "QUỐC",
+      },
+      {
+        jp: "国使",
+        vn: "Phái viên",
+        SinoVietnamese: "QUỐC SỬ",
+      },
+      {
+        jp: "国人",
+        vn: "Người bản xứ",
+        SinoVietnamese: "QUỐC NHÂN",
+      },
+      {
+        jp: "国利",
+        vn: "Lợi ích quốc gia",
+        SinoVietnamese: "QUỐC LỢI",
+      },
+    ],
+  },
+  {
+    japanse: "人",
+    vietnamse: "nhân",
+    transcription: "h(i)／to‾",
+    image: "nhan.png",
+    meaning: "nhan-m.png",
+    audio: "nhan.mp3",
+    explanation: "Người, giống khôn nhất trong loài động vật. Tiếng đối lại với mình.",
+    example: [
+      {
+        jp: "人位",
+        vn: "Địa vị",
+        SinoVietnamese: "NHÂN VỊ",
+      },
+      {
+        jp: "人出",
+        vn: "Đám đông",
+        SinoVietnamese: "NHÂN XUẤT",
+      },
+      {
+        jp: "人目",
+        vn: "Sự chú ý của công chúng",
+        SinoVietnamese: "NHÂN MỤC",
+      },
+      {
+        jp: "小人",
+        vn: "Đứa trẻ",
+        SinoVietnamese: "TIỂU NHÂN",
+      },
+      {
+        jp: "付き人",
+        vn: "Người phục vụ",
+        SinoVietnamese: "PHÓ NHÂN",
+      },
+      {
+        jp: "人後",
+        vn: "Người đứng sau",
+        SinoVietnamese: "NHÂN HẬU",
+      },
+    ],
+  },
+  {
+    japanse: "年",
+    vietnamse: "niên",
+    transcription: "to／shi＼",
+    image: "nien.png",
+    meaning: "nien-m.png",
+    audio: "nien.mp3",
+    explanation: "Năm. Tuổi. Người đỗ cùng khoa gọi là đồng niên [同年]. Được mùa.",
+    example: [
+      {
+        jp: "今年",
+        vn: "Năm nay",
+        SinoVietnamese: "KIM NIÊN",
+      },
+      {
+        jp: "年増",
+        vn: "Phụ nữ trung niên",
+        SinoVietnamese: "NIÊN TĂNG",
+      },
+      {
+        jp: "年端",
+        vn: "Tuổi tác",
+        SinoVietnamese: "NIÊN ĐOAN",
+      },
+      {
+        jp: "一昨年",
+        vn: "Năm kia",
+        SinoVietnamese: "NHẤT TẠC NIÊN",
+      },
+      {
+        jp: "他年",
+        vn: "Năm nào đó",
+        SinoVietnamese: "THA NIÊN",
+      },
+      {
+        jp: "多年",
+        vn: "Nhiều năm",
+        SinoVietnamese: "ĐA NIÊN",
+      },
+    ],
+  },
+  {
+    japanse: "代",
+    vietnamse: "đại",
+    transcription: "da／i‾",
+    image: "dai.png",
+    meaning: "dai-m.png",
+    audio: "dai.mp3",
+    explanation: "Đổi. Thay. Đời.",
+    example: [
+      {
+        jp: "代る",
+        vn: "Thay đổi",
+        SinoVietnamese: "ĐẠI",
+      },
+      {
+        jp: "代わる",
+        vn: "Đổi",
+        SinoVietnamese: "ĐẠI",
+      },
+      {
+        jp: "入れ代わる",
+        vn: "Tới những chỗ thay đổi",
+        SinoVietnamese: "",
+      },
+      {
+        jp: "代る代る",
+        vn: "Lần lượt nhau",
+        SinoVietnamese: "ĐẠI ĐẠI",
+      },
+    ],
+  },
+  {
+    japanse: "十",
+    vietnamse: "thập",
+    transcription: "ju–",
+    image: "thap.png",
+    meaning: "thap-m.png",
+    audio: "",
+    explanation: "Mười. Số mười",
+    example: [
+      {
+        jp: "十指",
+        vn: "Mười ngón tay",
+        SinoVietnamese: "THẬP CHỈ",
+      },
+      {
+        jp: "十分",
+        vn: "Mười phút",
+        SinoVietnamese: "THẬP PHÂN",
+      },
+      {
+        jp: "十干",
+        vn: "10 lịch ký tên",
+        SinoVietnamese: "THẬP KIỀN",
+      },
+      {
+        jp: "十戒",
+        vn: "Mười điều phật răn dạy",
+        SinoVietnamese: "THẬP GIỚI",
+      },
+      {
+        jp: "十方",
+        vn: "Thập phương",
+        SinoVietnamese: "THẬP PHƯƠNG",
+      },
+      {
+        jp: "十本",
+        vn: "Mười cái (đếm vật thon dài)",
+        SinoVietnamese: "THẬP BỔN",
+      },
+      {
+        jp: "十字",
+        vn: "Hình chữ thập",
+        SinoVietnamese: "THẬP TỰ",
+      },
+    ],
+  },
+  {
+    japanse: "二",
+    vietnamse: "nhị",
+    transcription: "ni",
+    image: "nhi.png",
+    meaning: "nhi-m.png",
+    audio: "nhi.mp3",
+    explanation: "Hai, tên số đếm.",
+    example: [
+      {
+        jp: "二人",
+        vn: "Hai người",
+        SinoVietnamese: "NHỊ NHÂN",
+      },
+      {
+        jp: "二手",
+        vn: "Hai nhóm",
+        SinoVietnamese: "NHỊ THỦ",
+      },
+      {
+        jp: "二目",
+        vn: "Một thời gian (thứ) hai",
+        SinoVietnamese: "NHỊ MỤC",
+      },
+      {
+        jp: "二葉",
+        vn: "Chồi nụ",
+        SinoVietnamese: "NHỊ DIỆP",
+      },
+      {
+        jp: "二重",
+        vn: "Sự trùng nhau",
+        SinoVietnamese: "NHỊ TRỌNG",
+      },
+      {
+        jp: "二つ目",
+        vn: "Một sau khi (kẻ) tiếp theo",
+        SinoVietnamese: "NHỊ MỤC",
+      },
+      {
+        jp: "二つ共",
+        vn: "Cả hai",
+        SinoVietnamese: "NHỊ CỘNG",
+      },
+    ],
+  },
+  {
+    japanse: "本",
+    vietnamse: "bổn, bản",
+    transcription: "ho＼n'",
+    image: "bon.png",
+    meaning: "bon-m.png",
+    audio: "bon.mp3",
+    explanation: "Gốc, một cây gọi là nhất bổn [一本]. Cỗi rễ, cỗi nguồn, cái cỗi rễ của một sự gì gọi là bổn. Trước, vốn. Vốn lại (nguyên lai) dùng làm lời trợ từ. Của mình, bổn thân [本身] thân mình, bổn quốc [本國] nước mình, bổn vị [本位] cái địa vị của mình, bổn lĩnh [本領] cái năng lực của mình, không phải cầu gì ở ngoài, v. Tiền vốn, tiền gốc. Phép ngày xưa các tập sớ tâu vua cũng gọi là bổn. Tập, sách vở tranh vẽ bìa thiếp đều gọi là bổn cả.",
+    example: [
+      {
+        jp: "本木",
+        vn: "Kho nguyên bản",
+        SinoVietnamese: "BỔN MỘC",
+      },
+      {
+        jp: "根本",
+        vn: "Nguồn gốc",
+        SinoVietnamese: "CĂN BỔN",
+      },
+      {
+        jp: "丸本",
+        vn: "Bộ sách",
+        SinoVietnamese: "HOÀN BỔN",
+      },
+      {
+        jp: "大本",
+        vn: "Nền tảng",
+        SinoVietnamese: "ĐẠI BỔN",
+      },
+      {
+        jp: "日本",
+        vn: "Nhật Bản",
+        SinoVietnamese: "NHẬT BỔN",
+      },
+    ],
+  },
+  {
+    japanse: "中",
+    vietnamse: "trung",
+    transcription: "chu＼–",
+    image: "trung.png",
+    meaning: "trung-m.png",
+    audio: "trung.mp3",
+    explanation: "Giữa, chỉ vào bộ vị trong vật thể. Trong. Ở khoảng giữa hai bên cũng gọi là trung. Ngay, không vẹo không lệch, không quá không thiếu, cũng gọi là trung. Nửa, như trung đồ [中途] nửa đường, trung dạ [中夜] nửa đêm, v. Chỉ chung tất cả các chỗ. Một âm là trúng. Bị phải. Hợp cách. Đầy đủ. Cùng âm nghĩa như chữ trọng [仲].",
+    example: [
+      {
+        jp: "中仕",
+        vn: "Thợ khuân vác",
+        SinoVietnamese: "TRUNG SĨ",
+      },
+      {
+        jp: "中保",
+        vn: "Sự điều đình",
+        SinoVietnamese: "TRUNG BẢO",
+      },
+      {
+        jp: "中半",
+        vn: "Giữa",
+        SinoVietnamese: "TRUNG BÁN",
+      },
+      {
+        jp: "右中間",
+        vn: "(bóng chày) khoảng giữa người chuyền bóng trung tâm và cánh phải",
+        SinoVietnamese: "HỮU TRUNG GIAN",
+      },
+      {
+        jp: "中佐",
+        vn: "Đại tá thiếu úy",
+        SinoVietnamese: "TRUNG TÁ",
+      },
+      {
+        jp: "中医",
+        vn: "Y học tiếng trung hoa",
+        SinoVietnamese: "TRUNG Y",
+      },
+    ],
+  },
+  {
     japanse: "会",
     vietnamse: "hội",
     transcription: "ka＼i",
@@ -2185,37 +2586,6 @@ const Kanji = [
         jp: "愚問",
         vn: "Câu hỏi ngu ngốc",
         SinoVietnamese: "NGU VẤN",
-      },
-    ],
-  },
-  {
-    japanse: "代",
-    vietnamse: "đại",
-    transcription: "da／i‾",
-    image: "dai.png",
-    meaning: "dai-m.png",
-    audio: "dai.mp3",
-    explanation: "Đổi. Thay. Đời.",
-    example: [
-      {
-        jp: "代る",
-        vn: "Thay đổi",
-        SinoVietnamese: "ĐẠI",
-      },
-      {
-        jp: "代わる",
-        vn: "Đổi",
-        SinoVietnamese: "ĐẠI",
-      },
-      {
-        jp: "入れ代わる",
-        vn: "Tới những chỗ thay đổi",
-        SinoVietnamese: "",
-      },
-      {
-        jp: "代る代る",
-        vn: "Lần lượt nhau",
-        SinoVietnamese: "ĐẠI ĐẠI",
       },
     ],
   },
@@ -8255,99 +8625,6 @@ const Kanji = [
     ],
   },
   {
-    japanse: "一",
-    vietnamse: "nhất",
-    transcription: "ichi",
-    image: "nhat.png",
-    meaning: "nhat-m.png",
-    audio: "nhat.mp3",
-    explanation:
-      "Một, là số đứng đầu các số đếm. Phàm vật gì chỉ có một đều gọi là Nhất cả.",
-    example: [
-      {
-        jp: "一に",
-        vn: "Chỉ có",
-        SinoVietnamese: "NHẤT",
-      },
-      {
-        jp: "一つ目",
-        vn: "Quái vật một mắt",
-        SinoVietnamese: "NHẤT MỤC",
-      },
-      {
-        jp: "一事",
-        vn: "Một thứ",
-        SinoVietnamese: "NHẤT SỰ",
-      },
-      {
-        jp: "一二",
-        vn: "",
-        SinoVietnamese: "NHẤT NHỊ",
-      },
-      {
-        jp: "",
-        vn: "Một hoặc hai",
-        SinoVietnamese: "",
-      },
-      {
-        jp: "一位",
-        vn: "Hàng cao nhất",
-        SinoVietnamese: "NHẤT VỊ",
-      },
-      {
-        jp: "不一",
-        vn: "Rất chân thành là của bạn",
-        SinoVietnamese: "BẤT NHẤT",
-      },
-    ],
-  },
-  {
-    japanse: "二",
-    vietnamse: "nhị",
-    transcription: "ni",
-    image: "nhi.png",
-    meaning: "nhi-m.png",
-    audio: "nhi.mp3",
-    explanation: "Hai, tên số đếm.",
-    example: [
-      {
-        jp: "二人",
-        vn: "Hai người",
-        SinoVietnamese: "NHỊ NHÂN",
-      },
-      {
-        jp: "二手",
-        vn: "Hai nhóm",
-        SinoVietnamese: "NHỊ THỦ",
-      },
-      {
-        jp: "二目",
-        vn: "Một thời gian (thứ) hai",
-        SinoVietnamese: "NHỊ MỤC",
-      },
-      {
-        jp: "二葉",
-        vn: "Chồi nụ",
-        SinoVietnamese: "NHỊ DIỆP",
-      },
-      {
-        jp: "二重",
-        vn: "Sự trùng nhau",
-        SinoVietnamese: "NHỊ TRỌNG",
-      },
-      {
-        jp: "二つ目",
-        vn: "Một sau khi (kẻ) tiếp theo",
-        SinoVietnamese: "NHỊ MỤC",
-      },
-      {
-        jp: "二つ共",
-        vn: "Cả hai",
-        SinoVietnamese: "NHỊ CỘNG",
-      },
-    ],
-  },
-  {
     japanse: "三",
     vietnamse: "tam",
     transcription: "san'",
@@ -8676,52 +8953,6 @@ const Kanji = [
         jp: "九天",
         vn: "Bầu trời",
         SinoVietnamese: "CỬU THIÊN",
-      },
-    ],
-  },
-  {
-    japanse: "十",
-    vietnamse: "thập",
-    transcription: "ju–",
-    image: "thap.png",
-    meaning: "thap-m.png",
-    audio: "",
-    explanation: "Mười. Số mười",
-    example: [
-      {
-        jp: "十指",
-        vn: "Mười ngón tay",
-        SinoVietnamese: "THẬP CHỈ",
-      },
-      {
-        jp: "十分",
-        vn: "Mười phút",
-        SinoVietnamese: "THẬP PHÂN",
-      },
-      {
-        jp: "十干",
-        vn: "10 lịch ký tên",
-        SinoVietnamese: "THẬP KIỀN",
-      },
-      {
-        jp: "十戒",
-        vn: "Mười điều phật răn dạy",
-        SinoVietnamese: "THẬP GIỚI",
-      },
-      {
-        jp: "十方",
-        vn: "Thập phương",
-        SinoVietnamese: "THẬP PHƯƠNG",
-      },
-      {
-        jp: "十本",
-        vn: "Mười cái (đếm vật thon dài)",
-        SinoVietnamese: "THẬP BỔN",
-      },
-      {
-        jp: "十字",
-        vn: "Hình chữ thập",
-        SinoVietnamese: "THẬP TỰ",
       },
     ],
   },

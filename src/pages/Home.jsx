@@ -1,8 +1,12 @@
+import { useSelector } from "react-redux";
+
 const Home = () => {
+  
+  const type = useSelector((state) => state.typeOfDegree);
   return (
     <>
       <h1 className="md:text-5xl text-center text-3xl font-bold text-red-600">
-        Ôn thi tiếng nhật N4
+        Ôn thi tiếng nhật N5 & N4
       </h1>
       <div className="mt-10">
         <p className="md:text-3xl text-xl text-center mt-2">
@@ -28,11 +32,18 @@ const Home = () => {
         <p className="md:text-3xl text-xl text-center mt-2">
           Bảng chữ cái Kanji
         </p>
-        <img
-          src={`${process.env.PUBLIC_URL}/images/kanji/kanji.png`}
-          alt="ảnh bảng chữ cái hiragana"
-          className="border border-black mt-2"
-        />
+        {type.typeOfDegree === 2 ?
+          <img
+            src={`${process.env.PUBLIC_URL}/images/kanji/kanji.png`}
+            alt="ảnh bảng chữ cái hiragana"
+            className="border border-black mt-2"
+          />
+          :
+          <img
+            src={`${process.env.PUBLIC_URL}/images/kanji/kanji2.png`}
+            alt="ảnh bảng chữ cái hiragana"
+            className="border border-black mt-2"
+          />}
       </div>
     </>
   );
