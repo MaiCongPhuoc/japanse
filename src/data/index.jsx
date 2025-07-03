@@ -1510,6 +1510,7 @@ const Kanji = [
     image: "nhat-2.png",
     meaning: "nhat-2-m.png",
     audio: "nhat-2.mp3",
+    type: [1],
     explanation: "Mặt trời. Ngày, một ngày một đêm gọi là nhất nhật [一日]. Ban ngày. Nước Nhật, nước Nhật Bản [日本] thường gọi tắt là nước Nhật.",
     example: [
       {
@@ -1551,6 +1552,7 @@ const Kanji = [
     image: "nhat.png",
     meaning: "nhat-m.png",
     audio: "nhat.mp3",
+    type: [1, 2],
     explanation:
       "Một, là số đứng đầu các số đếm. Phàm vật gì chỉ có một đều gọi là Nhất cả.",
     example: [
@@ -1598,6 +1600,7 @@ const Kanji = [
     image: "quoc.png",
     meaning: "quoc-m.png",
     audio: "quoc.mp3",
+    type: [1],
     explanation: "Giản thể của chữ 國",
     example: [
       {
@@ -1629,6 +1632,7 @@ const Kanji = [
     image: "nhan.png",
     meaning: "nhan-m.png",
     audio: "nhan.mp3",
+    type: [1],
     explanation: "Người, giống khôn nhất trong loài động vật. Tiếng đối lại với mình.",
     example: [
       {
@@ -1670,6 +1674,7 @@ const Kanji = [
     image: "nien.png",
     meaning: "nien-m.png",
     audio: "nien.mp3",
+    type: [1],
     explanation: "Năm. Tuổi. Người đỗ cùng khoa gọi là đồng niên [同年]. Được mùa.",
     example: [
       {
@@ -1711,6 +1716,7 @@ const Kanji = [
     image: "dai.png",
     meaning: "dai-m.png",
     audio: "dai.mp3",
+    type: [1, 2],
     explanation: "Đổi. Thay. Đời.",
     example: [
       {
@@ -1741,7 +1747,8 @@ const Kanji = [
     transcription: "ju–",
     image: "thap.png",
     meaning: "thap-m.png",
-    audio: "",
+    audio: "thap.mp3",
+    type: [1, 2],
     explanation: "Mười. Số mười",
     example: [
       {
@@ -1788,6 +1795,7 @@ const Kanji = [
     image: "nhi.png",
     meaning: "nhi-m.png",
     audio: "nhi.mp3",
+    type: [1],
     explanation: "Hai, tên số đếm.",
     example: [
       {
@@ -1834,6 +1842,7 @@ const Kanji = [
     image: "bon.png",
     meaning: "bon-m.png",
     audio: "bon.mp3",
+    type: [1],
     explanation: "Gốc, một cây gọi là nhất bổn [一本]. Cỗi rễ, cỗi nguồn, cái cỗi rễ của một sự gì gọi là bổn. Trước, vốn. Vốn lại (nguyên lai) dùng làm lời trợ từ. Của mình, bổn thân [本身] thân mình, bổn quốc [本國] nước mình, bổn vị [本位] cái địa vị của mình, bổn lĩnh [本領] cái năng lực của mình, không phải cầu gì ở ngoài, v. Tiền vốn, tiền gốc. Phép ngày xưa các tập sớ tâu vua cũng gọi là bổn. Tập, sách vở tranh vẽ bìa thiếp đều gọi là bổn cả.",
     example: [
       {
@@ -1870,6 +1879,7 @@ const Kanji = [
     image: "trung.png",
     meaning: "trung-m.png",
     audio: "trung.mp3",
+    type: [1],
     explanation: "Giữa, chỉ vào bộ vị trong vật thể. Trong. Ở khoảng giữa hai bên cũng gọi là trung. Ngay, không vẹo không lệch, không quá không thiếu, cũng gọi là trung. Nửa, như trung đồ [中途] nửa đường, trung dạ [中夜] nửa đêm, v. Chỉ chung tất cả các chỗ. Một âm là trúng. Bị phải. Hợp cách. Đầy đủ. Cùng âm nghĩa như chữ trọng [仲].",
     example: [
       {
@@ -1911,6 +1921,7 @@ const Kanji = [
     image: "hoi.png",
     meaning: "hoi-m.png",
     audio: "hoi.mp3",
+    type: [2],
     explanation: "Giản thể của chữ [會]",
     example: [
       {
@@ -1932,6 +1943,7 @@ const Kanji = [
     image: "dong.png",
     meaning: "dong-m.png",
     audio: "dong.mp3",
+    type: [2],
     explanation:
       "Cùng như một. Cùng nhau. Hợp lại. Hòa. Lôi đồng [雷同] nói đuôi, ăn cắp văn tự của người tự xưng là của mình cũng gọi là lôi đồng.",
     example: [
@@ -1954,6 +1966,7 @@ const Kanji = [
     image: "su.png",
     meaning: "su-m.png",
     audio: "su-kanji.mp3",
+    type: [2],
     explanation:
       "Việc.Trần Nhân Tông [陳仁宗] : Khách lai bất vấn nhân gian sự, Cộng ỷ lan can khán thúy vi [客來不問人間事, 共倚欄杆看翠微] (Xuân cảnh [春景]) Khách đến không hỏi việc đời người, Cùng tựa lan can ngắm khí núi xanh.",
     example: [
@@ -1986,6 +1999,7 @@ const Kanji = [
     image: "tu.png",
     meaning: "tu-m.png",
     audio: "tu.mp3",
+    type: [2],
     explanation: "Bởi, từ. Mình, chính mình. Tự nhiên, không phải miễn cưỡng.",
     example: [
       {
@@ -2017,6 +2031,7 @@ const Kanji = [
     image: "xa.png",
     meaning: "xa-m.png",
     audio: "xa.mp3",
+    type: [2],
     explanation:
       "Đền thờ thổ địa. Xã tắc cũng chỉ nơi thờ cúng thần đất và thần lúa, do đó còn có nghĩa là đất nước. Nhanh, mau. Xế, xế bóng. Xã hội, ngày xưa cứ mỗi khu 25 nhà là một xã, để cùng mưu tính các việc công ích gọi là xã hội [社會]. Ngày xã, ngày mậu sau ngày lập xuân năm ngày gọi là ngày xuân xã [春社], ngày mậu sau ngày lập thu năm ngày gọi là ngày thu xã [秋社].",
     example: [
@@ -2049,6 +2064,7 @@ const Kanji = [
     image: "phan.png",
     meaning: "phan-m.png",
     audio: "phan.mp3",
+    type: [2],
     explanation:
       "Chia. Tách ghẽ. Chia rẽ. Phân [分]. Phút. Về môn số học, cái số trừ không hết gọi là phân số [分數]. Đồng xu. Một âm là phận. Chia phần.",
     example: [
@@ -2076,6 +2092,7 @@ const Kanji = [
     image: "phat.png",
     meaning: "phat-m.png",
     audio: "phat.mp3",
+    type: [2],
     explanation: "xuất phát, phát kiến,",
     example: [
       {
@@ -2097,6 +2114,7 @@ const Kanji = [
     image: "gia.png",
     meaning: "gia-m.png",
     audio: "gia.mp3",
+    type: [2],
     explanation:
       "Lời phân biệt, trong câu văn có chữ giả là để phân biệt chỗ cách nhau. Lời nói chuyên chỉ về một cái gì. Ấy.",
     example: [
@@ -2134,6 +2152,7 @@ const Kanji = [
     image: "dia.png",
     meaning: "dia-m.png",
     audio: "dia.mp3",
+    type: [2],
     explanation:
       "Đất, đựng chứa muôn vật cõi đời gọi là địa. Địa vị, cái ngôi của mình được tới, trong phép Phật chia ra mười ngôi bồ-tát gọi là thập-địa [十地] để định rõ chỗ tu hơn kém nhau. Chất, nền, phàm vẽ cái gì cũng phải làm nền rồi mới bôi các mùi được, thế là địa. Khu đất. Chỗ nào ý chí mình tới được gọi là địa. Những. Dùng làm tiếng giúp lời.",
     example: [
@@ -2171,6 +2190,7 @@ const Kanji = [
     image: "nghiep.png",
     meaning: "nghiep-m.png",
     audio: "nghi.mp3",
+    type: [2],
     explanation:
       "Nghiệp. Làm việc, nghề nghiệp. Sư đã già rồi. Sợ hãi. Cái nhân. Công nghiệp. Dị dạng của chữ [业].",
     example: [
@@ -2208,6 +2228,7 @@ const Kanji = [
     image: "phuong.png",
     meaning: "phuong-m.png",
     audio: "phuong.mp3",
+    type: [2],
     explanation:
       "Vuông, vật gì hình thể ngay thẳng đều gọi là phương. Phương hướng. Đạo đức. Nghề thuật. Phương thuốc. Trái. Đương, tiếng dùng để giúp lời. Nơi, chốn. Thuật, phép. Vân gỗ. Loài, giống. Có. Chói. Hai vật cùng đi đều. Lúa mới đâm bông chưa chắc.",
     example: [
@@ -2245,6 +2266,7 @@ const Kanji = [
     image: "tan.png",
     meaning: "tan-m.png",
     audio: "tan.mp3",
+    type: [2],
     explanation:
       "Mới. Trong sạch. Mới. Tân [新] tên hiệu năm đầu của Vương Mãng [王莽] mới cướp ngôi nhà Hán [漢].",
     example: [
@@ -2287,6 +2309,7 @@ const Kanji = [
     image: "trang.png",
     meaning: "trang-m.png",
     audio: "trang.mp3",
+    type: [2],
     explanation:
       "Sân, sửa chỗ đất không cho phẳng phắn gọi là tràng. Phàm nhân việc gì mà tụ họp nhiều người đều gọi là tràng. Tục gọi mỗi một lần là một tràng, nên sự gì mới mở đầu gọi là khai tràng [開場], kết quả gọi là thu tràng [收場].",
     example: [
@@ -2324,6 +2347,7 @@ const Kanji = [
     image: "vien.png",
     meaning: "vien-m.png",
     audio: "vien.mp3",
+    type: [2],
     explanation:
       "Số quan. Bức viên [幅員] cõi đất rộng hẹp. Một âm là vân, cùng nghĩa như chữ vân [云].",
     example: [
@@ -2371,6 +2395,7 @@ const Kanji = [
     image: "lap.png",
     meaning: "lap-m.png",
     audio: "",
+    type: [2],
     explanation:
       "Đứng thẳng. Gây dựng. Nên. Đặt để. Lên ngôi. Lập tức (ngay lập tức); lập khắc. Toàn khối.",
     example: [
@@ -2418,6 +2443,7 @@ const Kanji = [
     image: "khai.png",
     meaning: "khai-m.png",
     audio: "",
+    type: [2],
     explanation:
       "Mở. Nở ra. Đào ra, bới ra. Mới, trước nhất. Phân tách ra. Bày, đặt. Mở rộng ra. Khoát đạt. Rộng tha. Xếp bày. Bắt đầu đi. Số chia. Trừ bỏ đi. Sôi.",
     example: [
@@ -2450,6 +2476,7 @@ const Kanji = [
     image: "thu.png",
     meaning: "thu-m.png",
     audio: "thu.mp3",
+    type: [2],
     explanation:
       "Tay. Làm. Tài, làm nghề gì giỏi về nghề ấy gọi là thủ. Tự tay làm ra. Cầm.",
     example: [
@@ -2492,6 +2519,7 @@ const Kanji = [
     image: "luc.png",
     meaning: "luc-m.png",
     audio: "luc.mp3",
+    type: [2],
     explanation:
       "Sức, khoa học nghiên cứu về sức tự động của các vật và sức bị động của các vật khác là lực học [力學]. Phàm nơi nào tinh thần tới được đều gọi là lực. Cái tài sức làm việc của người. Cái của vật làm nên được cũng gọi là lực. Chăm chỉ. Cốt, chăm. Làm đầy tớ người ta cũng gọi là lực.",
     example: [
@@ -2544,6 +2572,7 @@ const Kanji = [
     image: "van.png",
     meaning: "van.png",
     audio: "van.mp3",
+    type: [2],
     explanation:
       "Hỏi, cái gì không biết đi hỏi người khác gọi là vấn. Tra hỏi, tra hỏi kẻ có tội tục gọi là vấn. Hỏi thăm. Làm quà. Tin tức. Lễ ăn hỏi gọi là lễ vấn danh [問名]. Mệnh lệnh. Nghe, cùng nghĩa như chữ văn [聞].",
     example: [
@@ -2596,6 +2625,7 @@ const Kanji = [
     image: "minh.png",
     meaning: "minh-m.png",
     audio: "minh.mp3",
+    type: [2],
     explanation:
       "Sáng. Sáng suốt, sáng suốt trong sạch, không bị ngoại vật nó che lấp gọi là minh. Phát minh, tỏ rõ. Mắt sáng. Mới sáng. Sang, sau (dùng cho một thời điểm). Thần minh. Nhà Minh [明] (1368-1661); Minh Thái tổ [明太祖] là Chu Nguyên Chương [朱元璋] đánh được nhà Nguyên [元] lên làm vua gọi là nhà Minh.",
     example: [
@@ -2638,6 +2668,7 @@ const Kanji = [
     image: "dong-2.png",
     meaning: "dong-m-2.png",
     audio: "dong.mp3",
+    type: [2],
     explanation:
       "Động, bất cứ vật gì, không bàn là tự sức mình, hay do sức khác mà chuyển sang chỗ khác đều gọi là động. Làm. Cảm động. Nổi dậy. Tự động. Nhời tự ngữ.",
     example: [
@@ -2675,6 +2706,7 @@ const Kanji = [
     image: "kinh.png",
     meaning: "kinh-m.png",
     audio: "kinh.mp3",
+    type: [2],
     explanation: "To. Đồng nghĩa với chữ nguyên [原].",
     example: [
       {
@@ -2711,6 +2743,7 @@ const Kanji = [
     image: "muc.png",
     meaning: "muc-m.png",
     audio: "muc.mp3",
+    type: [2],
     explanation:
       "Con mắt. Lườm, nhìn kỹ (trố mắt nhìn). Khen. Phẩm đề. Điều kiện. Chia từng ngăn như trong cái lưới, ngoài giường lưới gọi là cương [綱], những mắt dây nhỏ gọi là mục [目]. Mục lục, trên đầu sách liệt kê các mục trong sách gọi là mục lục [目錄]. Một người thống suất một số đông người gọi là đầu mục [頭目]. Chỗ tinh thần thiết yếu.",
     example: [
@@ -2748,6 +2781,7 @@ const Kanji = [
     image: "thong.png",
     meaning: "thong-m.png",
     audio: "thong.mp3",
+    type: [2],
     explanation:
       "Thông suốt. Hiển đạt. Chuyền khắp. Hai bên cùng hòa hợp với nhau gọi là thông. Tóm tắt. Khắp. Văn tự đủ từ đầu chí cuối gọi là thông. Nước tiểu.",
     example: [
@@ -2785,6 +2819,7 @@ const Kanji = [
     image: "ngon.png",
     meaning: "ngon-m.png",
     audio: "ngon.mp3",
+    type: [2],
     explanation:
       "Nói, tự mình nói ra gọi là ngôn [言]. Một câu văn cũng gọi là nhất ngôn [一言]. Một chữ cũng gọi là ngôn. Mệnh lệnh. Bàn bạc. Tôi, dùng làm tiếng phát thanh. Một âm là ngân.",
     example: [
@@ -2832,6 +2867,7 @@ const Kanji = [
     image: "li.png",
     meaning: "li-m.png",
     audio: "li.mp3",
+    type: [2],
     explanation:
       "Sửa ngọc, làm ngọc. Sửa sang, trị. Tấu nhạc, cử nhạc. Điều lí [條理], phàm cái gì có trước có sau có gốc có ngọn không loạn thứ tự đều gọi là điều lí. Đạo lí [道理], nói về sự nên làm gọi là đạo [道], nói về cái lẽ sao mà phải làm gọi là lí [理]. Thớ. Đời xưa gọi quan án là lí, cho nên tòa án thượng thẩm bây giờ gọi là đại lí viện [大理院]. Ôn tập, đem cái nghe biết trước mà dung nạp với cái mới hiểu cho chỉnh tề gọi là lí. Cùng ứng đáp không trả lời lại, tục gọi là bất lí [不理], nghe tiếng lọt vào lòng thông hiểu được gọi là lí hội [理會]. Lí học, nghiên cứu về môn học thân tâm tinh mệnh gọi là lí học [理學] hay đạo học [道學]. Lí khoa [理科] một khoa học nghiên cứu về tính vật. Lí chướng [理障] chữ nhà Phật, không rõ lẽ đúng thực, bị ý thức nó chướng ngại.",
     example: [
@@ -2869,6 +2905,7 @@ const Kanji = [
     image: "the.png",
     meaning: "the-m.png",
     audio: "the.mp3",
+    type: [2],
     explanation:
       "Chính là chữ bản [笨] nặng nề, tục mượn viết thay chữ thể [體], gọi là chữ thể đơn. Giản thể của chữ [體].",
     example: [
@@ -2911,6 +2948,7 @@ const Kanji = [
     image: "dien.png",
     meaning: "dien-m.png",
     audio: "dien.mp3",
+    type: [2],
     explanation:
       "Ruộng đất cầy cấy được gọi là điền [田]. Đi săn. Trống lớn. Họ Điền.",
     example: [
@@ -2953,6 +2991,7 @@ const Kanji = [
     image: "chu.png",
     meaning: "chu-m.png",
     audio: "chu.mp3",
+    type: [2],
     explanation:
       "Vua, vua coi sóc tất cả việc nước nên gọi là chủ [主]. Người chủ, kẻ giữ quyền nhất nhà gọi là chủ [主]. Người có quyền về sự gì. Kẻ có quyền có của ấy cũng gọi là chủ. Ý chuyên chủ về cái gì cũng gọi là chủ. Chủ là một tiếng phân biệt mình với người trong khi giao tế, phàm sự gì mình khởi lên thì mình là chủ nhân [主人], mà mọi người là khách [客]. Con gái vua gọi là chủ, con gái vua đi lấy chồng, do quan tam công chủ hòa, nên gọi là công chủ [公主] (Ta quen gọi là công chúa).",
     example: [
@@ -3005,6 +3044,7 @@ const Kanji = [
     image: "de.png",
     meaning: "de-m.png",
     audio: "de.mp3",
+    type: [2],
     explanation:
       "Cái trán. Tiên đề lên, viết chữ lên trên khiến cho người trông thấy là biết ngay gọi là đề. Đề mục, đầu đề, đầu bài. Phẩm đề [品題].",
     example: [
@@ -3042,6 +3082,7 @@ const Kanji = [
     image: "y.png",
     meaning: "y-m.png",
     audio: "y.mp3",
+    type: [2],
     explanation:
       "Ý chí. Ức đạc. Ý riêng. Nước Ý (Ý-đại-lợi). Nhà Phật [佛] cho ý là phần thức thứ bảy, tức là Mạt-na-thức [末那識] (phiên âm tiếng Phạn 'manas'); nó hay phân biệt nghĩ ngợi.",
     example: [
@@ -3079,6 +3120,7 @@ const Kanji = [
     image: "bat.png",
     meaning: "bat-m.png",
     audio: "bat.mp3",
+    type: [2],
     explanation: "Chẳng. Một âm là phầu. Một âm là phi.",
     example: [
       {
@@ -3120,6 +3162,7 @@ const Kanji = [
     image: "tac.png",
     meaning: "tac-m.png",
     audio: "tac.mp3",
+    type: [2],
     explanation: "Nhấc lên. Làm, làm nên.",
     example: [
       {
@@ -3161,6 +3204,7 @@ const Kanji = [
     image: "dung.png",
     meaning: "dung-m.png",
     audio: "dung.mp3",
+    type: [2],
     explanation:
       "Công dùng, đối lại với chữ thể [體]. Dùng, sai khiến. Của dùng, tài chánh của nhà nước gọi là quốc dụng [國用]. Đồ dùng. Nhờ vào cái gì để động tác làm lụng gọi là dụng. Dùng làm trợ từ, nghĩa là lấy, là bèn, là chưng ấy.",
     example: [
@@ -3208,6 +3252,7 @@ const Kanji = [
     image: "do.png",
     meaning: "do-m.png",
     audio: "do.mp3",
+    type: [2],
     explanation:
       "Đồ đo, các đồ như trượng thước dùng để đo dài ngắn đều gọi là độ. Chia góc đồ tròn gọi là độ. Phép đã chế ra. Độ lượng. Dáng dấp. Qua. Sang tới, cũng như chữ độ [渡]. Một âm là đạc.",
     example: [
@@ -3250,6 +3295,7 @@ const Kanji = [
     image: "cuong.png",
     meaning: "cuong-m.png",
     audio: "cuong.mp3",
+    type: [2],
     explanation:
       "Mạnh. Cưỡng lại, không chịu khuất phục. Con mọt thóc gạo. Dị dạng của chữ [强].",
     example: [
@@ -3292,6 +3338,7 @@ const Kanji = [
     image: "cong.png",
     meaning: "cong-m.png",
     audio: "cong.mp3",
+    type: [2],
     explanation:
       "Công, không tư túi gì, gọi là công. Chung, sự gì do mọi người cùng đồng ý gọi là công. Cùng chung. Của chung. Việc quan. Quan công. Tước công, tước to nhất trong năm tước công hầu bá tử nam [公侯伯子男]. Bố chồng. Ông, tiếng người này gọi người kia. Con đực.",
     example: [
@@ -3334,6 +3381,7 @@ const Kanji = [
     image: "tri.png",
     meaning: "tri-m.png",
     audio: "",
+    type: [2],
     explanation:
       "Cầm, giữ. Phàm nói về chữ trì đều có ý chỉ về sự giữ chắc không rời cả. Hai bên ngang sức chống nhau gọi là tương trì bất hạ [相持不下].",
     example: [
@@ -3376,6 +3424,7 @@ const Kanji = [
     image: "da.png",
     meaning: "da-m.png",
     audio: "da.mp3",
+    type: [2],
     explanation: "Đồng. Cõi. Dân quê. Quê mùa. Không thuần.",
     example: [
       {
@@ -3417,6 +3466,7 @@ const Kanji = [
     image: "di.png",
     meaning: "di-m.png",
     audio: "",
+    type: [2],
     explanation: "Lấy. Làm. Dùng. Nhân. Cùng nghĩa với chữ dĩ [已].",
     example: [
       {
@@ -3453,6 +3503,7 @@ const Kanji = [
     image: "tu-2.png",
     meaning: "tu-m-2.png",
     audio: "tu-2.pm3",
+    type: [2],
     explanation:
       "Nghĩ ngợi, phàm các sự tác dụng thuộc về tâm như tưởng tượng suy xét ghi nhớ đều gọi là tư. Nghĩ đến. Mến nhớ như tương tư [相思] cùng nhớ nhau. Thương. Tiếng dứt câu. Một âm là tứ. Lại một âm là tai.",
     example: [
@@ -3495,6 +3546,7 @@ const Kanji = [
     image: "gia-2.png",
     meaning: "gia-m-2.png",
     audio: "gia.mp3",
+    type: [2],
     explanation:
       "Ở. Chỗ ở, nhà. Vợ gọi chồng là gia [家], cũng như chồng gọi vợ là thất [室]. Ở trong một cửa gọi là một nhà. Có cái học vấn giỏi riêng về một môn gọi là gia. Tự xưng người tôn trưởng của nhà mình cũng gọi là gia. Giống gì nuôi ở trong nhà cũng gọi là gia. Một âm là cô, cũng như chữ cô [姑].",
     example: [
@@ -3542,6 +3594,7 @@ const Kanji = [
     image: "the-2.png",
     meaning: "the-m-2.png",
     audio: "the-2.mp3",
+    type: [2],
     explanation:
       "Đời, ba mươi năm là một đời, hết đời cha đến đời con cũng gọi là một đời. Họ nhà vua thay đổi cũng gọi là nhất thế [一世] cho nên sách thường gọi tóm lại cuộc đời là thế. Lại có nghĩa nói về sự giao tiếp của xã hội. Nối đời. Chỗ quen cũ.",
     example: [
@@ -3584,6 +3637,7 @@ const Kanji = [
     image: "da-2.png",
     meaning: "da-m-2.png",
     audio: "da-2.mp3",
+    type: [2],
     explanation: "Nhiều. Khen tốt. Hơn.",
     example: [
       {
@@ -3625,6 +3679,7 @@ const Kanji = [
     image: "chanh.png",
     meaning: "chanh-m.png",
     audio: "chanh.mp3",
+    type: [2],
     explanation:
       "Phải, là chánh đáng. Ngay, ở giữa. Ngay thẳng. Thuần chánh. Bực lớn nhất. Chức chánh, bực chánh, chức chủ về một việc. Đúng giữa. Tiếng giúp lời, nghĩa là, tức là. Vật để làm cớ. Đủ. Chất chính. Ngay ngắn. Mong hẹn. Phần chính. Một âm là chính. Cái đích tập bắn.",
     example: [
@@ -3667,6 +3722,7 @@ const Kanji = [
     image: "an.png",
     meaning: "an-m.png",
     audio: "an.mp3",
+    type: [2],
     explanation:
       "Yên. Định, không miễn cưỡng gì gọi là an. Làm yên. Tiếng giúp lời. Để yên.",
     example: [
@@ -3709,6 +3765,7 @@ const Kanji = [
     image: "vien-2.png",
     meaning: "vien-m-2.png",
     audio: "vien-2.mp3",
+    type: [2],
     explanation: "Tường bao chung quanh. Chái nhà, nơi chỗ. Tòa quan.",
     example: [
       {
@@ -3745,6 +3802,7 @@ const Kanji = [
     image: "tam.png",
     meaning: "tam-m.png",
     audio: "tam.mp3",
+    type: [2],
     explanation:
       "Tim, đời xưa cho tim là vật để nghĩ ngợi, cho nên cái gì thuộc về tư tưởng đều gọi là tâm. Giữa, phàm nói về phần giữa đều gọi là tâm. Sao Tâm [心], một ngôi sao trong nhị thập bát tú. Cái gai.",
     example: [
@@ -3787,6 +3845,7 @@ const Kanji = [
     image: "gioi.png",
     meaning: "gioi-m.png",
     audio: "gioi.mp3",
+    type: [2],
     explanation:
       "Cõi, mốc. Cảnh cõi, đối với một địa vị khác mà nói. Thế giới [世界] cõi đời, nhà Phật nói người cùng ở trong khoảng trời đất chỉ có cái đời mình là khác, còn thì không phân rẽ đấy đây gì cả, gọi là thế giới. Cảnh ngộ, nhà Phật chia những phần còn phải chịu trong vòng luân hồi làm ba cõi : (1) Cõi dục, (2) Cõi sắc, (3) Cõi không có sắc. Giới hạn. Ngăn cách. Làm ly gián.",
     example: [
@@ -3824,6 +3883,7 @@ const Kanji = [
     image: "giao.png",
     meaning: "giao-m.png",
     audio: "",
+    type: [2],
     explanation: "Cũng như chữ giáo [敎].",
     example: [
       {
@@ -3865,6 +3925,7 @@ const Kanji = [
     image: "van-2.png",
     meaning: "van-m-2.png",
     audio: "van-2.mp3",
+    type: [2],
     explanation:
       "Văn vẻ. Văn từ, họp nhiều chữ lại thành bài gọi là văn. Văn tự, bắt chước hình tượng các loài mà đặt ra chữ gọi là văn [文], gộp cả hình với tiếng gọi là tự [字]. Văn, cái dấu vết do đạo đức lễ nhạc giáo hóa mà có vẻ đẹp đẽ rõ rệt gọi là văn. Văn hoa, chỉ cốt bề ngoài cho đẹp, không chuộng đến sự thực gọi là văn. Quan văn, các quan làm việc về văn tự gọi là quan văn. Người nào có vẻ hòa nhã lễ độ gọi là văn nhã [文雅] hay văn tĩnh [文靜], v. Phép luật. Đồng tiền. Một âm là vấn.",
     example: [
@@ -3907,6 +3968,7 @@ const Kanji = [
     image: "nguyen.png",
     meaning: "nguyen-m.png",
     audio: "nguyen.mp3",
+    type: [2],
     explanation:
       "Mới. Phàm đầu số gì cũng gọi là nguyên. To lớn. Cái đầu. Nguyên nguyên [元元] trăm họ, dân đen gọi là lê nguyên [黎元]. Nhà tu đạo cho trời, đất, nước là tam nguyên [三元] tức là ba cái có trước vậy. Phép lịch cũ định ngày rằm tháng giêng là thượng nguyên [上元], rằm tháng bảy là trung nguyên [中元], rằm tháng mười gọi là hạ nguyên [下元], gọi là ba ngày nguyên. Nhà Nguyên [ [元], giống ở Mông Cổ [蒙古] vào lấy nước Tàu, nối đời làm vua hồi năm 1275.",
     example: [
@@ -3949,6 +4011,7 @@ const Kanji = [
     image: "trong.png",
     meaning: "trong-m.png",
     audio: "trong.mp3",
+    type: [2],
     explanation:
       "Nặng. Dùng sức nhiều cũng gọi là trọng. Tính cái sức chống chọi của vật này với vật kia gọi là trọng lượng [重量], khoa học nghiên cứu về cái lẽ của sức, định sức, động sức giúp gọi là trọng học [重學] hay lực học [力學], v. Coi trọng, không dám khinh thường. Tôn trọng. Chuộng. Quá. Một âm là trùng. Lại. Trồng vật gì cách nhau một từng gọi là nhất trùng [一重].",
     example: [
@@ -3996,6 +4059,7 @@ const Kanji = [
     image: "can.png",
     meaning: "can-m.png",
     audio: "",
+    type: [2],
     explanation:
       "Gần, đường đất cách nhau gần gọi là cận. Thời gian cách nhau còn ít gọi là cận. Thiển cận, cái gì thường thấy luôn mà dễ biết gọi là cận. Gần giống như, từa tựa. Thiết dụng, cần dùng. Một âm là cấn. Lại một âm là kí.",
     example: [
@@ -4038,6 +4102,7 @@ const Kanji = [
     image: "khao.png",
     meaning: "khao-m.png",
     audio: "khao.mp3",
+    type: [2],
     explanation:
       "Thọ khảo, già nua. Bố đã chết rồi gọi là khảo. Khảo xét. Thí. Xong, khánh thành nhà. Đánh, khua. Trọn, kết cục. Vết.",
     example: [
@@ -4080,6 +4145,7 @@ const Kanji = [
     image: "hoach.png",
     meaning: "hoach-m.png",
     audio: "hoach.mp3",
+    type: [2],
     explanation: "Cũng như chữ hoạch [畫]. Giản thể của chữ [畫].",
     example: [
       {
@@ -4121,6 +4187,7 @@ const Kanji = [
     image: "hai.png",
     meaning: "hai-m.png",
     audio: "hai.mp3",
+    type: [2],
     explanation:
       "Bể, cái chỗ trăm sông đều đổ nước vào, gần đất thì gọi là hải [海], xa đất thì gọi là dương [洋]. Về phía tây bắc họ cũng gọi những chằm lớn là hải. Vật gì họp lại nhiều cũng gọi là hải. Tục gọi cái bát to là hải.",
     example: [
@@ -4162,7 +4229,8 @@ const Kanji = [
     transcription: "Uri",
     image: "mai.png",
     meaning: "mai-m.png",
-    audio: "",
+    audio: "mai.mp3",
+    type: [2],
     explanation: "Thương mại",
     example: [
       {
@@ -4204,6 +4272,7 @@ const Kanji = [
     image: "tri-2.png",
     meaning: "tri-m-2.png",
     audio: "tri-2.mp3",
+    type: [2],
     explanation:
       "Biết, tri thức. Biết nhau, bè bạn chơi với nhau gọi là tri giao [知交]. Hiểu biết. Muốn. Ghi nhớ. Sánh ngang, đôi. Khỏi. Làm chủ. Tri ngộ, được người ta biết mà đề bạt mình lên gọi là thụ tri [受知]. Một âm là trí.",
     example: [
@@ -4246,6 +4315,7 @@ const Kanji = [
     image: "dao.png",
     meaning: "dao-m.png",
     audio: "dao.mp3",
+    type: [2],
     explanation:
       "Đường cái thẳng. Đạo lý, là một cái lẽ nhất định ai cũng phải noi đấy mà theo. Đạo nhãn [道眼] thấy tỏ đạo mầu. Đạo tràng [道場] nơi tu đạo, nơi tu đắc đạo, nơi làm lễ cầu cúng. Đạo giáo. Đạo, một tên riêng để chia khu vực trong nước, nhà Đường [唐] chia thiên hạ làm mười đạo, cũng như bây giờ chia ra từng tỉnh vậy. Chỉ dẫn, cùng nghĩa như chữ [導]. Một âm là đáo.",
     example: [
@@ -4288,6 +4358,7 @@ const Kanji = [
     image: "tap.png",
     meaning: "tap-m.png",
     audio: "tap.mp3",
+    type: [2],
     explanation:
       "Đậu. Hợp. Mọi người đều đến. Nên, xong. Góp lại, góp các số vụn vặt lại thành một số lớn gọi là tập. Chợ triền, chỗ buôn bán họp tập đông đúc. Sách đã làm trọn bộ gọi là tập. Đều. Tập đế [集諦] chữ nhà Phật, một đế trong Tứ đế, nghĩa là góp các nhân duyên phiền não lại thành ra quả khổ.",
     example: [
@@ -4330,6 +4401,7 @@ const Kanji = [
     image: "biet.png",
     meaning: "biet-m.png",
     audio: "biet.mp3",
+    type: [2],
     explanation: "Chia. Ly biệt, tống biệt [送別] tiễn nhau đi xa. Khác.",
     example: [
       {
@@ -4371,6 +4443,7 @@ const Kanji = [
     image: "vat.png",
     meaning: "vat-m.png",
     audio: "vat.mp3",
+    type: [2],
     explanation:
       "Các loài sinh ở trong trời đất đều gọi là vật cả. Sự vật. Vật sắc [物色] dò la tìm tòi.",
     example: [
@@ -4413,6 +4486,7 @@ const Kanji = [
     image: "su-2.png",
     meaning: "su-m-2.png",
     audio: "su-2.mp3",
+    type: [2],
     explanation:
       "Khiến, sai khiến người ta gọi là sử. Giả sử, lời đặt điều ra. Một âm là sứ.",
     example: [
@@ -4455,6 +4529,7 @@ const Kanji = [
     image: "pham.png",
     meaning: "pham-m.png",
     audio: "pham.mp3",
+    type: [2],
     explanation: "Nhiều thứ. Phẩm hàm. Phẩm giá. Cân lường.",
     example: [
       {
@@ -4496,6 +4571,7 @@ const Kanji = [
     image: "ke.png",
     meaning: "ke-m.png",
     audio: "ke.mp3",
+    type: [2],
     explanation:
       "Tính. Xét các quan lại. Mưu kế, mưu tính. Ta thường đọc là kê cả.",
     example: [
@@ -4538,6 +4614,7 @@ const Kanji = [
     image: "tu-4.png",
     meaning: "tu-m-4.png",
     audio: "tu-4.mp3",
+    type: [2],
     explanation: "Chết. Cái gì không hoạt động đều gọi là tử. Tắt, vạc.",
     example: [
       {
@@ -4579,6 +4656,7 @@ const Kanji = [
     image: "dac.png",
     meaning: "dac-m.png",
     audio: "",
+    type: [2],
     explanation:
       "Con trâu đực. Một muông sinh gọi là đặc. Riêng một. Khác hẳn, cái gì khắc hẳn mọi người đều gọi là đặc, đặc sắc [特色], đặc biệt [特別], v. Chuyên một sự gì mà đặt cũng gọi là đặc. Những.",
     example: [
@@ -4616,6 +4694,7 @@ const Kanji = [
     image: "tu-5.png",
     meaning: "tu-m-5.png",
     audio: "tu-5.mp3",
+    type: [2],
     explanation:
       "Riêng, cái gì không phải là của công đều gọi là tư. Sự bí ẩn, việc bí ẩn riêng của mình không muốn cho người biết gọi là tư. Riêng một. Cong queo. Anh em rể, con gái gọi chồng chị hay chồng em là tư. Bầy tôi riêng trong nhà (gia thần). Các cái thuộc về riêng một nhà. Đi tiểu. Áo mặc thường. Lúc ở một mình.",
     example: [
@@ -4663,6 +4742,7 @@ const Kanji = [
     image: "thuy.png",
     meaning: "thuy-m.png",
     audio: "",
+    type: [2],
     explanation: "Mới, trước. Một âm là thí.",
     example: [
       {
@@ -4704,6 +4784,7 @@ const Kanji = [
     image: "trieu.png",
     meaning: "trieu-m.png",
     audio: "trieu.mp3",
+    type: [2],
     explanation:
       "Sớm, sáng mai. Một âm là triều. Chầu, bầy tôi vào hầu vua gọi là chầu, vào hầu kẻ tôn quý, xưa cũng gọi là chầu. Triều đại, tên gọi về thời đại của nước quân chủ.",
     example: [
@@ -4746,6 +4827,7 @@ const Kanji = [
     image: "van-3.png",
     meaning: "van-m-3.png",
     audio: "van-3.mp3",
+    type: [2],
     explanation:
       "Xoay vần, vật gì cứ noi một lối quay đi, hết vòng lại tới, không ra không vào, không lúc nào dừng gọi là vận. Phàm vật gì quanh vòng chuyển động đều gọi là vận. Vận số. Phía nam bắc quả đất. Họ Vận.",
     example: [
@@ -4788,6 +4870,7 @@ const Kanji = [
     image: "chung.png",
     meaning: "chung-m.png",
     audio: "chung.mp3",
+    type: [2],
     explanation:
       "Hết. Sau. Trọn. Chết. Kết cục. Một năm cũng gọi là chung. Đã. Đất vuông nghìn dặm gọi là chung",
     example: [
@@ -4830,6 +4913,7 @@ const Kanji = [
     image: "thai.png",
     meaning: "thai-m.png",
     audio: "thai.mp3",
+    type: [2],
     explanation:
       "Sao Thai. Thai cát [台吉] tên tước quan, bên Mông Cổ chia ra bốn thứ để phong các con em nhà vua. Một âm là đài. Đài điếm [台站] đồn canh gác ngoài biên thùy. Một âm là di. Vui lòng. Giản thể của chữ [檯]. Giản thể của chữ [臺]. Giản thể của chữ [颱].",
     example: [
@@ -4872,6 +4956,7 @@ const Kanji = [
     image: "quang.png",
     meaning: "quang-m.png",
     audio: "",
+    type: [2],
     explanation: "Quảng trường. Quảng đại.",
     example: [
       {
@@ -4913,6 +4998,7 @@ const Kanji = [
     image: "tru.png",
     meaning: "tru-m.png",
     audio: "tru.mp3",
+    type: [2],
     explanation:
       "Thôi. Ở. Còn đấy, nhà Phật [佛] nói muôn sự muôn vật ở thế gian cái gì cũng có bốn thời kỳ : thành trụ hoại không [成住壞空]. Lưu luyến (dính bám). Ta còn đọc là trú.",
     example: [
@@ -4955,6 +5041,7 @@ const Kanji = [
     image: "chan.png",
     meaning: "chan-m.png",
     audio: "chan.mp3",
+    type: [2],
     explanation: "Dùng như chữ chân [眞].",
     example: [
       {
@@ -4996,6 +5083,7 @@ const Kanji = [
     image: "huu.png",
     meaning: "huu-m.png",
     audio: "huu.mp3",
+    type: [2],
     explanation: "Có. Lấy được. Đầy đủ. Lời nói trợ từ. Một âm là dựu.",
     example: [
       {
@@ -5037,6 +5125,7 @@ const Kanji = [
     image: "khau.png",
     meaning: "khau-m.png",
     audio: "khau.mp3",
+    type: [2],
     explanation:
       "Cái miệng. Con đường ra vào phải cần, các cửa ải đều gọi là khẩu, ngoài cửa ô gọi là khẩu ngoại [口外]. Nhà Phật cho những tội bởi miệng mà ra là khẩu nghiệp [口業].",
     example: [
@@ -5079,6 +5168,7 @@ const Kanji = [
     image: "thieu.png",
     meaning: "thieu-m.png",
     audio: "thieu.mp3",
+    type: [2],
     explanation:
       "Ít. Tạm chút. Chê, chê người gọi là thiểu chi [少之]. Một âm là thiếu. Kẻ giúp việc thứ hai.",
     example: [
@@ -5121,6 +5211,7 @@ const Kanji = [
     image: "dinh.png",
     meaning: "dinh-m.png",
     audio: "dinh.mp3",
+    type: [2],
     explanation:
       "Mốc ruộng, bờ cõi ruộng. Phép tính đất 36 thước vuông gọi là một bình, 30 bình là một mẫu, 100 mẫu gọi là một đinh.",
     example: [
@@ -5163,6 +5254,7 @@ const Kanji = [
     image: "lieu.png",
     meaning: "lieu-m.png",
     audio: "lieu.mp3",
+    type: [2],
     explanation:
       "Đo đắn, lường tính, liệu. Vuốt ve. Một âm là liệu. Ngày xưa chế pha lê giả làm ngọc cũng gọi là liệu. Các thức cho ngựa trâu ăn như cỏ ngô cũng gọi là liệu. Liệu đoán. Liều.",
     example: [
@@ -5200,6 +5292,7 @@ const Kanji = [
     image: "cong-2.png",
     meaning: "cong-m-2.png",
     audio: "cong-2.mp3",
+    type: [2],
     explanation:
       "Khéo, làm việc khéo gọi là công. Người thợ. Quan. Công xích [工尺] một tiếng gọi tắt trong phả âm nhạc thay luật lữ.",
     example: [
@@ -5242,6 +5335,7 @@ const Kanji = [
     image: "kien.png",
     meaning: "kien-m.png",
     audio: "",
+    type: [2],
     explanation:
       "Dựng lên, đặt. Chuôi sao trỏ vào đâu gọi là kiến. Tên đất. Một âm là kiển.",
     example: [
@@ -5284,6 +5378,7 @@ const Kanji = [
     image: "khong.png",
     meaning: "khong-m.png",
     audio: "khong.mp3",
+    type: [2],
     explanation:
       "Rỗng không, hư không. Trời. Đạo Phật [佛] cho vượt qua cả sắc tướng ý thức là đạo chân thực, nên gọi là không môn [空門]. Hão. Hão, dùng làm trợ từ. Không không [空空] vơi vơi, tả cái ý để lòng như vẫn thiếu thốn, không tự cho là đầy đủ. Không gian [空間] nói về chiều ngang suốt vô hạn. Thông suốt. Một âm là khống. Tục gọi sự nhàn hạ là khống. Lại một âm là khổng.",
     example: [
@@ -5326,6 +5421,7 @@ const Kanji = [
     image: "cap.png",
     meaning: "cap-m.png",
     audio: "cap.mp3",
+    type: [2],
     explanation: "Kíp. Phàm cái gì muốn cho chóng đều gọi là cấp. Nóng nảy.",
     example: [
       {
@@ -5367,6 +5463,7 @@ const Kanji = [
     image: "chi.png",
     meaning: "chi-m.png",
     audio: "",
+    type: [2],
     explanation:
       "Dừng lại. Thôi. Ở, ở vào chỗ nào gọi là chỉ. Dáng dấp. Tiếng giúp lời. Chỉ thế.",
     example: [
@@ -5408,7 +5505,8 @@ const Kanji = [
     transcription: "Oku",
     image: "tong.png",
     meaning: "tong-m.png",
-    audio: "",
+    audio: "tong.mp3",
+    type: [2],
     explanation: "Đưa đi. Tiễn đi. Đưa làm quà. Vận tải đi, áp tải.",
     example: [
       {
@@ -5445,6 +5543,7 @@ const Kanji = [
     image: "thiet.png",
     meaning: "thiet-m.png",
     audio: "thiet.mp3",
+    type: [2],
     explanation:
       "Cắt. Khắc. Cần kíp. Thân gần lắm. Thiết thực. Thiết chớ, lời nói nhất định. Sờ xem. Đem âm hai chữ hợp với nhau, rồi đọc tắt đi để biết âm chữ khác, gọi là thiết. Xiên. Một âm là thế.",
     example: [
@@ -5487,6 +5586,7 @@ const Kanji = [
     image: "chuyen.png",
     meaning: "chuyen-m.png",
     audio: "chuyen.mp3",
+    type: [2],
     explanation: "Chuyển động",
     example: [
       {
@@ -5528,6 +5628,7 @@ const Kanji = [
     image: "nghien.png",
     meaning: "nghien-m.png",
     audio: "",
+    type: [2],
     explanation: "Như chữ nghiên [揅].",
     example: [
       {
@@ -5569,6 +5670,7 @@ const Kanji = [
     image: "tuc.png",
     meaning: "tuc-m.png",
     audio: "tuc.mp3",
+    type: [2],
     explanation:
       "Chân, chân người và các giống vật đều gọi là túc cả. Cái chân các đồ đạc cũng gọi là túc. Bước. Đủ. Cũng đủ. Một âm là tú.",
     example: [
@@ -5611,6 +5713,7 @@ const Kanji = [
     image: "cuu.png",
     meaning: "cuu-m.png",
     audio: "",
+    type: [2],
     explanation: "Cùng cực, kết cục. Xét tìm. Mưu. Thác trong khe núi.",
     example: [
       {
@@ -5652,6 +5755,7 @@ const Kanji = [
     image: "nhac.png",
     meaning: "nhac-m.png",
     audio: "lac.mp3",
+    type: [2],
     explanation: "An lạc, lạc thú, âm nhạc.",
     example: [
       {
@@ -5693,6 +5797,7 @@ const Kanji = [
     image: "khoi.png",
     meaning: "khoi-m.png",
     audio: "",
+    type: [2],
     explanation:
       "Dậy, cất mình lên, trổi dậy. Dựng lên, cái gì đã xiêu đổ mà lại dựng lên gọi là khởi. Nổi lên, phát ra. Lồi lên. Ra. Phấn phát.",
     example: [
@@ -5735,6 +5840,7 @@ const Kanji = [
     image: "truoc.png",
     meaning: "truoc-m.png",
     audio: "truoc.mp3",
+    type: [2],
     explanation: "Giản thể của chữ [著].",
     example: [
       {
@@ -5776,6 +5882,7 @@ const Kanji = [
     image: "diem.png",
     meaning: "diem-m.png",
     audio: "diem.mp3",
+    type: [2],
     explanation:
       "Tiệm, chỗ để chứa đồ cầm đồ. Tục gọi nhà trọ là khách điếm [客店].",
     example: [
@@ -5823,6 +5930,7 @@ const Kanji = [
     image: "benh.png",
     meaning: "benh-m.png",
     audio: "benh.mp3",
+    type: [2],
     explanation:
       "Ốm, bệnh. Tức giận. Làm hại. Cấu bệnh [姤病] hổ ngươi. Lo. Làm khốn khó. Nhục. Chỗ kém.",
     example: [
@@ -5875,6 +5983,7 @@ const Kanji = [
     image: "chat.png",
     meaning: "chat-m.png",
     audio: "chat.mp3",
+    type: [2],
     explanation:
       "Thể chất, cái bản thể của các vật đều gọi là chất. Tư chất [私質] nói về cái bẩm tính của con người. Chất phác, mộc mạc. Chất chính, tới người biết hơn mà định phải trái nên chăng gọi là chất nghi [質疑]. Chủ cỗi gốc. Lối văn tự mua bán. Tin. Thật, chân thật. Lời thề ước. Cái đích tập bắn. Một âm là chí. Đem đồ đạc hay nhà ruộng mà cầm làm tin để lấy tiền cũng gọi là chí.",
     example: [
@@ -5922,6 +6031,7 @@ const Kanji = [
     image: "dai-2.png",
     meaning: "dai-m-2.png",
     audio: "",
+    type: [2],
     explanation:
       "Đợi. Nguyễn Du [阮攸] : Sơn nguyệt giang phong như hữu đãi [山月江風如有待] (Ngẫu đề công quán bích [偶題公館壁]) Trăng núi gió sông như có (lòng) chờ đợi.",
     example: [
@@ -5969,6 +6079,7 @@ const Kanji = [
     image: "thi.png",
     meaning: "thi-m.png",
     audio: "",
+    type: [2],
     explanation:
       "Thử. Thi, so sánh tài nghệ để xem hơn kém gọi là thí. Nếm. Dò thử.",
     example: [
@@ -6006,6 +6117,7 @@ const Kanji = [
     image: "toc.png",
     meaning: "toc-m.png",
     audio: "toc.mp3",
+    type: [2],
     explanation:
       "Loài, dòng dõi, con cháu cùng một liêu thuộc với nhau gọi là tộc. Họ, cùng một họ với nhau gọi là tộc. Loài. Bụi. Hai mươi nhăm nhà là một lư [閭], bốn lư là một tộc [族]. Một âm là tấu, dùng như chữ tấu [奏].",
     example: [
@@ -6043,6 +6155,7 @@ const Kanji = [
     image: "ngan.png",
     meaning: "ngan-m.png",
     audio: "ngan.mp3",
+    type: [2],
     explanation:
       "Bạc (Argentum, Ag); một loài kim sắc trắng dùng để đúc tiền và làm đồ trang sức. Trắng. Họ Ngân.",
     example: [
@@ -6080,6 +6193,7 @@ const Kanji = [
     image: "tao.png",
     meaning: "tao-m.png",
     audio: "tao.mp3",
+    type: [2],
     explanation: "Sớm ngày. Trước.",
     example: [
       {
@@ -6120,7 +6234,8 @@ const Kanji = [
     transcription: "Ei",
     image: "anh.png",
     meaning: "anh-m.png",
-    audio: "",
+    audio: "anh.mp3",
+    type: [2],
     explanation: "Ánh sáng giọi lại. Bóng rợp. Ánh sáng mặt trời xế.",
     example: [
       {
@@ -6162,6 +6277,7 @@ const Kanji = [
     image: "than.png",
     meaning: "than-m.png",
     audio: "than.mp3",
+    type: [2],
     explanation:
       "Tới luôn, quen. Vì thế nên được tiếp kiến người cũng gọi là thân. Thân gần. Bàn bạc việc gì mà thiết đáng đến bản chỉ gọi là thân thiết hữu vị [親切有味]. Người thân. Tự mình. Đáng, giúp. Yêu. Một âm là thấn.",
     example: [
@@ -6204,6 +6320,7 @@ const Kanji = [
     image: "nghiem.png",
     meaning: "nghiem-m.png",
     audio: "ngiem.mp3",
+    type: [2],
     explanation: "Thí nghiệm, hiệu nghiệm. Kinh nghiệm.",
     example: [
       {
@@ -6245,6 +6362,7 @@ const Kanji = [
     image: "anh-2.png",
     meaning: "anh-m-2.png",
     audio: "anh-2.mp3",
+    type: [2],
     explanation:
       "Hoa các loài cây cỏ. Vật gì tốt đẹp khác thường đều gọi là anh. Tài năng hơn người. Nước Anh. Chất tinh túy của vật. Núi hai trùng. Dùng lông trang sức trên cái giáo.",
     example: [
@@ -6282,6 +6400,7 @@ const Kanji = [
     image: "y-2.png",
     meaning: "y-m-2.png",
     audio: "y-2.mp3",
+    type: [2],
     explanation: "Giản thể của chữ [醫].",
     example: [
       {
@@ -6318,6 +6437,7 @@ const Kanji = [
     image: "si.png",
     meaning: "si-m.png",
     audio: "si.mp3",
+    type: [2],
     explanation:
       "Quan. Như xuất sĩ [出仕] ra làm quan, trí sĩ [致仕] về hưu (thôi không làm quan); v.v.",
     example: [
@@ -6359,7 +6479,8 @@ const Kanji = [
     transcription: "Sa",
     image: "khu.png",
     meaning: "khu-m.png",
-    audio: "",
+    audio: "khu.mp3",
+    type: [2],
     explanation:
       "Đi, tự đây mà đi tới kia gọi là khứ. Bỏ. Đã qua. Một trong bốn thanh bình, thượng, khứ, nhập [平，上，去，入]. Một âm là khu, cùng nghĩa với chữ khu [驅].",
     example: [
@@ -6402,6 +6523,7 @@ const Kanji = [
     image: "vi.png",
     meaning: "vi-m.png",
     audio: "vi.mp3",
+    type: [2],
     explanation: "Mùi. Nếm, xem vật ấy là mùi gì gọi là vị.",
     example: [
       {
@@ -6443,6 +6565,7 @@ const Kanji = [
     image: "ta.png",
     meaning: "ta-m.png",
     audio: "ta.mp3",
+    type: [2],
     explanation: "Giản thể của chữ [寫].",
     example: [
       {
@@ -6484,6 +6607,7 @@ const Kanji = [
     image: "tu-3.png",
     meaning: "tu-m-3.png",
     audio: "tu-3.mp3",
+    type: [2],
     explanation:
       "Văn tự, bắt chước hình trạng từng loài mà đặt gọi là văn [文], hình tiếng cùng họp lại với nhau gọi là tự [字]. Tên tự. Con gái nhận lời gả chồng mới cài trâm và đặt tên tự, cho nên nhận lời gả chồng cũng gọi là tự nhân [字人]. Sinh sản, người ta sinh con gọi là tự. Yêu.",
     example: [
@@ -6521,6 +6645,7 @@ const Kanji = [
     image: "dap.png",
     meaning: "",
     audio: "dap.mp3",
+    type: [2],
     explanation: "Báo đáp, đáp lại. Trả lời lại.",
     example: [
       {
@@ -6557,6 +6682,7 @@ const Kanji = [
     image: "da-3.png",
     meaning: "da-m-3.png",
     audio: "da-3.mp3",
+    type: [2],
     explanation: "Ban đêm. Đi đêm. Dạ Xoa [夜叉].",
     example: [
       {
@@ -6598,6 +6724,7 @@ const Kanji = [
     image: "am.png",
     meaning: "am-m.png",
     audio: "am.mp3",
+    type: [2],
     explanation:
       "Tiếng, tiếng phát lộ ra có điệu trong đục cao thấp gọi là âm. Tiếng phát ra thành văn cũng gọi là âm.",
     example: [
@@ -6640,6 +6767,7 @@ const Kanji = [
     image: "chu-3.png",
     meaning: "chu-m-3.png",
     audio: "chu-3.mp3",
+    type: [2],
     explanation:
       "Rót, nước chảy rót vào một chỗ gọi là chú. Chuyên chú. Chua, giải thích văn từ gọi là chú. Ghi chép. Phụ thuộc. Cô chú [孤注] đánh liều một cái cho quyết được thua gọi là cô chú. Lắp tên vào dây cung. Giản thể của chữ [註].",
     example: [
@@ -6682,6 +6810,7 @@ const Kanji = [
     image: "quy.png",
     meaning: "quy-m.png",
     audio: "",
+    type: [2],
     explanation: "Hồi quy.",
     example: [
       {
@@ -6723,6 +6852,7 @@ const Kanji = [
     image: "co.png",
     meaning: "co-m.png",
     audio: "co.mp3",
+    type: [2],
     explanation: "Ngày xưa. Không xu phu thói đời.",
     example: [
       {
@@ -6764,6 +6894,7 @@ const Kanji = [
     image: "ca.png",
     meaning: "ca-m.png",
     audio: "ca.mp3",
+    type: [2],
     explanation:
       "Ngợi hát. Khúc hát, khúc hát hợp với âm nhạc gọi là ca. Bài ca.",
     example: [
@@ -6806,6 +6937,7 @@ const Kanji = [
     image: "mai-2.png",
     meaning: "mai-m-2.png",
     audio: "",
+    type: [2],
     explanation:
       "Mua, lấy tiền đổi lấy đồ là mãi. Bạch Cư Dị [白居易] : Thương nhân trọng lợi khinh biệt ly, Tiền nguyệt Phù Lương mãi trà khứ [商人重利輕別離, 前月浮梁買茶去] (Tỳ bà hành [琵琶行]) Người lái buôn trọng lợi coi thường ly biệt, Tháng trước đi mua trà tại Phù Lương. Phan Huy Vịnh [潘輝泳] dịch thơ : Khách trọng lợi, khinh đường ly cách, Mải buôn chè sớm tếch nguồn khơi.",
     example: [
@@ -6848,6 +6980,7 @@ const Kanji = [
     image: "ac.png",
     meaning: "ac-m.png",
     audio: "ac.mp3",
+    type: [2],
     explanation: "Một dạng của chữ ác [惡].",
     example: [
       {
@@ -6889,6 +7022,7 @@ const Kanji = [
     image: "do-2.png",
     meaning: "do-m-2.png",
     audio: "do-2.mp3",
+    type: [2],
     explanation: "Bản đồ, đồ án, địa đồ",
     example: [
       {
@@ -6930,6 +7064,7 @@ const Kanji = [
     image: "chu-2.png",
     meaning: "chu-m-2.png",
     audio: "chu-2.mp3",
+    type: [2],
     explanation: "Vòng khắp. Một tuần lễ gọi là nhất chu [一週].",
     example: [
       {
@@ -6966,6 +7101,7 @@ const Kanji = [
     image: "that.png",
     meaning: "that-m.png",
     audio: "that.mp3",
+    type: [2],
     explanation:
       "Cái nhà. Vợ. Sao Thất, một ngôi sao trong thập nhị bát tú. Huyệt chôn. Túi dao.",
     example: [
@@ -7008,6 +7144,7 @@ const Kanji = [
     image: "bo.png",
     meaning: "bo-m.png",
     audio: "bo.mp3",
+    type: [2],
     explanation: "",
     example: [
       {
@@ -7049,6 +7186,7 @@ const Kanji = [
     image: "phong.png",
     meaning: "phong-m.png",
     audio: "phong.mp3",
+    type: [2],
     explanation:
       "Gió, không khí động mạnh thành ra gió. Cái mà tục đang chuộng. Ngợi hát. Thói, cái thói quen của một người mà được mọi người cùng hâm mộ bắt chước cũng gọi là phong. Phàm sự gì nổi lên hay tiêu diệt đi không có manh mối gì để xét, biến hóa không thể lường được cũng gọi là phong. Bệnh phong. Thổi, quạt. Cảnh tượng. Phóng túng, giống đực giống cái dẫn dụ nhau, gùn ghè nhau. Cùng nghĩa với chữ phúng [諷].",
     example: [
@@ -7091,6 +7229,7 @@ const Kanji = [
     image: "chi-2.png",
     meaning: "chi-m-2.png",
     audio: "chi-2.mp3",
+    type: [2],
     explanation:
       "Giấy. Sái Luân [蔡倫] nhà Hán sáng tạo ra phép làm giấy trước nhất. Nguyễn Du [阮攸] : Bất kiến bình an nhất chỉ thư [不見平安一紙書] (Sơn cư mạn hứng [山居漫興]) Không thấy một tờ thư cho biết có bình an hay không.",
     example: [
@@ -7133,6 +7272,7 @@ const Kanji = [
     image: "hac.png",
     meaning: "hac-m.png",
     audio: "hac.mp3",
+    type: [2],
     explanation: "Đen, hắc ám",
     example: [
       {
@@ -7174,6 +7314,7 @@ const Kanji = [
     image: "hoa.png",
     meaning: "hoa-m.png",
     audio: "hoa.mp3",
+    type: [2],
     explanation:
       "Hoa, hoa của cây cỏ. Tục gọi các vật lang lổ sặc sỡ như vẽ vời thuê thùa là hoa. Danh sắc phiền phức cũng gọi là hoa. Nốt đậu. Hao phí. Nhà trò, con hát. Năm đồng tiền gọi là một hoa.",
     example: [
@@ -7216,6 +7357,7 @@ const Kanji = [
     image: "xuan.png",
     meaning: "xuan-m.png",
     audio: "xuan.mp3",
+    type: [2],
     explanation:
       "Mùa xuân, từ tháng giêng đến tháng ba gọi là mùa xuân. Xuân là đầu bốn mùa, muôn vật đều có cái cảnh tượng hớn hở tốt tươi, cho nên người ta mới ví người tuổi trẻ như mùa xuân mà gọi thì tuổi trẻ là thanh xuân [青春] xuân xanh, ý thú hoạt bát gọi là xuân khí [春氣], thầy thuốc chữa khỏi bệnh gọi là diệu thủ hồi xuân [妙手回春]. Rượu xuân, người nhà Đường hay gọi rượu là xuân. Lễ nhà Chu cứ đến tháng trọng xuân [仲春] (tháng hai) thì cho cưới xin, vì thế mới gọi các con gái muốn lấy chồng là hoài xuân [懷春].",
     example: [
@@ -7258,6 +7400,7 @@ const Kanji = [
     image: "xich.png",
     meaning: "xich-m.png",
     audio: "xich.mp3",
+    type: [2],
     explanation:
       "Sắc đỏ. Cốt yếu nhất, đầu cả. Hết sạch. Trần truồng. Nói ví dụ những nơi máu chảy. Phương nam. Một âm là thích.",
     example: [
@@ -7300,6 +7443,7 @@ const Kanji = [
     image: "thanh.png",
     meaning: "thanh-m.png",
     audio: "thanh.mp3",
+    type: [2],
     explanation:
       "Màu xanh, một trong năm màu, hòa với màu đỏ thì thành ra màu tía, hòa với màu vàng thì hóa màu lục. Người đời xưa cho xanh là cái sắc phương đông, thái tử ở cung phía đông, nên cũng gọi thái tử là thanh cung [青宮]. Người xưa lấy cái thẻ bằng tre để viết chữ gọi là sát thanh [殺青], có khi dùng lửa hơ qua, cho tre nó thấm hết nước, để khắc cho dễ gọi là hãn thanh [汗青]. Thanh niên [青年] tuổi trẻ, cũng gọi là thanh xuân [青春]. Thanh nhãn [青眼] coi trọng, Nguyễn Tịch [阮籍] nhà Tấn [晉] tiếp người nào coi là trọng thì con mắt xanh, người nào coi khinh thì con mắt trắng, vì thế nên trong lối tờ bồi hay dùng chữ thùy thanh [垂青] hay thanh lãm [青覽] đều là nói cái ý ấy cả, cũng như ta nói, xin để mắt xanh mà soi xét cho vậy. Châu Thanh, thuộc vùng Sơn Đông Giác đông đạo và Phụng Thiên, Liêu Dương bây giờ.",
     example: [
@@ -7342,6 +7486,7 @@ const Kanji = [
     image: "quan.png",
     meaning: "quan-m.png",
     audio: "quan.mp3",
+    type: [2],
     explanation:
       "Quán trọ. Cho ở, để ở. Tên các sở quan. Nhà quan ở gọi là công quán [公館]. Nhà học. Phàm nhà văn sĩ làm việc mà được miếng ăn của người cung đốn đều gọi là quán.",
     example: [
@@ -7379,6 +7524,7 @@ const Kanji = [
     image: "oc.png",
     meaning: "oc-m.png",
     audio: "oc.mp3",
+    type: [2],
     explanation: "Nhà ở. Mui xe.",
     example: [
       {
@@ -7420,6 +7566,7 @@ const Kanji = [
     image: "sac.png",
     meaning: "sac-m.png",
     audio: "sac.mp3",
+    type: [2],
     explanation:
       "Sắc, màu. Bóng dáng. Sắc đẹp, gái đẹp. Cảnh tượng. Tục gọi một thứ là nhất sắc [一色]. Sắc tướng.",
     example: [
@@ -7462,6 +7609,7 @@ const Kanji = [
     image: "tau.png",
     meaning: "tau-m.png",
     audio: "tau.mp3",
+    type: [2],
     explanation:
       "Chạy, cất chân đi lại đều gọi là tẩu. Trốn. Tiếng nói khiêm, cũng như nghĩa chữ bộc [僕]. Vật thể di động cũng gọi là tẩu. Mất hình dạng cũ, sai kiểu, mất lối thường trước cũng gọi là tẩu.",
     example: [
@@ -7504,6 +7652,7 @@ const Kanji = [
     image: "thu-2.png",
     meaning: "thu-m-2.png",
     audio: "thu-2.mp3",
+    type: [2],
     explanation:
       "Mùa thu. Mùa màng lúa chín gọi là hữu thu [有秋]. Năm. Lúc, buổi. Tả cái dáng bay lên.",
     example: [
@@ -7546,6 +7695,7 @@ const Kanji = [
     image: "ha.png",
     meaning: "ha-m.png",
     audio: "ha.mp3",
+    type: [2],
     explanation:
       "Mùa hè, lịch tây định từ 6 tháng 5 đến 8 tháng 8 là mùa hè, lịch ta định tháng 4, 5, 6 là mùa hè. Một âm là giạ. To lớn. Nhà Giạ, vua Võ [禹] chịu ngôi vua của vua Thuấn [舜] truyền cho gọi là nhà Giạ (2000-1500 trước T. Nước Giạ, vua Thuấn [舜] phong vua Võ [武] ra nước Giạ, nay thuộc tỉnh Hà Nam [河南]. Lại một âm là giá. Ta quen đọc là chữ hạ cả.",
     example: [
@@ -7588,6 +7738,7 @@ const Kanji = [
     image: "tap-2.png",
     meaning: "tap-m-2.png",
     audio: "",
+    type: [2],
     explanation:
       "Học đi học lại. Quen, thạo. Tập quen, phàm cái gì vì tập quen không đổi đi được đều gọi là tập. Chim bay vì vụt. Chồng, hai lần.",
     example: [
@@ -7630,6 +7781,7 @@ const Kanji = [
     image: "dich.png",
     meaning: "dich-m.png",
     audio: "dich.mp3",
+    type: [2],
     explanation: "Ga, ga tàu",
     example: [
       {
@@ -7666,6 +7818,7 @@ const Kanji = [
     image: "duong.png",
     meaning: "duong-m.png",
     audio: "duong.mp3",
+    type: [2],
     explanation:
       "Bể lớn. Dương dương [洋洋] mênh mang. Tục gọi người nước ngoài là dương nhân [洋人], hàng nước ngoài là dương hóa [洋貨], v. Tiền tây, bạc tây.",
     example: [
@@ -7703,6 +7856,7 @@ const Kanji = [
     image: "lu.png",
     meaning: "lu-m.png",
     audio: "lu.mp3",
+    type: [2],
     explanation:
       "Lữ, năm trăm quân kết làm một toán gọi là lữ. Khách trọ. Ở trọ. Đồng, đều. Thứ tự. Tế lữ, chỉ có vua mới có quyền tế lữ.",
     example: [
@@ -7745,6 +7899,7 @@ const Kanji = [
     image: "phuc.png",
     meaning: "phuc-m.png",
     audio: "phuc.mp3",
+    type: [2],
     explanation:
       "Áo mặc. Mặc áo, đội. Áo tang, trảm thôi [斬衰], tư thôi [齊衰], đại công [大功], tiểu công [小功], ti ma [緦麻] gọi là ngũ phục [五服]. Phục tòng. Làm việc. Đóng xe tứ mã, hai con ở hai bên đòn xe gọi là phục. Uống. Quen. Đeo. Nghĩ nhớ. Cái ống tên.",
     example: [
@@ -7782,6 +7937,7 @@ const Kanji = [
     image: "tich.png",
     meaning: "tich-m.png",
     audio: "tich.mp3",
+    type: [2],
     explanation: "Buổi chiều tối. Đêm. Tiếp kiến ban đêm. Vẹo.",
     example: [
       {
@@ -7823,6 +7979,7 @@ const Kanji = [
     image: "ta-2.png",
     meaning: "ta-m-2.png",
     audio: "ta-2.mp3",
+    type: [2],
     explanation:
       "Vay mượn, mình vay của người hay mình cho người vay đều gọi là tá [借]. Mượn, cái gì vốn không có mà mượn dùng thì gọi là tá.",
     example: [
@@ -7865,6 +8022,7 @@ const Kanji = [
     image: "dieu.png",
     meaning: "dieu-m.png",
     audio: "",
+    type: [2],
     explanation:
       "Bóng sáng mặt trời. Mặt trời, mặt trăng, sao đều gọi là diệu.",
     example: [
@@ -7902,6 +8060,7 @@ const Kanji = [
     image: "am-2.png",
     meaning: "am-m-2.png",
     audio: "am-2.mp3",
+    type: [2],
     explanation: "Đồ uống. Uống. Ngậm nuốt. Một âm là ấm.",
     example: [
       {
@@ -7943,6 +8102,7 @@ const Kanji = [
     image: "nhuc.png",
     meaning: "nhuc-m.png",
     audio: "nhuc.mp3",
+    type: [2],
     explanation:
       "Thịt. Phần xác thịt. Thịt ăn. Cùi, cùi các thứ quả. Một âm là nhụ. Cũng đọc là chữ nậu.",
     example: [
@@ -7980,6 +8140,7 @@ const Kanji = [
     image: "thai-2.png",
     meaning: "thai-m-2.png",
     audio: "",
+    type: [2],
     explanation: "Vay, cho vay. Rộng tha cho. Một âm là thắc.",
     example: [
       {
@@ -8016,6 +8177,7 @@ const Kanji = [
     image: "duong-2.png",
     meaning: "duong-m-2.png",
     audio: "duong-2.mp3",
+    type: [2],
     explanation:
       "Gian nhà chính giữa, cái nhà để làm lễ. Rực rỡ. Mình gọi mẹ người cũng gọi là đường. Anh em cùng một tổ gọi là đồng đường huynh đệ [同堂兄弟] gọi tắt là đường huynh đệ [堂兄弟], anh em cùng một cụ gọi là tụng đường [從堂], cùng một kị gọi là tái tụng đường [再從堂], v. Cung điện. Chỗ núi bằng phẳng cũng gọi là đường.",
     example: [
@@ -8053,6 +8215,7 @@ const Kanji = [
     image: "phan-2.png",
     meaning: "phan-m-2.png",
     audio: "phan-2.mp3",
+    type: [2],
     explanation: "Cơm. Một âm là phãn. Cho giống súc ăn. Ngậm.",
     example: [
       {
@@ -8094,6 +8257,7 @@ const Kanji = [
     image: "mien.png",
     meaning: "mien-m.png",
     audio: "",
+    type: [2],
     explanation: "Cố sức. Gắng gỏi.",
     example: [
       {
@@ -8135,6 +8299,7 @@ const Kanji = [
     image: "dong-3.png",
     meaning: "dong-m-3.png",
     audio: "dong-3.mp3",
+    type: [2],
     explanation:
       "Mùa đông. Theo lịch ta từ tháng mười đến tháng chạp gọi là mùa đông. Theo lịch tây thì từ tháng chạp tây đến tháng hai tây là mùa đông.",
     example: [
@@ -8177,6 +8342,7 @@ const Kanji = [
     image: "tru-2.png",
     meaning: "tru-m-2.png",
     audio: "tru-2.mp3",
+    type: [2],
     explanation: "Giản thể của chữ 晝",
     example: [
       {
@@ -8218,6 +8384,7 @@ const Kanji = [
     image: "tra.png",
     meaning: "tra-m.png",
     audio: "tra.mp3",
+    type: [2],
     explanation:
       "Cây chè (trà); lá dùng chế ra các thứ chè uống. Sơn trà [山茶] một thứ cây lá thường xanh, hoa trắng, có thứ đỏ, dùng làm cảnh chơi.",
     example: [
@@ -8260,6 +8427,7 @@ const Kanji = [
     image: "de-2.png",
     meaning: "de-m-2.png",
     audio: "de-2.mp3",
+    type: [2],
     explanation: "Em trai. Một âm là đễ. Dễ dãi.",
     example: [
       {
@@ -8301,6 +8469,7 @@ const Kanji = [
     image: "nguu.png",
     meaning: "nguu-m.png",
     audio: "nguu.mp3",
+    type: [2],
     explanation: "Con bò. Sao Ngưu.",
     example: [
       {
@@ -8342,6 +8511,7 @@ const Kanji = [
     image: "ngu-2.png",
     meaning: "ngu-m-2.png",
     audio: "ngu-2.mp3",
+    type: [2],
     explanation:
       "Con cá. Lạc kỳ hữu mi, lộc, ngư, miết 樂其有麋鹿魚鼈 (Mạnh Tử I-2).",
     example: [
@@ -8384,6 +8554,7 @@ const Kanji = [
     image: "huynh.png",
     meaning: "huynh-m.png",
     audio: "huynh.mp3",
+    type: [2],
     explanation: "Anh. Cùng chơi với nhau cũng gọi là huynh.",
     example: [
       {
@@ -8425,6 +8596,7 @@ const Kanji = [
     image: "khuyen.png",
     meaning: "khuyen-m.png",
     audio: "khuyen.mp3",
+    type: [2],
     explanation: "Con chó. Nói ý hèn hạ.",
     example: [
       {
@@ -8466,6 +8638,7 @@ const Kanji = [
     image: "muoi.png",
     meaning: "muoi-m.png",
     audio: "muoi.mp3",
+    type: [2],
     explanation: "Em gái.",
     example: [
       {
@@ -8507,6 +8680,7 @@ const Kanji = [
     image: "ti.png",
     meaning: "ti-m.png",
     audio: "ti.mp3",
+    type: [2],
     explanation: "Chị gái",
     example: [
       {
@@ -8548,6 +8722,7 @@ const Kanji = [
     image: "han.png",
     meaning: "han-m.png",
     audio: "han.mp3",
+    type: [2],
     explanation:
       "Sông Hán. Sông Thiên Hà (sông Thiên Hà trên trời). Nhà Hán. Nước Tàu. Giống Hán, giống dân làm chủ nước Tàu từ đời vua Hoàng Đế trở xuống gọi là giống Hán.",
     example: [
@@ -8585,6 +8760,7 @@ const Kanji = [
     image: "dieu-2.png",
     meaning: "dieu-m-2.png",
     audio: "dieu-2.mp3",
+    type: [2],
     explanation: "Loài chim, con chim.",
     example: [
       {
@@ -8631,6 +8807,7 @@ const Kanji = [
     image: "tam-2.png",
     meaning: "tam-2-m.png",
     audio: "tam-2.mp3",
+    type: [2],
     explanation: "Ba, tên số đếm.",
     example: [
       {
@@ -8677,6 +8854,7 @@ const Kanji = [
     image: "tu-6.png",
     meaning: "tu-6-m.png",
     audio: "tu-6.mp3",
+    type: [2],
     explanation: "Bốn (tên số đếm).",
     example: [
       {
@@ -8723,6 +8901,7 @@ const Kanji = [
     image: "ngu-3.png",
     meaning: "ngu-3-m.png",
     audio: "ngu-3.mp3",
+    type: [2],
     explanation: "Năm, tên số đếm.",
     example: [
       {
@@ -8779,6 +8958,7 @@ const Kanji = [
     image: "luc-2.png",
     meaning: "luc-2-m.png",
     audio: "luc-2.mp3",
+    type: [2],
     explanation: "Sáu, số đếm.",
     example: [
       {
@@ -8825,6 +9005,7 @@ const Kanji = [
     image: "that-2.png",
     meaning: "that-2-m.png",
     audio: "that-2.mp3",
+    type: [2],
     explanation: "Bảy, tên số đếm.",
     example: [
       {
@@ -8871,6 +9052,7 @@ const Kanji = [
     image: "bat-2.png",
     meaning: "bat-2-m.png",
     audio: "bat-2.mp3",
+    type: [2],
     explanation: "Tám, số đếm.",
     example: [
       {
@@ -8917,6 +9099,7 @@ const Kanji = [
     image: "cuu-2.png",
     meaning: "cuu-2-m.png",
     audio: "cuu-2.mp3",
+    type: [2],
     explanation: "Chín, tên số đếm.",
     example: [
       {
@@ -8963,6 +9146,7 @@ const Kanji = [
     image: "bach.png",
     meaning: "bach-m.png",
     audio: "bach.mp3",
+    type: [2],
     explanation: "Trăm.",
     example: [
       {
@@ -9009,6 +9193,7 @@ const Kanji = [
     image: "thien.png",
     meaning: "thien-m.png",
     audio: "thien.mp3",
+    type: [2],
     explanation: "Nghìn, mười trăm là một nghìn.",
     example: [
       {
@@ -9055,6 +9240,7 @@ const Kanji = [
     image: "van-4.png",
     meaning: "van-4-m.png",
     audio: "van-4.mp3",
+    type: [2],
     explanation: "10.000, mười nghìn.",
     example: [
       {
