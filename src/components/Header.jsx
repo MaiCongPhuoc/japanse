@@ -47,9 +47,9 @@ const Header = () => {
           </li>
         </ul>
         <div>
-          <span>Loại bằng: </span>
+          <span className="text-3xl">Cấp học: </span>
           <Select 
-            style={{ width: 80 }}
+            style={{ width: 100 , height: 40 }}
             defaultValue={1}
             options={[
               { value: 1, label: 'N5' },

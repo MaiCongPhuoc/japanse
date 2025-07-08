@@ -14,7 +14,7 @@ const KanjiComponent = () => {
   const previewData = useSelector((state) => state.kanji.previewData);
   const type = useSelector((state) => state.typeOfDegree);
   const dataType = data.filter((dat) => dat.type.includes(type.typeOfDegree));
-  console.log("dataType: ", dataType)
+  console.log("data: ", data)
 
   const inputRef = useRef(null);
   const dataRef = useRef(dataType.length);
