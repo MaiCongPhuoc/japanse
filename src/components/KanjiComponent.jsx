@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useMemo } from "react";
 import { Form, Input, Button } from "antd";
 import Sound from "../assets/svg/Sound.jsx";
 
@@ -13,8 +13,9 @@ const KanjiComponent = () => {
   const checkData = useSelector((state) => state.kanji.checkData);
   const previewData = useSelector((state) => state.kanji.previewData);
   const type = useSelector((state) => state.typeOfDegree);
-  const dataType = data.filter((dat) => dat.type.includes(type.typeOfDegree));
-  console.log("data: ", data)
+  const dataType = useMemo(() => {
+    return data.filter((dat) => dat.type.includes(type.typeOfDegree));
+  }, [data, type.typeOfDegree]);
 
   const inputRef = useRef(null);
   const dataRef = useRef(dataType.length);
