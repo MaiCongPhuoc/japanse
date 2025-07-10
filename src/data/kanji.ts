@@ -2210,8 +2210,8 @@ const Kanji = [
     vietnamse: "nam",
     transcription: "mi／nami‾",
     image: "nam-2.png",
-    meaning: "am-2-m.png",
-    audio: "am-2.mp3",
+    meaning: "nam-2-m.png",
+    audio: "nam-2.mp3",
     type: [1],
     explanation: "Phương nam, hướng nam.",
     example: [
