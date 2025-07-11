@@ -2286,7 +2286,7 @@ const Kanji = [
   },
   {
     japanse: "白",
-    vietnamse: "bach",
+    vietnamse: "bạch",
     transcription: "shi＼ro",
     image: "bach-2.png",
     meaning: "bach-2-m.png",

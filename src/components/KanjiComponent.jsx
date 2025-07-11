@@ -236,7 +236,7 @@ const KanjiComponent = () => {
                 : `${process.env.PUBLIC_URL}/images/kanji/hoi-m.png`
             }
             alt={`ảnh của chữ cái ${previewData.japanse}`}
-            className="border border-black mt-2 w-full"
+            className="mt-2 w-full shadow-xl"
           />
         </div>
         <div className="flex flex-col text-center gap-3 mt-2">
