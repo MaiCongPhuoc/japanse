@@ -49,7 +49,7 @@ const Header = () => {
         <div>
           <span className="text-3xl">Cấp học: </span>
           <Select 
-            style={{ width: 100 , height: 40 }}
+            style={{ width: 120 , height: 40 }}
             defaultValue={1}
             options={[
               { value: 1, label: 'N5' },

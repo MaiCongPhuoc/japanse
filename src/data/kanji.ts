@@ -1417,9 +1417,9 @@ const Kanji = [
         SinoVietnamese: "SAN GIA",
       },
       {
-        jp: "山家",
-        vn: "Nhà ở trong núi",
-        SinoVietnamese: "SAN GIA",
+        jp: "山地",
+        vn: "Sơn địa",
+        SinoVietnamese: "SAN ĐỊA",
       },
       {
         jp: "山河",
@@ -1671,9 +1671,9 @@ const Kanji = [
         SinoVietnamese: "HẠ DANH",
       },
       {
-        jp: "仮名",
-        vn: "Tên giả mạo",
-        SinoVietnamese: "GIẢ DANH",
+        jp: "偽名",
+        vn: "Mạo danh",
+        SinoVietnamese: "NGỤY DANH",
       },
       {
         jp: "名刺",
@@ -1733,9 +1733,9 @@ const Kanji = [
     japanse: "水",
     vietnamse: "thủy",
     transcription: "mi／zu‾",
-    image: "thuy.png",
-    meaning: "thuy-m.png",
-    audio: "thuy.mp3",
+    image: "thuy-2.png",
+    meaning: "thuy-2-m.png",
+    audio: "thuy-2.mp3",
     type: [1],
     explanation: "Nước. Sông, ngòi, khe, suối, phàm cái gì bởi nước mà thành ra đều gọi là thủy.",
     example: [
@@ -1827,11 +1827,6 @@ const Kanji = [
         jp: "醜男",
         vn: "Người xấu trai",
         SinoVietnamese: "XÚ NAM",
-      },
-      {
-        jp: "美男",
-        vn: "Người đàn ông dễ coi",
-        SinoVietnamese: "MĨ NAM",
       },
       {
         jp: "男子",
@@ -2426,11 +2421,6 @@ const Kanji = [
         SinoVietnamese: "HỎA TIẾN",
       },
       {
-        jp: "火箭",
-        vn: "Tên lửa",
-        SinoVietnamese: "HỎA TIẾN",
-      },
-      {
         jp: "火屋",
         vn: "Ống khói đèn",
         SinoVietnamese: "HỎA ỐC",
@@ -2579,9 +2569,9 @@ const Kanji = [
         SinoVietnamese: "TẢ MỤC",
       },
       {
-        jp: "左目",
-        vn: "Mắt trái",
-        SinoVietnamese: "TẢ MỤC",
+        jp: "左側",
+        vn: "Bên trái",
+        SinoVietnamese: "TẢ TRẮC",
       },
       {
         jp: "右左",
