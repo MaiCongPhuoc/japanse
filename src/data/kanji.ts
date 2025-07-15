@@ -213,7 +213,7 @@ const Kanji = [
     image: "dai.png",
     meaning: "dai-m.png",
     audio: "dai.mp3",
-    type: [1, 2],
+    type: [2],
     explanation: "Đổi. Thay. Đời.",
     example: [
       {
@@ -819,7 +819,7 @@ const Kanji = [
     meaning: "gian-m.png",
     audio: "gian.mp3",
     type: [1],
-    explanation: "Chữ gian [閒], nghĩa là khoảng, thì thường viết là [間].",
+    explanation: "Không gian. Chữ gian [閒], nghĩa là khoảng không, thì thường viết là [間].",
     example: [
       {
         jp: "この間",
@@ -3631,7 +3631,7 @@ const Kanji = [
     image: "ngon.png",
     meaning: "ngon-m.png",
     audio: "ngon.mp3",
-    type: [2],
+    type: [1, 2],
     explanation:
       "Nói, tự mình nói ra gọi là ngôn [言]. Một câu văn cũng gọi là nhất ngôn [一言]. Một chữ cũng gọi là ngôn. Mệnh lệnh. Bàn bạc. Tôi, dùng làm tiếng phát thanh. Một âm là ngân.",
     example: [
