@@ -977,7 +977,7 @@ const Kanji = [
   {
     japanse: "金",
     vietnamse: "kim",
-    transcription: "ka／ne‾",
+    transcription: "ki＼n'",
     image: "kim-2.png",
     meaning: "kim-2-m.png",
     audio: "kim-2.mp3",
@@ -1236,7 +1236,7 @@ const Kanji = [
   {
     japanse: "下",
     vietnamse: "hạ, há",
-    transcription: "sh(i)／ta‾",
+    transcription: "ge",
     image: "ha-2.png",
     meaning: "ha-2-m.png",
     audio: "ha-2.mp3",
