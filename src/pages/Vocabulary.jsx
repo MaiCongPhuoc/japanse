@@ -1,72 +1,29 @@
 import { Tree } from 'antd';
+import { ListLesson } from '../data/listLesson.jsx'
+import '../assets/css/style.css'
 
 const Vocabulary = () => {
-    const treeData  = [
-        {
-            title: 'parent 1',
-            key: '0-0',
-            children: [
-            {
-                title: 'parent 1-0',
-                key: '0-0-0',
-                children: [
-                { title: 'leaf', key: '0-0-0-0' },
-                {
-                    title: (
-                    <>
-                        <div>multiple line title</div>
-                        <div>multiple line title</div>
-                    </>
-                    ),
-                    key: '0-0-0-1',
-                },
-                { title: 'leaf', key: '0-0-0-2' },
-                ],
-            },
-            {
-                title: 'parent 1-1',
-                key: '0-0-1',
-                children: [{ title: 'leaf', key: '0-0-1-0' }],
-            },
-            {
-                title: 'parent 1-2',
-                key: '0-0-2',
-                children: [
-                { title: 'leaf', key: '0-0-2-0' },
-                {
-                    title: 'leaf',
-                    key: '0-0-2-1',
-                },
-                ],
-            },
-            ],
-        },
-        {
-            title: 'parent 2',
-            key: '0-1',
-            children: [
-            {
-                title: 'parent 2-0',
-                key: '0-1-0',
-                children: [
-                { title: 'leaf', key: '0-1-0-0' },
-                { title: <p>abc</p>, key: '0-1-0-1' },
-                ],
-            },
-            ],
-        },
-    ];
   const onSelect = (selectedKeys, info) => {
-    console.log('selected', selectedKeys, info);
+    console.log('selected: ', selectedKeys[0]);
   };
     return (
-        <div>
-        <Tree
-            showLine={true}
-            defaultExpandedKeys={['0-0-0']}
-            onSelect={onSelect}
-            treeData={treeData}
-        />
+        <div className='mx-10'>
+            <div className='grid grid-cols-3 h-[calc(100vh-187px)]'>
+                {/* <div className='overflow-y-scroll'>
+                    <Tree
+                        showLine={true}
+                        onSelect={onSelect}
+                        treeData={ListLesson}
+                    />
+                </div>
+                <div className='col-span-2'>
+                    <Tree
+                        showLine={true}
+                        onSelect={onSelect}
+                        treeData={ListLesson}
+                    />
+                </div> */}
+            </div>
         </div>
     );
 }
