@@ -34,7 +34,7 @@ const Header = () => {
               Bảng chữ cái
             </Link>
           </li>
-          {/* <li
+          <li
             className={`md:text-3xl font-serif font-bold rounded-lg hover:bg-gray-300 hover:text-amber-700 active:bg-gray-700 active:text-amber-500 ${
               location.pathname === "/vocabulary"
                 ? "bg-gray-300 text-amber-500"
@@ -44,7 +44,7 @@ const Header = () => {
             <Link to={"/vocabulary"} className="px-1 py-2 block">
               Từ vựng
             </Link>
-          </li> */}
+          </li>
         </ul>
         <div>
           <span className="text-3xl">Cấp học: </span>
