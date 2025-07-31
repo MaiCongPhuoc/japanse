@@ -1254,5 +1254,602 @@ export const Lesson = {
             kanji: "",
             vietnam: "Los Angeles"
         },
-    ]
+    ],
+    lesson_5: [
+        {
+            japan: "いきます (I)",
+            kanji: "行きます - hành, hàng",
+            vietnam: "đi"
+        },
+        {
+            japan: "きます (III)",
+            kanji: "来ます - lai",
+            vietnam: "đến"
+        },
+        {
+            japan: "かえります (I)",
+            kanji: "帰ります - quy",
+            vietnam: "về"
+        },
+        {
+            japan: "がっこう",
+            kanji: "学校 - học hiệu",
+            vietnam: "trường học"
+        },
+        {
+            japan: "スーパー",
+            kanji: "",
+            vietnam: "siêu thị"
+        },
+        {
+            japan: "えき",
+            kanji: "駅 - dịch",
+            vietnam: "ga, nhà ga"
+        },
+        {
+            japan: "ひこうき",
+            kanji: "飛行機 - phi hành cơ",
+            vietnam: "máy bay"
+        },
+        {
+            japan: "ふね",
+            kanji: "船 - thuyền",
+            vietnam: "thuyền, tàu thủy"
+        },
+        {
+            japan: "でんしゃ",
+            kanji: "電車 - điện xa",
+            vietnam: "tàu điện"
+        },
+        {
+            japan: "ちかてつ",
+            kanji: "地下鉄 - địa hạ thiết",
+            vietnam: "tàu điện ngầm"
+        },
+        {
+            japan: "しんかんせん",
+            kanji: "新幹線 - tân cán tuyến",
+            vietnam: "tàu Shinkansen (tàu điện siêu tốc của Nhật)"
+        },
+        {
+            japan: "バス",
+            kanji: "",
+            vietnam: "xe Buýt"
+        },
+        {
+            japan: "タクシー",
+            kanji: "",
+            vietnam: "tắc-xi"
+        },
+        {
+            japan: "じてんしゃ",
+            kanji: "自転車 - tự chuyển xa",
+            vietnam: "xe đạp"
+        },
+        {
+            japan: "あるいて",
+            kanji: "歩いて - bộ",
+            vietnam: "đi bộ"
+        },
+        {
+            japan: "ひと",
+            kanji: "人 - nhân",
+            vietnam: "người"
+        },
+        {
+            japan: "ともだち",
+            kanji: "友達 - hữu đạt",
+            vietnam: "bạn, bạn bè"
+        },
+        {
+            japan: "かれ",
+            kanji: "彼 - bỉ",
+            vietnam: "anh ấy, bạn trai"
+        },
+        {
+            japan: "かのじょ",
+            kanji: "彼女 - bỉ nữ",
+            vietnam: "chị ấy, bạn gái"
+        },
+        {
+            japan: "かぞく",
+            kanji: "家族 - gia tộc",
+            vietnam: "gia đình"
+        },
+        {
+            japan: "ひとり",
+            kanji: "一人 - nhất nhân",
+            vietnam: "một mình"
+        },
+        {
+            japan: "せんしゅう",
+            kanji: "先週 - tiên chu",
+            vietnam: "tuần trước"
+        },
+        {
+            japan: "こんしゅう",
+            kanji: "今週 - kim chu",
+            vietnam: "tuần này"
+        },
+        {
+            japan: "らいしゅう",
+            kanji: "来週 - lai chu",
+            vietnam: "tuần sau"
+        },
+        {
+            japan: "きょねん",
+            kanji: "去年 - khứ niên",
+            vietnam: "năm ngoái"
+        },
+        {
+            japan: "ことし",
+            kanji: "今年 - kim niên",
+            vietnam: "năm nay"
+        },
+        {
+            japan: "らいねん",
+            kanji: "来年 - lai niên",
+            vietnam: "năm sau"
+        },
+        {
+            japan: "～がつ",
+            kanji: "～月 - nguyệt",
+            vietnam: "tháng -"
+        },
+        {
+            japan: "なんがつ",
+            kanji: "何月 - hà nguyệt",
+            vietnam: "tháng mấy"
+        },
+        {
+            japan: "ついたち",
+            kanji: "一日 - nhất nhật",
+            vietnam: "ngày mồng 1"
+        },
+        {
+            japan: "ふつか",
+            kanji: "二日 - nhị nhật",
+            vietnam: "ngày mồng 2, 2 ngày"
+        },
+        {
+            japan: "みっか",
+            kanji: "三日 - tam nhật",
+            vietnam: "ngày mồng 3, 3 ngày"
+        },
+        {
+            japan: "よっか",
+            kanji: "四日 - tứ nhật",
+            vietnam: "ngày mồng 4, 4 ngày"
+        },
+        {
+            japan: "いつか",
+            kanji: "五日 - ngũ nhật",
+            vietnam: "ngày mồng 5, 5 ngày"
+        },
+        {
+            japan: "むいか",
+            kanji: "六日 - lục nhật",
+            vietnam: "ngày mồng 6, 6 ngày"
+        },
+        {
+            japan: "なのか",
+            kanji: "七日 - thất nhật",
+            vietnam: "ngày mồng 7, 7 ngày"
+        },
+        {
+            japan: "ようか",
+            kanji: "八日 - bát nhật",
+            vietnam: "ngày mồng 8, 8 ngày"
+        },
+        {
+            japan: "ここのか",
+            kanji: "九日 - cửu nhật",
+            vietnam: "ngày mồng 9, 9 ngày"
+        },
+        {
+            japan: "とおか",
+            kanji: "十日 - thập nhật",
+            vietnam: "ngày mồng 10, 10 ngày"
+        },
+        {
+            japan: "じゅうよっか",
+            kanji: "十四日 - thập tứ nhật",
+            vietnam: "ngày 14, 14 ngày"
+        },
+        {
+            japan: "はつか",
+            kanji: "二十日 - nhị thập nhật",
+            vietnam: "ngày 20, 20 ngày"
+        },
+        {
+            japan: "にじゅうよっか",
+            kanji: "二十四日 - nhị thập tứ nhật",
+            vietnam: "ngày 24, 24 ngày"
+        },
+        {
+            japan: "～にち",
+            kanji: "～日 - nhật",
+            vietnam: "ngày -, - ngày"
+        },
+        {
+            japan: "なんにち",
+            kanji: "何日 - hà nhật",
+            vietnam: "ngày mấy, ngày bao nhiêu, mấy ngày, bao nhiêu ngày"
+        },
+        {
+            japan: "いつ",
+            kanji: "何時 - hà thời",
+            vietnam: "bao giờ, khi nào"
+        },
+        {
+            japan: "たんじょうび",
+            kanji: "誕生日 - đản sinh nhật",
+            vietnam: "sinh nhật"
+        },
+        {
+            japan: "ふつう",
+            kanji: "普通 - phổ thông",
+            vietnam: "tàu thường (dừng cả ở các ga lẻ)"
+        },
+        {
+            japan: "きゅうこう",
+            kanji: "急行 - cấp hành",
+            vietnam: "tàu tốc hành"
+        },
+        {
+            japan: "とっきゅう",
+            kanji: "特急 - đặc cấp",
+            vietnam: "tàu tốc hành đặc biệt"
+        },
+        {
+            japan: "つぎの",
+            kanji: "次の - thứ",
+            vietnam: "tiếp theo"
+        },
+        {
+            japan: "どういたしまして",
+            kanji: "",
+            vietnam: "Không có gì."
+        },
+        {
+            japan: "ばんせん～",
+            kanji: "番線 - phiên tuyến",
+            vietnam: "sân ga số -"
+        },
+        {
+            japan: "はかた",
+            kanji: "博多 - bác đa",
+            vietnam: "tên một khu phố ở Kyushu"
+        },
+        {
+            japan: "ふしみ",
+            kanji: "伏見 - phục kiến",
+            vietnam: "tên một khu phố ở Kyoto"
+        },
+        {
+            japan: "こうしえん",
+            kanji: "甲子園 - giáp tử viên",
+            vietnam: "tên một khu phố ở Osaka"
+        },
+        {
+            japan: "おおさかじょう",
+            kanji: "大阪城 - đại thành",
+            vietnam: "Lâu đài Osaka,"
+        },
+    ],
+    lesson_6: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_7: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_8: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_9: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_10: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_11: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_12: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_13: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_14: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_15: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_16: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_17: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_18: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_19: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_20: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_21: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_22: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_23: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_24: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_25: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_26: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_27: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_28: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_29: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_30: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_31: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_32: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_33: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_34: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_35: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_36: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_37: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_38: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_39: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_40: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_41: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_42: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_43: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_44: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_45: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_46: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_47: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_48: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_49: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
+    lesson_50: [
+        {
+            japan: "",
+            kanji: "",
+            vietnam: ""
+        },
+    ],
 }
