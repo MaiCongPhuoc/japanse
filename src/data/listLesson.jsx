@@ -1828,9 +1828,229 @@ export const Lesson = {
   ],
   lesson_7: [
     {
-      japan: "",
+      japan: "きります (I)",
+      kanji: "切ります - thiết",
+      vietnam: "cắt",
+    },
+    {
+      japan: "おくります (I)",
+      kanji: "送ります - tống",
+      vietnam: "gửi",
+    },
+    {
+      japan: "もらいます (I)",
+      kanji: "貰います -",
+      vietnam: "nhận",
+    },
+    {
+      japan: "かします (I)",
+      kanji: "貸します - thải",
+      vietnam: "cho mượn, cho vay",
+    },
+    {
+      japan: "かります (I)",
+      kanji: "借ります - tá",
+      vietnam: "mượn, vay",
+    },
+    {
+      japan: "あげます (II)",
       kanji: "",
-      vietnam: "",
+      vietnam: "cho, tặng",
+    },
+    {
+      japan: "おしえます (II)",
+      kanji: "教えます - giáo",
+      vietnam: "dạy",
+    },
+    {
+      japan: "ならいます (I)",
+      kanji: "習います - tập",
+      vietnam: "học, tập",
+    },
+    {
+      japan: "かけます(電話を～)",
+      kanji: "",
+      vietnam: "gọi [điện thoại]",
+    },
+    {
+      japan: "て",
+      kanji: "手 - thủ",
+      vietnam: "tay",
+    },
+    {
+      japan: "はし",
+      kanji: "箸 -",
+      vietnam: "đũa",
+    },
+    {
+      japan: "スプーン",
+      kanji: "",
+      vietnam: "thìa",
+    },
+    {
+      japan: "ナイプ",
+      kanji: "",
+      vietnam: "dao",
+    },
+    {
+      japan: "フォーク",
+      kanji: "",
+      vietnam: "dĩa",
+    },
+    {
+      japan: "はさみ",
+      kanji: "鋏 -",
+      vietnam: "kéo",
+    },
+    {
+      japan: "ファクス",
+      kanji: "",
+      vietnam: "Fax",
+    },
+    {
+      japan: "ワープロ",
+      kanji: "",
+      vietnam: "Máy đánh chữ",
+    },
+    {
+      japan: "パソコン",
+      kanji: "",
+      vietnam: "máy vi tính cá nhân",
+    },
+    {
+      japan: "パンチ",
+      kanji: "",
+      vietnam: "cái đục lỗ",
+    },
+    {
+      japan: "ホッチキス",
+      kanji: "",
+      vietnam: "cái dập ghim",
+    },
+    {
+      japan: "セロテープ",
+      kanji: "",
+      vietnam: "băng dính",
+    },
+    {
+      japan: "けしゴム",
+      kanji: "",
+      vietnam: "cái tẩy",
+    },
+    {
+      japan: "かみ",
+      kanji: "紙 - chỉ",
+      vietnam: "giấy",
+    },
+    {
+      japan: "はな",
+      kanji: "花 - hoa",
+      vietnam: "hoa",
+    },
+    {
+      japan: "シャツ",
+      kanji: "",
+      vietnam: "áo sơ mi",
+    },
+    {
+      japan: "プレゼント",
+      kanji: "",
+      vietnam: "quà tặng, tặng phẩm",
+    },
+    {
+      japan: "にもつ",
+      kanji: "荷物 - hà vật",
+      vietnam: "đồ đạc, hành lý",
+    },
+    {
+      japan: "おかね",
+      kanji: "お金 - kim",
+      vietnam: "Tiền",
+    },
+    {
+      japan: "きっぷ",
+      kanji: "切符 - thiết phù",
+      vietnam: "vé",
+    },
+    {
+      japan: "クリスマス",
+      kanji: "",
+      vietnam: "giáng Sinh",
+    },
+    {
+      japan: "ちち",
+      kanji: "父 - phụ",
+      vietnam: "bố (dùng khi nói về bố mình)",
+    },
+    {
+      japan: "はは",
+      kanji: "母 - mẫu",
+      vietnam: "mẹ (dùng khi nói về mẹ mình)",
+    },
+    {
+      japan: "おとうさん",
+      kanji: "お父さん - phụ",
+      vietnam: "bố (dùng khi nói về bố người khác và dùng khi xưng hô với bố mình)",
+    },
+    {
+      japan: "おかあさん",
+      kanji: "お父さん - phụ",
+      vietnam: "bố (dùng khi nói về bố người khác và dùng khi xưng hô với bố mình)",
+    },
+    {
+      japan: "おかあさん",
+      kanji: "お母さん - mẫu",
+      vietnam: "Mẹ (dùng khi nói về mẹ người khác và dùng khi xưng hô với mẹ mình)",
+    },
+    {
+      japan: "もう",
+      kanji: "",
+      vietnam: "đã, rồi",
+    },
+    {
+      japan: "まだ",
+      kanji: "",
+      vietnam: "Chưa",
+    },
+    {
+      japan: "これから",
+      kanji: "",
+      vietnam: "từ bây giờ, sau đây",
+    },
+    {
+      japan: "ごめんください",
+      kanji: "",
+      vietnam: "Xin lỗi, có ai ở nhà không?/ Tôi có thể vào được chứ? (câu nói của khách dùng khi đến thăm nhà ai đó)",
+    },
+    {
+      japan: "いらっしゃい",
+      kanji: "",
+      vietnam: "Rất hoan nghênh anh/ chị đã đến chơi./ Chào mừng anh/chị đã đến chơi.",
+    },
+    {
+      japan: "どうぞおあがりください",
+      kanji: "",
+      vietnam: "Mời anh/chị vào.",
+    },
+    {
+      japan: "「～は」いかがですか。",
+      kanji: "",
+      vietnam: "Anh/chị dùng [~] có được không? (dùng khi mời ai đó cái gì)",
+    },
+    {
+      japan: "いただきます",
+      kanji: "",
+      vietnam: "Mời anh/chị dùng ~. (cách nói dùng trước khi ăn hoặc uống)",
+    },
+    {
+      japan: "りょこう",
+      kanji: "旅行 - lữ hành",
+      vietnam: "Du lịch, chuyến du lịch (～をします: đi du lịch)",
+    },
+    {
+      japan: "おみあげ",
+      kanji: "お土産 - thổ sản",
+      vietnam: "quà (mua khi đi xa về hoặc mang đi khi thăm nhà người nào đó)",
     },
   ],
   lesson_8: [

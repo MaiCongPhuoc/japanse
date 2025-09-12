@@ -167,7 +167,7 @@ const Kanji = [
   {
     japanse: "年",
     vietnamse: "niên",
-    transcription: "to／shi＼",
+    transcription: "ne＼n'",
     image: "nien.png",
     meaning: "nien-m.png",
     audio: "nien.mp3",
@@ -903,7 +903,7 @@ const Kanji = [
   {
     japanse: "東",
     vietnamse: "đông",
-    transcription: "a＼zuma",
+    transcription: "shi＼ga＼shi",
     image: "dong-4.png",
     meaning: "dong-m-4.png",
     audio: "dong-4.mp3",
@@ -2435,7 +2435,7 @@ const Kanji = [
   {
     japanse: "右",
     vietnamse: "hữu",
-    transcription: "ka＼i",
+    transcription: "mi＼gi",
     image: "huu-2.png",
     meaning: "huu-2-m.png",
     audio: "huu-2.mp3",
