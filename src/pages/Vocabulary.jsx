@@ -23,7 +23,6 @@ const Vocabulary = () => {
   const handleAudioEnd = () => {
     setButtonColor("text-blue-300");
   };
-  console.log(lesson);
   return (
     <div className="mx-10">
       <div className="grid grid-cols-3">
