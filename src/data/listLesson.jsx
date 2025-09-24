@@ -204,6 +204,73 @@ export const ListLesson = [
 export const Lesson = {
   lesson_1: [
     {
+      japan: "イチ",
+      kanji: "一",
+      vietnam: "Nhất (một)",
+    },
+    {
+      japan: "ニ",
+      kanji: "二",
+      vietnam: "Nhị (hai)",
+    },
+    {
+      japan: "サン",
+      kanji: "三",
+      vietnam: "Tam (ba)",
+    },
+    {
+      japan: "よん",
+      kanji: "四",
+      vietnam: "Tứ (bốn)",
+    },
+    {
+      japan: "ゴ",
+      kanji: "五",
+      vietnam: "Ngũ (năm)",
+    },
+    {
+      japan: "ロク",
+      kanji: "六",
+      vietnam: "Lục (sáu)",
+    },
+    {
+      japan: "なな",
+      kanji: "七",
+      vietnam: "Thất (bảy)",
+    },
+    {
+      japan: "ハチ",
+      kanji: "八",
+      vietnam: "Bát (tám)",
+    },
+    {
+      japan: "キュ",
+      kanji: "九",
+      vietnam: "Cửu (chín)",
+    },
+    {
+      japan: "ジッ",
+      kanji: "十",
+      vietnam: "Thập (mười)",
+    },
+    {
+      japan: "ヒャク",
+      kanji: "百",
+      vietnam: "Bách (trăm)",
+    },
+    {
+      japan: "セン",
+      kanji: "千",
+      vietnam: "Thiên (nghìn)",
+    },
+    {
+      japan: "マン",
+      kanji: "万",
+      vietnam: "Vạn (10 nghìn)",
+    },
+  ],
+  lesson_2: [
+    {
       japan: "わたし",
       kanji: "私 - tư",
       vietnam: "tôi",
@@ -507,7 +574,7 @@ export const Lesson = {
       vietnam: "Russia (Nước nga)",
     },
   ],
-  lesson_2: [
+  lesson_3: [
     {
       japan: "これ",
       kanji: "",
@@ -739,7 +806,7 @@ export const Lesson = {
       vietnam: "Chính tôi mới mong được anh/chị giúp đỡ",
     },
   ],
-  lesson_3: [
+  lesson_4: [
     {
       japan: "ここ",
       kanji: "",
@@ -959,7 +1026,7 @@ export const Lesson = {
       vietnam: "hành lang, đại sảnh",
     },
   ],
-  lesson_4: [
+  lesson_5: [
     {
       japan: "おきます (II)",
       kanji: "起きます - khởi",
@@ -1261,7 +1328,7 @@ export const Lesson = {
       vietnam: "Los Angeles",
     },
   ],
-  lesson_5: [
+  lesson_6: [
     {
       japan: "いきます (I)",
       kanji: "行きます - hành, hàng",
@@ -1543,7 +1610,7 @@ export const Lesson = {
       vietnam: "Lâu đài Osaka,",
     },
   ],
-  lesson_6: [
+  lesson_7: [
     {
       japan: "たべます (II)",
       kanji: "食べます - thực",
@@ -1826,7 +1893,7 @@ export const Lesson = {
       vietnam: "Công viên lâu đài Osaka",
     },
   ],
-  lesson_7: [
+  lesson_8: [
     {
       japan: "きります (I)",
       kanji: "切ります - thiết",
@@ -2051,13 +2118,6 @@ export const Lesson = {
       japan: "おみあげ",
       kanji: "お土産 - thổ sản",
       vietnam: "quà (mua khi đi xa về hoặc mang đi khi thăm nhà người nào đó)",
-    },
-  ],
-  lesson_8: [
-    {
-      japan: "",
-      kanji: "",
-      vietnam: "",
     },
   ],
   lesson_9: [
