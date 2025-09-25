@@ -268,6 +268,41 @@ export const Lesson = {
       kanji: "万",
       vietnam: "Vạn (10 nghìn)",
     },
+    {
+      japan: "げつようび",
+      kanji: "月曜日",
+      vietnam: "Thứ Hai",
+    },
+    {
+      japan: "かようび",
+      kanji: "火曜日",
+      vietnam: "Thứ ba",
+    },
+    {
+      japan: "すいようび",
+      kanji: "水曜日",
+      vietnam: "Thứ tư",
+    },
+    {
+      japan: "もくようび",
+      kanji: "木曜日",
+      vietnam: "Thứ năm",
+    },
+    {
+      japan: "きんようび",
+      kanji: "金曜日 ",
+      vietnam: "Thứ sáu",
+    },
+    {
+      japan: "どようび",
+      kanji: "土曜日",
+      vietnam: "Thứ bảy",
+    },
+    {
+      japan: "にちようび",
+      kanji: "日曜日 ",
+      vietnam: "Chủ nhật",
+    },
   ],
   lesson_2: [
     {
