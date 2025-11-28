@@ -318,7 +318,7 @@ export const Lesson = {
     {
       japan: "あなた",
       kanji: "貴方 - quý phương",
-      vietnam: "anh/ chị/ ông/ bà, bạn ngôi thứ 2 số ít)",
+      vietnam: "Bạn",
     },
     {
       japan: "あのひと",
@@ -328,7 +328,7 @@ export const Lesson = {
     {
       japan: "あのかた",
       kanji: "あの方 - phương",
-      vietnam: "(「あのかた」là cách nói lịch sự của「あのひと」, vị kia)",
+      vietnam: "vị kia (cách nói lịch sự của「あのひと」)",
     },
     {
       japan: "みなさん",
@@ -354,14 +354,12 @@ export const Lesson = {
     {
       japan: "～じん",
       kanji: "～人 - nhân",
-      vietnam:
-        "(hậu tố mang nghĩa “người (nước)~”; ví dụ 「アメリカじん」: Người Mỹ)",
+      vietnam: "(hậu tố mang nghĩa “người (nước)~”; ví dụ 「アメリカじん」: Người Mỹ)",
     },
     {
       japan: "せんせい",
       kanji: "先生 - tiên sinh",
-      vietnam:
-        "thầy/ cố (không dùng khi nói về nghề nghiệp giáo viên của mình)",
+      vietnam: "thầy / cô",
     },
     {
       japan: "きょうし",
@@ -381,7 +379,7 @@ export const Lesson = {
     {
       japan: "しゃいん",
       kanji: "社員 - xã viên",
-      vietnam: "Nhân viên công ty",
+      vietnam: "Nhân viên công ty + kèm theo tên công ty gì đó",
     },
     {
       japan: "ぎんこういん",

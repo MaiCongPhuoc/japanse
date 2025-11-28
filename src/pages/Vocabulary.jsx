@@ -65,10 +65,10 @@ const Vocabulary = () => {
                       className="mt-2"
                     ></audio>
                   </div>
-                  <div>
+                  <div className="w-full">
                     <p className="text-blue-700">{item.kanji}</p>
                     <p>{item.japan}</p>
-                    <p className="text-blue-700">{item.vietnam}</p>
+                    <p className="text-blue-700 text-end">{item.vietnam}</p>
                   </div>
                 </div>
               );
