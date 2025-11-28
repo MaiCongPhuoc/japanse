@@ -40,7 +40,7 @@ const Vocabulary = () => {
                   <div className="w-6 h-6 text-center leading-[21px] rounded-full border border-neutral-800 mt-2">
                     {index + 1}
                   </div>
-                  <div className="flex justify-center items-center">
+                  {/* <div className="flex justify-center items-center">
                     <button
                       className={`rounded-full border-[4px] ${
                         item.japan === buttonColor
@@ -64,7 +64,7 @@ const Vocabulary = () => {
                       src={`${process.env.PUBLIC_URL}/audio/a.mp3`}
                       className="mt-2"
                     ></audio>
-                  </div>
+                  </div> */}
                   <div className="w-full">
                     <p className="text-blue-700">{item.kanji}</p>
                     <p>{item.japan}</p>
