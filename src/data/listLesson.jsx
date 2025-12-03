@@ -244,12 +244,12 @@ export const Lesson = {
       vietnam: "Bát (tám)",
     },
     {
-      japan: "キュ",
+      japan: "きゅう",
       kanji: "九",
       vietnam: "Cửu (chín)",
     },
     {
-      japan: "ジッ",
+      japan: "じゅう",
       kanji: "十",
       vietnam: "Thập (mười)",
     },
