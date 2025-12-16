@@ -749,8 +749,8 @@ export const Lesson = {
       vietnam: "máy vi tính",
     },
     {
-      japan: "じどうしゃ",
-      kanji: "自動車 - tự động xa",
+      japan: "くるま / じどうしゃ",
+      kanji: "車 / 自動車 - tự động xa",
       vietnam: "ô tô, xe hơi",
     },
     {
